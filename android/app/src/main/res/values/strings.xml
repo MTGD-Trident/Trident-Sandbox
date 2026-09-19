@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Trident Sandbox</string>
+    <string name="title_activity_main">Trident Sandbox</string>
+    <string name="package_name">com.trident.sandbox</string>
+    <string name="custom_url_scheme">com.trident.sandbox</string>
+</resources>

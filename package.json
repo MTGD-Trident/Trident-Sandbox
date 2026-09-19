@@ -1,0 +1,11 @@
+{
+  "name": "trident-sandbox",
+  "version": "1.0.0",
+  "description": "Trident pass-and-play card game sandbox",
+  "private": true,
+  "dependencies": {
+    "@capacitor/android": "^8.5.2",
+    "@capacitor/cli": "^8.5.2",
+    "@capacitor/core": "^8.5.2"
+  }
+}
