@@ -1,0 +1,32 @@
+version: 2.1
+
+orbs:
+  android: circleci/android@2.5
+
+jobs:
+  build-apk:
+    executor:
+      name: android/android-machine
+      resource-class: medium
+      tag: 2024.01.1
+    steps:
+      - checkout
+      - android/change-java-version:
+          java-version: 17
+      - run:
+          name: Install npm dependencies
+          command: npm install
+      - run:
+          name: Sync Capacitor Android project
+          command: npx cap sync android
+      - run:
+          name: Build debug APK
+          command: cd android && ./gradlew assembleDebug --no-daemon
+      - store_artifacts:
+          path: android/app/build/outputs/apk/debug/app-debug.apk
+          destination: trident-sandbox-debug.apk
+
+workflows:
+  build-and-package:
+    jobs:
+      - build-apk
