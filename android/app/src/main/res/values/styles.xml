@@ -18,5 +18,7 @@
 
     <style name="AppTheme.NoActionBarLaunch" parent="Theme.SplashScreen">
         <item name="android:background">@drawable/splash</item>
+        <!-- Android 12+ launch screen: the Trident icon on deep space instead of white -->
+        <item name="windowSplashScreenBackground">#0B1024</item>
     </style>
 </resources>

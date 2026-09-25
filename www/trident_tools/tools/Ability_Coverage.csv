@@ -1,0 +1,821 @@
+Card #,Name,Faction,Type,Rarity,Status,Automated from,Still manual
+001,"Volkor, the Undying Flame",DisciplesOfTheCelestia,Unit,Mythic,partial,Duty; Fury,"When Volkor enters play, you may choose one - each opponent's Units get -2 Power; each of your Locations gets +2 Power; shuffle up to 2 cards from your Retirement Pile into your deck; or draw 2 cards."
+002,Cinderkeeper Voss,DisciplesOfTheCelestia,Unit,Exquisite,auto,Duty; Fury; text,
+003,Rite of Reclamation,DisciplesOfTheCelestia,Event,Exquisite,manual,,"Return up to 3 target Units from your Retirement Pile to your hand. If you control a Location, instead return up to 3 target Units and 1 target Location."
+004,Temple Eternal,DisciplesOfTheCelestia,Location,Exquisite,partial,Fury,"Whenever a Unit you control would be Retired while stationed here, you may return it to your hand instead of your Retirement Pile."
+005,Seraph-Marshal Adalwin,DisciplesOfTheCelestia,Unit,Legendary,partial,Duty; Fury,"When this Unit enters play, you may shuffle target Unit in your Retirement Pile into your deck."
+006,Diplomat Roselight,DisciplesOfTheCelestia,Unit,Legendary,auto,Fury; text,
+007,Justicar Phosene,DisciplesOfTheCelestia,Unit,Legendary,partial,Duty,"Whenever this Unit would gain Power, it instead gains 1 less Power (minimum 0). The opposing Unit's abilities can't reduce the Power of Units you control."
+008,Beacon Across the Rift,DisciplesOfTheCelestia,Event,Legendary,manual,,"Return up to 2 target Units from your Retirement Pile to your hand, or search your deck for a Location card, reveal it, and put it into your hand."
+009,Communion of Embers,DisciplesOfTheCelestia,Event,Legendary,manual,,"Each Unit you control gets +1 Power for each Unit in your Retirement Pile, until end of turn."
+010,The Vigil Spire,DisciplesOfTheCelestia,Location,Legendary,partial,Fury,"At the start of your turn, you may shuffle a Unit from your Retirement Pile into your deck; if you do, draw a card."
+011,Vow-Sworn Paladin,DisciplesOfTheCelestia,Unit,Rare,auto,Duty,
+012,Djinn Emberwarden,DisciplesOfTheCelestia,Unit,Rare,auto,Fury,
+013,Golem Vigil-Bearer,DisciplesOfTheCelestia,Unit,Rare,manual,,This Unit takes no Power loss from your opponents' abilities.
+014,Pilgrim's Guide,DisciplesOfTheCelestia,Unit,Rare,auto,text,
+015,Djinn Seer of the Ember Choir,DisciplesOfTheCelestia,Unit,Rare,auto,text,
+016,Cleric of the Undying Hearth,DisciplesOfTheCelestia,Unit,Rare,auto,Duty,
+017,Bulwark Unbroken,DisciplesOfTheCelestia,Unit,Rare,manual,,This Unit cannot gain Power from your own abilities.
+018,Last Watch Anchorite,DisciplesOfTheCelestia,Unit,Rare,auto,Fury,
+019,Kindling Oath,DisciplesOfTheCelestia,Event,Rare,auto,text,
+020,Pilgrim's Return,DisciplesOfTheCelestia,Event,Rare,manual,,Shuffle up to 2 Units from your Retirement Pile into your deck.
+021,Vigil Unbroken,DisciplesOfTheCelestia,Event,Rare,manual,,"Draw a card. If you control a Location, draw an additional card."
+022,Sanctified Ground,DisciplesOfTheCelestia,Event,Rare,auto,text,
+023,Watchtower of the Ember Choir,DisciplesOfTheCelestia,Location,Rare,auto,Fury,
+024,Monastery of Undying Vows,DisciplesOfTheCelestia,Location,Rare,auto,Duty,
+025,Waystation of the Faithful,DisciplesOfTheCelestia,Location,Rare,auto,text,
+026,Reliquary of the Fallen,DisciplesOfTheCelestia,Location,Rare,auto,text,
+027,Ember Novice,DisciplesOfTheCelestia,Unit,Uncommon,auto,Fury,
+028,Stone Scout,DisciplesOfTheCelestia,Unit,Uncommon,auto,text,
+029,Windbound Oathkeeper,DisciplesOfTheCelestia,Unit,Uncommon,auto,Duty,
+030,Wallwatch Recruit,DisciplesOfTheCelestia,Unit,Uncommon,auto,text,
+031,Mended Stone,DisciplesOfTheCelestia,Unit,Uncommon,manual,,This Unit gains +1 Power the first time it would lose Power each turn.
+032,Windrider Scout,DisciplesOfTheCelestia,Unit,Uncommon,auto,Fury,
+033,Zealous Recruit,DisciplesOfTheCelestia,Unit,Uncommon,manual,,This Unit must be played into the leftmost open Unit slot if able.
+034,Watch-Stone,DisciplesOfTheCelestia,Unit,Uncommon,auto,Duty,
+035,Trailmarker,DisciplesOfTheCelestia,Unit,Uncommon,auto,text,
+036,Emberbound Adept,DisciplesOfTheCelestia,Unit,Uncommon,auto,Fury,
+037,Dawnguard Initiate,DisciplesOfTheCelestia,Unit,Uncommon,auto,Duty,
+038,Patient Stone,DisciplesOfTheCelestia,Unit,Uncommon,manual,,This Unit cannot use Frequent abilities the turn it enters play.
+039,Gale Warden,DisciplesOfTheCelestia,Unit,Uncommon,auto,text,
+040,Vigil-Keeper,DisciplesOfTheCelestia,Unit,Uncommon,auto,Fury,
+041,Bastion Recruit,DisciplesOfTheCelestia,Unit,Uncommon,auto,text,
+042,Ember-Touched Seer,DisciplesOfTheCelestia,Unit,Uncommon,auto,Duty,
+043,Ember Rekindled,DisciplesOfTheCelestia,Event,Uncommon,auto,text,
+044,Watchful Oath,DisciplesOfTheCelestia,Event,Uncommon,manual,,"Draw a card, then discard a card."
+045,Steady the Line,DisciplesOfTheCelestia,Event,Uncommon,manual,,Put a +1 Power counter on target Unit you control. It can't be targeted by your opponents' abilities until the start of your next turn.
+046,Pilgrim's Blessing,DisciplesOfTheCelestia,Event,Uncommon,auto,text,
+047,Cinderlight Vigil,DisciplesOfTheCelestia,Event,Uncommon,manual,,"Target Location you control gets +1 Power, or shuffle target Unit from your Retirement Pile into your deck."
+048,Zealous Charge,DisciplesOfTheCelestia,Event,Uncommon,manual,,"Put two +1 Power counters on target Unit you control. If a Unit you controlled was Retired this turn, put three instead."
+049,Shared Flame,DisciplesOfTheCelestia,Event,Uncommon,auto,text,
+050,Requiem for the Watch,DisciplesOfTheCelestia,Event,Uncommon,manual,,"Put a Unit from your hand into your Retirement Pile; if you do, target Unit you control gets +2 Power."
+051,Ember Postulant,DisciplesOfTheCelestia,Unit,Common,none,,
+052,Doorstone,DisciplesOfTheCelestia,Unit,Common,none,,
+053,Windling Scout,DisciplesOfTheCelestia,Unit,Common,none,,
+054,Dawnrecruit,DisciplesOfTheCelestia,Unit,Common,auto,text,
+055,Path-Warden,DisciplesOfTheCelestia,Unit,Common,none,,
+056,Emberling,DisciplesOfTheCelestia,Unit,Common,auto,text,
+057,Trail Postulant,DisciplesOfTheCelestia,Unit,Common,none,,
+058,Quiet Stone,DisciplesOfTheCelestia,Unit,Common,auto,text,
+059,Gale Postulant,DisciplesOfTheCelestia,Unit,Common,none,,
+060,Zealot-in-Training,DisciplesOfTheCelestia,Unit,Common,none,,
+061,Threshold Stone,DisciplesOfTheCelestia,Unit,Common,manual,,"Whenever a Unit an opponent controls enters play, you may have this Unit gain +1 Power."
+062,Hearthkeeper Novice,DisciplesOfTheCelestia,Unit,Common,none,,
+063,Windvow Recruit,DisciplesOfTheCelestia,Unit,Common,none,,
+064,Mendstone Novice,DisciplesOfTheCelestia,Unit,Common,manual,,"When this Unit enters play, you may remove all Power-reducing counters from target Unit you control."
+065,Ember-Sighted Novice,DisciplesOfTheCelestia,Unit,Common,none,,
+066,Wind-Herald,DisciplesOfTheCelestia,Unit,Common,manual,,This Unit cannot be played into the center Unit slot.
+067,Silent Vow,DisciplesOfTheCelestia,Unit,Common,none,,
+068,Frontstone Recruit,DisciplesOfTheCelestia,Unit,Common,none,,
+069,Cinderwind Novice,DisciplesOfTheCelestia,Unit,Common,auto,text,
+070,Vigil Scout,DisciplesOfTheCelestia,Unit,Common,none,,
+071,Ember-Marked Stone,DisciplesOfTheCelestia,Unit,Common,auto,Fury,
+072,Ember Postulant (Paladin),DisciplesOfTheCelestia,Unit,Common,none,,
+073,Windsight Novice,DisciplesOfTheCelestia,Unit,Common,auto,Duty,
+074,Quarrystone Scout,DisciplesOfTheCelestia,Unit,Common,none,,
+075,Ember Spark,DisciplesOfTheCelestia,Event,Common,auto,text,
+076,Pilgrim's First Step,DisciplesOfTheCelestia,Event,Common,auto,text,
+077,Quiet Vigil,DisciplesOfTheCelestia,Event,Common,auto,text,
+078,Stonebound Oath,DisciplesOfTheCelestia,Event,Common,auto,text,
+079,Last Ember,DisciplesOfTheCelestia,Event,Common,manual,,Return the top card of your Retirement Pile to your hand if it is a Unit.
+080,Novice's Resolve,DisciplesOfTheCelestia,Event,Common,auto,text,
+081,Kessantine Vral,AshenLegion,Unit,Mythic,partial,Onslaught; Warcry,"When Vral enters play, choose the Unit your opponents control with the highest Power; that Unit gets -4 Power. Then each Unit you control gets +1 Power."
+082,Grudge-Bearer Kharn,AshenLegion,Unit,Exquisite,partial,Onslaught; Warcry,"Whenever an ability an opponent controls would reduce this Unit's Power, this Unit instead gains that much Power."
+083,The Long Raid,AshenLegion,Event,Exquisite,manual,,"Each Unit you control gets +2 Power until end of turn. If you control 3 or more Units, instead each Unit you control gets +3 Power until end of turn."
+084,The Cinderforge Bastion,AshenLegion,Location,Exquisite,partial,Onslaught,"At the start of your turn, if you control fewer Units than the opponent with the most, put a +1 Power counter on each Unit you control."
+085,Ilvess Two-Blades,AshenLegion,Unit,Legendary,partial,Onslaught; Warcry,Each other Unit you control with lower Power than this Unit gets +1 Power.
+086,Ironclad Brute,AshenLegion,Unit,Legendary,auto,Onslaught,
+087,Kharund Bloodrager,AshenLegion,Unit,Legendary,partial,Warcry,"At the start of your turn, this Unit deals -1 Power to target Unit you control other than itself."
+088,War Drums of the Ashen Line,AshenLegion,Event,Legendary,manual,,"Put a +1 Power counter on each Unit you control. If you control 3 or more Units, put two instead."
+089,Trophies of the Fallen,AshenLegion,Event,Legendary,manual,,"Retire a Unit you control; if you do, each other Unit you control gets +3 Power until end of turn."
+090,The Skullforge,AshenLegion,Location,Legendary,partial,Warcry,This Location cannot lose more than 2 Power from a single ability.
+091,Kharund Raider Vanguard,AshenLegion,Unit,Rare,auto,Warcry,
+092,Kharund Trophy-Taker,AshenLegion,Unit,Rare,auto,Onslaught,
+093,Kharund Skirmisher,AshenLegion,Unit,Rare,manual,,"This Unit gets +2 Power. Whenever this Unit is Retired, each opposing Unit gets -1 Power."
+094,Ironjaw Brute,AshenLegion,Unit,Rare,manual,,This Unit cannot use Frequent abilities.
+095,Kharund Warcaller,AshenLegion,Unit,Rare,auto,text,
+096,Kharund Bloodletter,AshenLegion,Unit,Rare,auto,Onslaught,
+097,Kharund Siegebreaker,AshenLegion,Unit,Rare,auto,text,
+098,Kharund Forgeborn Brute,AshenLegion,Unit,Rare,auto,Warcry,
+099,Blood and Iron,AshenLegion,Event,Rare,manual,,"Target Unit you control gets +3 Power until end of turn, or Retire a Unit you control to give another target Unit you control +4 Power until end of turn."
+100,Warcamp Muster,AshenLegion,Event,Rare,manual,,"If you control 3 or more Units, put a +1 Power counter on each Unit you control. Otherwise, put a +1 Power counter on target Unit you control."
+101,Scorched Retreat,AshenLegion,Event,Rare,manual,,"Retire a Location you control; if you do, put a +1 Power counter on each Unit you control."
+102,Ashen Warcry,AshenLegion,Event,Rare,auto,text,
+103,War Camp of the Ashen Line,AshenLegion,Location,Rare,auto,Warcry,
+104,The Bonepile Forge,AshenLegion,Location,Rare,auto,Onslaught,
+105,Siegeworks of the Ashen Line,AshenLegion,Location,Rare,auto,text,
+106,The Skullbanner Muster,AshenLegion,Location,Rare,auto,text,
+107,Kharund Raider Recruit,AshenLegion,Unit,Uncommon,auto,Warcry,
+108,Kharund Bruteling,AshenLegion,Unit,Uncommon,auto,text,
+109,Kharund Warhorn,AshenLegion,Unit,Uncommon,auto,text,
+110,Kharund Skullsplitter,AshenLegion,Unit,Uncommon,auto,Onslaught,
+111,Ashborn Brute,AshenLegion,Unit,Uncommon,manual,,This Unit cannot use abilities the turn it enters play.
+112,Kharund Ashguard,AshenLegion,Unit,Uncommon,auto,Warcry,
+113,Kharund Warcaller Recruit,AshenLegion,Unit,Uncommon,auto,text,
+114,Kharund Trophy-Hauler,AshenLegion,Unit,Uncommon,auto,Onslaught,
+115,Kharund Vanguard Recruit,AshenLegion,Unit,Uncommon,manual,,This Unit enters play with +1 Power if you control a Location.
+116,Kharund Ironhide Brute,AshenLegion,Unit,Uncommon,manual,,This Unit's Power cannot be reduced by more than 1 from a single source.
+117,Grannoch the Quartermaster,AshenLegion,Unit,Uncommon,manual,,This Unit cannot gain Power from Warcry.
+118,Kharund Bloodhorn,AshenLegion,Unit,Uncommon,auto,Onslaught,
+119,Kharund Ashbrand Raider,AshenLegion,Unit,Uncommon,auto,Warcry,
+120,Kharund Wallbreaker,AshenLegion,Unit,Uncommon,auto,text,
+121,Kharund Skirmish Recruit,AshenLegion,Unit,Uncommon,manual,,"When this Unit enters play, you may return target Unit you control with 2 or less Power to your hand."
+122,Kharund Bloodmark Brute,AshenLegion,Unit,Uncommon,auto,Warcry,
+123,Raiding Party,AshenLegion,Event,Uncommon,auto,text,
+124,Forge-Fire,AshenLegion,Event,Uncommon,manual,,"Put a +1 Power counter on target Unit you control. If it has 3 or less Power, put two instead."
+125,Bonebreaker's Toll,AshenLegion,Event,Uncommon,auto,text,
+126,War Chant,AshenLegion,Event,Uncommon,auto,text,
+127,Ashfall Skirmish,AshenLegion,Event,Uncommon,manual,,"Retire a Unit you control with 2 or less Power; if you do, put two +1 Power counters on target Unit you control."
+128,Muster the Line,AshenLegion,Event,Uncommon,auto,text,
+129,Trial by Iron,AshenLegion,Event,Uncommon,manual,,"Look at the top card of your deck. If it is a Unit, put a +1 Power counter on each Unit you control."
+130,Ashen Vow,AshenLegion,Event,Uncommon,auto,text,
+131,Kharund Raider,AshenLegion,Unit,Common,none,,
+132,Kharund Brute,AshenLegion,Unit,Common,none,,
+133,Kharund Charger,AshenLegion,Unit,Common,none,,
+134,Warhound Handler,AshenLegion,Unit,Common,auto,text,
+135,Ashclad Brute,AshenLegion,Unit,Common,none,,
+136,Bloodyoung Kharund,AshenLegion,Unit,Common,auto,text,
+137,Kharund Scrapper,AshenLegion,Unit,Common,none,,
+138,Bonecarrier,AshenLegion,Unit,Common,auto,text,
+139,Kharund Hornblower,AshenLegion,Unit,Common,none,,
+140,Ashmarked Recruit,AshenLegion,Unit,Common,none,,
+141,Kharund Cinderfist,AshenLegion,Unit,Common,auto,text,
+142,Trailtrampler,AshenLegion,Unit,Common,none,,
+143,Bloodyoung Raider,AshenLegion,Unit,Common,none,,
+144,Warcamp Guard,AshenLegion,Unit,Common,auto,text,
+145,Ashenhorn,AshenLegion,Unit,Common,none,,
+146,Ironback Brute,AshenLegion,Unit,Common,manual,,"This Unit must be played into an open Unit slot, if able, even if it is not your choice."
+147,Trophy Recruit,AshenLegion,Unit,Common,none,,
+148,Warband Scout,AshenLegion,Unit,Common,auto,text,
+149,Forge-Tender,AshenLegion,Unit,Common,none,,
+150,Ashenclub,AshenLegion,Unit,Common,none,,
+151,Bloodmark Recruit,AshenLegion,Unit,Common,auto,Onslaught,
+152,Warcry Novice,AshenLegion,Unit,Common,auto,Warcry,
+153,Siege Recruit,AshenLegion,Unit,Common,none,,
+154,Ashguard Recruit,AshenLegion,Unit,Common,none,,
+155,Raider's Instinct,AshenLegion,Event,Common,auto,text,
+156,Forge Spark,AshenLegion,Event,Common,auto,text,
+157,Quick Muster,AshenLegion,Event,Common,auto,text,
+158,Ashfall Jeer,AshenLegion,Event,Common,auto,text,
+159,Bonebreaker's Warmup,AshenLegion,Event,Common,auto,text,
+160,First Blood,AshenLegion,Event,Common,manual,,The first Unit you play this turn gets +1 Power.
+161,The Drowned Duchess,UndertowCourt,Unit,Mythic,manual,,"Flow | When the Drowned Duchess enters play, look at your Retirement Pile; you may return 1 Unit and 1 Location to your deck, shuffled together on top in any order."
+162,Harbormaster Vashti,UndertowCourt,Unit,Exquisite,manual,,"Flow | When this Unit enters play, you may shuffle a Location from your Retirement Pile into your deck."
+163,The Reckoning Tide,UndertowCourt,Event,Exquisite,manual,,Shuffle up to 2 Units and 1 Location from your Retirement Pile into your deck.
+164,The Whirlpool,UndertowCourt,Location,Exquisite,manual,,"Ebb 3 — Put a card from your hand on the bottom of your deck: put 3 Power counters on this Location. (Activate only once each turn.) Whenever a Unit an opponent controls is Retired, you may have this Location get +1 Power."
+165,Duchess-Marshal Corvane,UndertowCourt,Unit,Legendary,manual,,"Flow | When this Unit is put on the bottom of your deck by Flow, you may draw a card."
+166,Krakenkin Depthwalker,UndertowCourt,Unit,Legendary,manual,,Flow
+167,Naga Netcaster,UndertowCourt,Unit,Legendary,manual,,"When this Unit enters play, you may look at the top 3 cards of your deck; put one in your hand and the rest on the bottom in any order. This Unit cannot Flow the turn it enters play."
+168,Storm Surge,UndertowCourt,Event,Legendary,manual,,"During the next Conflict, each of your Locations gets +2 Power. Or, shuffle a Unit from your Retirement Pile into your deck."
+169,Salvage the Wreck,UndertowCourt,Event,Legendary,manual,,Shuffle up to 2 cards from your Retirement Pile into your deck.
+170,The Coral Bastion,UndertowCourt,Location,Legendary,manual,,Ebb 2 | This Location cannot be Retired by your opponents' abilities.
+171,Tideguard Officer,UndertowCourt,Unit,Rare,manual,,Flow
+172,Naga Wavecaller,UndertowCourt,Unit,Rare,auto,text,
+173,Krakenkin Anchorhand,UndertowCourt,Unit,Rare,auto,text,
+174,Human Salvage Diver,UndertowCourt,Unit,Rare,manual,,"When this Unit enters play, you may return target Unit from your Retirement Pile to your hand."
+175,Naga Tidebound Sentinel,UndertowCourt,Unit,Rare,auto,text,
+176,Krakenkin Netcaster,UndertowCourt,Unit,Rare,manual,,Flow
+177,Human Harbor Warden,UndertowCourt,Unit,Rare,manual,,"At the start of your turn, if you control a Location, draw a card."
+178,Naga Wreckdiver,UndertowCourt,Unit,Rare,manual,,Flow
+179,Riptide,UndertowCourt,Event,Rare,manual,,"Return target Unit you control to your hand, or shuffle target Unit from your Retirement Pile into your deck."
+180,Wreckage Reclaimed,UndertowCourt,Event,Rare,auto,text,
+181,Tidebreak,UndertowCourt,Event,Rare,manual,,Put a +1 Power counter on target Location you control for each Location you control (max 3).
+182,The Undertow Calls,UndertowCourt,Event,Rare,auto,text,
+183,The Drowned Pier,UndertowCourt,Location,Rare,manual,,Ebb 2
+184,Coral Watch,UndertowCourt,Location,Rare,manual,,"At the start of your turn, this Location gets +1 Power if you control no cards in hand."
+185,The Salvage Docks,UndertowCourt,Location,Rare,auto,text,
+186,Harborkeep of the Drowned Court,UndertowCourt,Location,Rare,manual,,Ebb 1 — Put a card from your hand on the bottom of your deck: put 1 Power counter on this Location. (Activate only once each turn.)
+187,Tideguard Recruit,UndertowCourt,Unit,Uncommon,manual,,Flow — Put this Unit on the bottom of your deck: put 1 Power counter on a Location or Unit you control. (Activate only once each turn.)
+188,Naga Netcaster Novice,UndertowCourt,Unit,Uncommon,auto,text,
+189,Krakenkin Deckhand,UndertowCourt,Unit,Uncommon,auto,text,
+190,Human Wreck Diver,UndertowCourt,Unit,Uncommon,manual,,Flow — Put this Unit on the bottom of your deck: put 1 Power counter on a Location or Unit you control. (Activate only once each turn.)
+191,Naga Tideguard,UndertowCourt,Unit,Uncommon,auto,text,
+192,Krakenkin Harborhand,UndertowCourt,Unit,Uncommon,auto,text,
+193,Human Salvager,UndertowCourt,Unit,Uncommon,manual,,"When this Unit enters play, you may look at the top card of your Retirement Pile."
+194,Naga Wavecaller Recruit,UndertowCourt,Unit,Uncommon,manual,,Flow — Put this Unit on the bottom of your deck: put 1 Power counter on a Location or Unit you control. (Activate only once each turn.)
+195,Krakenkin Netcaster Recruit,UndertowCourt,Unit,Uncommon,manual,,"When this Unit enters play, you may return target Unit you control with 2 or less Power to your hand."
+196,Human Depth Scout,UndertowCourt,Unit,Uncommon,auto,text,
+197,Naga Anchorhand,UndertowCourt,Unit,Uncommon,manual,,Flow — Put this Unit on the bottom of your deck: put 1 Power counter on a Location or Unit you control. (Activate only once each turn.)
+198,Krakenkin Tidebound,UndertowCourt,Unit,Uncommon,auto,text,
+199,Human Harbor Recruit,UndertowCourt,Unit,Uncommon,auto,Harbor Recruit,
+200,Naga Wreckwalker,UndertowCourt,Unit,Uncommon,manual,,Flow — Put this Unit on the bottom of your deck: put 1 Power counter on a Location or Unit you control. (Activate only once each turn.)
+201,Krakenkin Diver,UndertowCourt,Unit,Uncommon,manual,,"When this Unit enters play, you may look at the top 2 cards of your deck; put one on the bottom."
+202,Human Coastward Sentinel,UndertowCourt,Unit,Uncommon,manual,,Flow — Put this Unit on the bottom of your deck: put 1 Power counter on a Location or Unit you control. (Activate only once each turn.)
+203,Ebbing Tide,UndertowCourt,Event,Uncommon,auto,text,
+204,Wreck Diving,UndertowCourt,Event,Uncommon,auto,text,
+205,Salvage Run,UndertowCourt,Event,Uncommon,auto,text,
+206,Riptide Pull,UndertowCourt,Event,Uncommon,auto,text,
+207,Tidewatch,UndertowCourt,Event,Uncommon,auto,text,
+208,Storm Warning,UndertowCourt,Event,Uncommon,auto,text,
+209,Undertow's Grasp,UndertowCourt,Event,Uncommon,manual,,"Retire a Unit you control with 2 or less Power; if you do, target Location you control gets +2 Power."
+210,Calm Before,UndertowCourt,Event,Uncommon,manual,,Prevent the next 1 Power loss target Location you control would take this turn.
+211,Human Deckhand,UndertowCourt,Unit,Common,none,,
+212,Naga Coastling,UndertowCourt,Unit,Common,none,,
+213,Krakenkin Hatchling,UndertowCourt,Unit,Common,none,,
+214,Human Tidewatcher,UndertowCourt,Unit,Common,auto,text,
+215,Naga Deckling,UndertowCourt,Unit,Common,none,,
+216,Krakenkin Netling,UndertowCourt,Unit,Common,auto,text,
+217,Human Salvage Novice,UndertowCourt,Unit,Common,none,,
+218,Naga Waveling,UndertowCourt,Unit,Common,auto,text,
+219,Krakenkin Ropehand,UndertowCourt,Unit,Common,none,,
+220,Human Coastguard Recruit,UndertowCourt,Unit,Common,none,,
+221,Naga Netcaster Recruit,UndertowCourt,Unit,Common,auto,text,
+222,Krakenkin Tideling,UndertowCourt,Unit,Common,none,,
+223,Human Wreckwatcher,UndertowCourt,Unit,Common,none,,
+224,Naga Harbor Recruit,UndertowCourt,Unit,Common,auto,Harbor Recruit,
+225,Krakenkin Wreckling,UndertowCourt,Unit,Common,none,,
+226,Human Tideguard Novice,UndertowCourt,Unit,Common,manual,,This Unit cannot use abilities the turn it enters play.
+227,Naga Coastal Scout,UndertowCourt,Unit,Common,none,,
+228,Krakenkin Netcaster Novice,UndertowCourt,Unit,Common,none,,
+229,Human Depth Novice,UndertowCourt,Unit,Common,auto,text,
+230,Naga Wavewatcher,UndertowCourt,Unit,Common,none,,
+231,Krakenkin Tidebound Novice,UndertowCourt,Unit,Common,auto,text,
+232,Human Wavecaller Novice,UndertowCourt,Unit,Common,none,,
+233,Naga Salvage Novice,UndertowCourt,Unit,Common,none,,
+234,Krakenkin Coastling,UndertowCourt,Unit,Common,none,,
+235,Low Tide,UndertowCourt,Event,Common,auto,text,
+236,First Dive,UndertowCourt,Event,Common,auto,text,
+237,Quiet Current,UndertowCourt,Event,Common,auto,text,
+238,Undertow's Whisper,UndertowCourt,Event,Common,manual,,Put a +1 Power counter on target Unit you control. Its opposing Unit can't gain Power until the start of your next turn.
+239,Salvager's Luck,UndertowCourt,Event,Common,manual,,Return the top card of your Retirement Pile to your hand if it is a Unit.
+240,Brace the Hull,UndertowCourt,Event,Common,auto,text,
+241,Captain-Marshal Reyes Okonkwo-Vane,DriftConcordat,Unit,Mythic,partial,Scrap Value,"Salvage Rights | When this Unit enters play, Erase up to 2 cards from any Retirement Pile; this Unit gets +2 Power per card Erased, and you may return 1 Erased Unit to your hand."
+242,Chief Engineer Halvorsen,DriftConcordat,Unit,Exquisite,partial,Scrap Value,"Salvage Rights | When this Unit enters play, you may shuffle a card from any Retirement Pile into your deck."
+243,Full Salvage Operation,DriftConcordat,Event,Exquisite,manual,,Erase up to 3 cards from any Retirement Piles; target Unit you control gets +1 Power for each card Erased this way.
+244,The Drift Fleet,DriftConcordat,Location,Exquisite,partial,Scrap Value,"Whenever any Retirement Pile gains a card, you may look at it."
+245,The Quartermaster-Sisters,DriftConcordat,Unit,Legendary,partial,Scrap Value; text,Salvage Rights
+246,Salvage-Drone Unit 7,DriftConcordat,Unit,Legendary,manual,,"Scrap Value Whenever the opposing Unit is Retired, put two +1 Power counters on this Unit."
+247,Wraith-crews,DriftConcordat,Unit,Legendary,manual,,"Salvage Rights | At the start of your turn, choose one of this Unit's abilities; it loses that ability until the start of your next turn (does not apply if it has only one)."
+248,Full Reclamation,DriftConcordat,Event,Legendary,manual,,Return up to 2 target Units from any Retirement Piles to your hand.
+249,Registry Audit,DriftConcordat,Event,Legendary,manual,,"Look at target opponent's Retirement Pile; Retire 1 card from it, then target Unit you control gets +2 Power."
+250,The Scrapyard Registry,DriftConcordat,Location,Legendary,partial,Scrap Value,"At the start of your turn, if any Retirement Pile has 5 or more cards, this Location gets +1 Power."
+251,Human Engineer Vantage,DriftConcordat,Unit,Rare,auto,Scrap Value,
+252,Android Scavenger Prime,DriftConcordat,Unit,Rare,manual,,Salvage Rights
+253,"Refugee Soldier, Twice-Displaced",DriftConcordat,Unit,Rare,auto,text,
+254,Salvage-Drone Recon,DriftConcordat,Unit,Rare,auto,Scrap Value,
+255,Mutant Scavenger Kess,DriftConcordat,Unit,Rare,manual,,"When this Unit enters play, you may look at the top card of your Retirement Pile and the top card of target opponent's."
+256,Cyborg Refugee Denn,DriftConcordat,Unit,Rare,manual,,Salvage Rights
+257,Human Archivist Recruit,DriftConcordat,Unit,Rare,manual,,This Unit cannot be played unless a Retirement Pile has 3 or more cards.
+258,Android Reclaimer,DriftConcordat,Unit,Rare,auto,Scrap Value,
+259,Registry Recall,DriftConcordat,Event,Rare,manual,,Return target Unit from any Retirement Pile to your hand.
+260,Scrap Drive,DriftConcordat,Event,Rare,manual,,Erase a card from any Retirement Pile; target Unit you control gets +2 Power.
+261,Black-Market Exchange,DriftConcordat,Event,Rare,auto,text,
+262,Refugee Intake,DriftConcordat,Event,Rare,manual,,"Draw a card. If you control 3 or more Units, draw an additional card."
+263,The Scrap-Yards of Drift Station Nine,DriftConcordat,Location,Rare,auto,Scrap Value,
+264,Salvage Docks Perpetual,DriftConcordat,Location,Rare,manual,,Salvage Rights
+265,"The Registry Vault, Lower Tier",DriftConcordat,Location,Rare,manual,,"At the start of your turn, if any Retirement Pile has 3 or more cards, draw a card."
+266,Drift Concordat War Room,DriftConcordat,Location,Rare,auto,text,
+267,Human Engineer Recruit,DriftConcordat,Unit,Uncommon,auto,Scrap Value,
+268,Android Scavenger Recruit,DriftConcordat,Unit,Uncommon,auto,text,
+269,Refugee Soldier Recruit,DriftConcordat,Unit,Uncommon,manual,,Salvage Rights
+270,Salvage-Drone Mark II,DriftConcordat,Unit,Uncommon,auto,Scrap Value,
+271,Mutant Scavenger Recruit,DriftConcordat,Unit,Uncommon,manual,,"Whenever a card enters any Retirement Pile, you may look at it."
+272,Cyborg Refugee Recruit,DriftConcordat,Unit,Uncommon,manual,,Salvage Rights
+273,Human Archivist Novice,DriftConcordat,Unit,Uncommon,manual,,"When this Unit enters play, you may look at the top card of your Retirement Pile."
+274,Android Reclaimer Recruit,DriftConcordat,Unit,Uncommon,auto,Scrap Value,
+275,Refugee Engineer,DriftConcordat,Unit,Uncommon,manual,,This Unit cannot gain Power from your own abilities that grant more than +1 Power at once.
+276,Salvage-Drone Escort,DriftConcordat,Unit,Uncommon,auto,text,
+277,Mutant Scavenger Kessling,DriftConcordat,Unit,Uncommon,auto,Scrap Value,
+278,Cyborg Refugee Tinker,DriftConcordat,Unit,Uncommon,manual,,"When this Unit enters play, you may return target Unit you control with 2 or less Power to your hand."
+279,Human Registrar Clerk,DriftConcordat,Unit,Uncommon,manual,,Salvage Rights
+280,Android Recon Unit,DriftConcordat,Unit,Uncommon,auto,text,
+281,Refugee Scavenger,DriftConcordat,Unit,Uncommon,auto,Scrap Value,
+282,Salvage-Drone Hauler,DriftConcordat,Unit,Uncommon,manual,,This Unit gets +1 Power for every 3 cards in opponents' Retirement Piles.
+283,Scrap Exchange,DriftConcordat,Event,Uncommon,manual,,Erase a card from any Retirement Pile; draw a card.
+284,Salvage Sweep,DriftConcordat,Event,Uncommon,auto,text,
+285,Registry Correction,DriftConcordat,Event,Uncommon,auto,text,
+286,Black-Market Tip,DriftConcordat,Event,Uncommon,manual,,Look at the top card of target opponent's Retirement Pile.
+287,Intake Processing,DriftConcordat,Event,Uncommon,auto,text,
+288,Scavenger's Instinct,DriftConcordat,Event,Uncommon,auto,text,
+289,Emergency Reclamation,DriftConcordat,Event,Uncommon,auto,text,
+290,Registry Lockdown,DriftConcordat,Event,Uncommon,auto,text,
+291,Human Engineer,DriftConcordat,Unit,Common,none,,
+292,Android Scavenger,DriftConcordat,Unit,Common,none,,
+293,Refugee Soldier,DriftConcordat,Unit,Common,none,,
+294,Salvage-Drone Basic Unit,DriftConcordat,Unit,Common,auto,text,
+295,Mutant Scavenger,DriftConcordat,Unit,Common,none,,
+296,Cyborg Refugee,DriftConcordat,Unit,Common,none,,
+297,Human Archivist Trainee,DriftConcordat,Unit,Common,manual,,"When this Unit enters play, you may look at the top card of your Retirement Pile."
+298,Android Reclaimer Basic,DriftConcordat,Unit,Common,none,,
+299,Refugee Engineer Trainee,DriftConcordat,Unit,Common,auto,text,
+300,Salvage-Drone Sentry,DriftConcordat,Unit,Common,none,,
+301,Mutant Scavenger Whelp,DriftConcordat,Unit,Common,auto,text,
+302,Cyborg Refugee Trainee,DriftConcordat,Unit,Common,none,,
+303,Human Registrar Assistant,DriftConcordat,Unit,Common,none,,
+304,Android Recon Basic,DriftConcordat,Unit,Common,auto,text,
+305,Refugee Scavenger Novice,DriftConcordat,Unit,Common,none,,
+306,Salvage-Drone Loader,DriftConcordat,Unit,Common,manual,,This Unit cannot use abilities the turn it enters play.
+307,Human Engineer Apprentice,DriftConcordat,Unit,Common,none,,
+308,Android Scavenger Basic,DriftConcordat,Unit,Common,none,,
+309,Refugee Soldier Trainee,DriftConcordat,Unit,Common,auto,text,
+310,Mutant Scavenger Basic,DriftConcordat,Unit,Common,none,,
+311,Cyborg Refugee Basic,DriftConcordat,Unit,Common,auto,Scrap Value,
+312,Human Archivist Basic,DriftConcordat,Unit,Common,manual,,Salvage Rights
+313,Android Reclaimer Trainee,DriftConcordat,Unit,Common,none,,
+314,Salvage-Drone Basic Hauler,DriftConcordat,Unit,Common,none,,
+315,Scrap Pickup,DriftConcordat,Event,Common,auto,text,
+316,Quick Salvage,DriftConcordat,Event,Common,auto,text,
+317,Intake Line,DriftConcordat,Event,Common,auto,text,
+318,Registry Note,DriftConcordat,Event,Common,manual,,Look at the top card of your Retirement Pile.
+319,Black-Market Deal,DriftConcordat,Event,Common,auto,text,
+320,Reinforced Plating,DriftConcordat,Event,Common,auto,text,
+321,Prime Node Osiris,NullChoir,Unit,Mythic,partial,Consensus,"Reintegration | Whenever a Unit you control is Retired, you may return it to play from your Retirement Pile as one of your plays this turn; if you do, each other Unit you control gets +1 Power."
+322,Choir-Voice Meridian,NullChoir,Unit,Exquisite,partial,Consensus,"Reintegration | When this Unit returns to play from your Retirement Pile, you may return an additional Unit from your Retirement Pile to your hand."
+323,Mass Reintegration,NullChoir,Event,Exquisite,manual,,"Return up to 2 target Units from your Retirement Pile to play, in open Unit slots."
+324,The Lattice Well,NullChoir,Location,Exquisite,partial,Consensus,"Whenever a Unit you control is Retired, you may shuffle it into your deck instead of putting it into your Retirement Pile."
+325,Node-Marshal Ferrus,NullChoir,Unit,Legendary,partial,Consensus,"Reintegration | The first time this Unit would be Retired each round, instead return it to your hand."
+326,Assimilated Vanguard,NullChoir,Unit,Legendary,manual,,Reintegration The opposing Unit has no abilities.
+327,Lattice Drone Prime,NullChoir,Unit,Legendary,partial,Consensus,This Unit cannot gain Power from more than one ability's trigger per turn.
+328,Consensus Vote,NullChoir,Event,Legendary,manual,,"Retire a Unit you control; each other Unit you control gets +2 Power until end of turn, then return the Retired Unit to your hand."
+329,Signal Reintegration,NullChoir,Event,Legendary,manual,,Return target Unit from your Retirement Pile to play in an open Unit slot.
+330,The Processing Well,NullChoir,Location,Legendary,partial,Consensus,"At the start of your turn, if a Unit you control was Retired last turn, draw a card."
+331,Node Sentinel,NullChoir,Unit,Rare,manual,,Reintegration
+332,Assimilated Engineer,NullChoir,Unit,Rare,auto,text,
+333,Lattice Relay Drone,NullChoir,Unit,Rare,auto,Consensus,
+334,Node Vanguard,NullChoir,Unit,Rare,manual,,Reintegration
+335,Assimilated Diplomat,NullChoir,Unit,Rare,manual,,This Unit cannot use abilities the turn a Unit an opponent controls enters play.
+336,Choir Fragment,NullChoir,Unit,Rare,manual,,"When this Unit is Retired, you may look at the top card of your deck."
+337,Node Constructor,NullChoir,Unit,Rare,manual,,Reintegration
+338,Assimilated Vanguard Elite,NullChoir,Unit,Rare,auto,Consensus,
+339,Signal Loop,NullChoir,Event,Rare,manual,,"Return target Unit from your Retirement Pile to your hand, or target Unit you control gets +2 Power."
+340,Processing Cycle,NullChoir,Event,Rare,auto,text,
+341,Choir Resonance,NullChoir,Event,Rare,auto,text,
+342,Forced Assimilation,NullChoir,Event,Rare,auto,text,
+343,Relay Spire Alpha,NullChoir,Location,Rare,auto,Consensus,
+344,The Peripheral Lattice,NullChoir,Location,Rare,auto,text,
+345,Processing Node Theta,NullChoir,Location,Rare,manual,,"Whenever a Unit you control is Retired, you may have this Location get +1 Power."
+346,The Assimilation Wellspring,NullChoir,Location,Rare,auto,Consensus,
+347,Node Recruit,NullChoir,Unit,Uncommon,manual,,Reintegration
+348,Assimilated Scout,NullChoir,Unit,Uncommon,auto,text,
+349,Lattice Fragment,NullChoir,Unit,Uncommon,auto,Consensus,
+350,Node Vessel,NullChoir,Unit,Uncommon,manual,,Reintegration
+351,Assimilated Soldier,NullChoir,Unit,Uncommon,auto,text,
+352,Choir Node Recruit,NullChoir,Unit,Uncommon,manual,,This Unit cannot use abilities the turn it enters play.
+353,Assimilated Scholar,NullChoir,Unit,Uncommon,manual,,"Whenever a Unit you control is Retired, you may look at the top card of your deck."
+354,Lattice Drone Recruit,NullChoir,Unit,Uncommon,manual,,Reintegration
+355,Node Processor,NullChoir,Unit,Uncommon,manual,,"When this Unit enters play, you may return target Unit you control with 2 or less Power to your hand."
+356,Assimilated Vanguard Recruit,NullChoir,Unit,Uncommon,auto,Consensus,
+357,Choir Relay Novice,NullChoir,Unit,Uncommon,auto,text,
+358,Node Construct Recruit,NullChoir,Unit,Uncommon,manual,,Reintegration
+359,Assimilated Technician,NullChoir,Unit,Uncommon,manual,,"When this Unit enters play, you may remove all Power-reducing counters from target Unit you control."
+360,Lattice Sentinel Novice,NullChoir,Unit,Uncommon,auto,Consensus,
+361,Node Whisper,NullChoir,Unit,Uncommon,manual,,"When this Unit is Retired, you may look at the top card of your Retirement Pile."
+362,Assimilated Vessel Recruit,NullChoir,Unit,Uncommon,manual,,Reintegration
+363,Signal Echo,NullChoir,Event,Uncommon,auto,text,
+364,Reintegration Pulse,NullChoir,Event,Uncommon,auto,text,
+365,Consensus Reached,NullChoir,Event,Uncommon,manual,,Put a +1 Power counter on target Unit you control for each other Unit you control that shares a subtype with it (max 3).
+366,Forced Integration,NullChoir,Event,Uncommon,auto,text,
+367,Processing Loop,NullChoir,Event,Uncommon,auto,text,
+368,Fragment Recall,NullChoir,Event,Uncommon,auto,text,
+369,Signal Boost,NullChoir,Event,Uncommon,auto,text,
+370,Redundant Systems,NullChoir,Event,Uncommon,auto,text,
+371,Node Hatchling,NullChoir,Unit,Common,none,,
+372,Assimilated Villager,NullChoir,Unit,Common,none,,
+373,Lattice Seedling,NullChoir,Unit,Common,none,,
+374,Node Whisperling,NullChoir,Unit,Common,auto,text,
+375,Assimilated Farmer,NullChoir,Unit,Common,none,,
+376,Choir Novice,NullChoir,Unit,Common,auto,text,
+377,Node Splice,NullChoir,Unit,Common,none,,
+378,Assimilated Clerk,NullChoir,Unit,Common,auto,text,
+379,Lattice Thread,NullChoir,Unit,Common,none,,
+380,Node Recruit Basic,NullChoir,Unit,Common,none,,
+381,Assimilated Recruit,NullChoir,Unit,Common,auto,text,
+382,Choir Echo,NullChoir,Unit,Common,none,,
+383,Node Vessel Basic,NullChoir,Unit,Common,none,,
+384,Assimilated Sentry,NullChoir,Unit,Common,auto,text,
+385,Lattice Node Basic,NullChoir,Unit,Common,none,,
+386,Node Fragment,NullChoir,Unit,Common,manual,,This Unit cannot use abilities the turn it enters play.
+387,Assimilated Laborer,NullChoir,Unit,Common,none,,
+388,Choir Vessel Basic,NullChoir,Unit,Common,none,,
+389,Node Signal Basic,NullChoir,Unit,Common,auto,text,
+390,Assimilated Guard,NullChoir,Unit,Common,none,,
+391,Lattice Drone Basic,NullChoir,Unit,Common,auto,Consensus,
+392,Node Recruit Elite,NullChoir,Unit,Common,manual,,Reintegration
+393,Assimilated Veteran,NullChoir,Unit,Common,none,,
+394,Choir Fragment Basic,NullChoir,Unit,Common,none,,
+395,Weak Signal,NullChoir,Event,Common,auto,text,
+396,Quick Process,NullChoir,Event,Common,auto,text,
+397,Minor Assimilation,NullChoir,Event,Common,manual,,Put a +1 Power counter on target Unit you control. Its opposing Unit can't gain Power until the start of your next turn.
+398,First Contact,NullChoir,Event,Common,auto,text,
+399,Node Echo,NullChoir,Event,Common,manual,,Return the top card of your Retirement Pile to your hand if it is a Unit.
+400,Basic Redundancy,NullChoir,Event,Common,auto,text,
+401,The Standing Chair,MeridianCombine,Unit,Mythic,partial,Acquisition,"When this Unit enters play, you may choose one — draw 2 cards; or discard your hand, then draw that many cards. At the start of your turn, this Unit gets -1 Power unless discarded last turn."
+402,Chief Negotiator Vex,MeridianCombine,Unit,Exquisite,partial,Acquisition,"When this Unit enters play, you may discard a card; if you do, each opponent's Units get -1 Power. At the start of your turn, this Unit gets -1 Power unless you discarded a card last turn."
+403,Hostile Takeover,MeridianCombine,Event,Exquisite,manual,,"Contract | Additionally, you may have target Location an opponent controls get -3 Power."
+404,The Meridian Spire,MeridianCombine,Location,Exquisite,manual,,"At the start of your turn, this Location gets -1 Power unless you discarded a card last turn. This Location gets +1 Power for each Unit you control."
+405,The Director of Acquisitions,MeridianCombine,Unit,Legendary,partial,Acquisition,"When this Unit enters play, you may discard your hand; if you do, draw that many cards."
+406,The Compliance Division,MeridianCombine,Unit,Legendary,auto,text,
+407,"Augmented Analyst, Overworked",MeridianCombine,Unit,Legendary,partial,Acquisition,"At the start of your turn, put a -1 Power counter on this Unit."
+408,Contract Renegotiation,MeridianCombine,Event,Legendary,manual,,"Contract | Additionally, you may look at target opponent's hand."
+409,Market Correction,MeridianCombine,Event,Legendary,manual,,"Each opponent's Units get -1 Power, or draw a card and discard a card."
+410,The Acquisition Office,MeridianCombine,Location,Legendary,manual,,"Whenever a Unit an opponent controls is Retired, you may have this Location get +1 Power. At the start of your turn, look at the top card of your deck."
+411,Augmented Human Analyst,MeridianCombine,Unit,Rare,auto,Acquisition,
+412,Construct Market Executive,MeridianCombine,Unit,Rare,auto,text,
+413,Augmented Human Security Contractor,MeridianCombine,Unit,Rare,auto,text,
+414,Construct Analyst Unit,MeridianCombine,Unit,Rare,auto,Acquisition,
+415,Augmented Human Negotiator,MeridianCombine,Unit,Rare,manual,,"When this Unit enters play, you may discard a card; if you do, look at target opponent's hand."
+416,Construct Enforcer,MeridianCombine,Unit,Rare,manual,,This Unit gets -1 Power at the start of each of your turns.
+417,Augmented Human Recruiter,MeridianCombine,Unit,Rare,auto,text,
+418,Construct Auditor,MeridianCombine,Unit,Rare,auto,Acquisition,
+419,Standard Contract,MeridianCombine,Event,Rare,manual,,Contract
+420,Hostile Bid,MeridianCombine,Event,Rare,manual,,Put a -1 Power counter on target Unit an opponent controls for each Unit you control with greater printed Power than it.
+421,Emergency Restructuring,MeridianCombine,Event,Rare,manual,,"Discard your hand, then draw that many cards."
+422,Shareholder Vote,MeridianCombine,Event,Rare,auto,text,
+423,The Data-Vaults,MeridianCombine,Location,Rare,auto,text,
+424,Trading Floor Prime,MeridianCombine,Location,Rare,auto,text,
+425,Acquisition Office Annex,MeridianCombine,Location,Rare,auto,Acquisition,
+426,The Boardroom,MeridianCombine,Location,Rare,auto,text,
+427,Augmented Human Analyst Recruit,MeridianCombine,Unit,Uncommon,auto,Acquisition,
+428,Construct Drone,MeridianCombine,Unit,Uncommon,auto,text,
+429,Augmented Human Security Recruit,MeridianCombine,Unit,Uncommon,auto,text,
+430,Construct Market Drone,MeridianCombine,Unit,Uncommon,auto,Acquisition,
+431,Augmented Human Negotiator Recruit,MeridianCombine,Unit,Uncommon,auto,text,
+432,Construct Enforcer Unit,MeridianCombine,Unit,Uncommon,manual,,This Unit cannot use abilities the turn it enters play.
+433,Augmented Human Recruiter Novice,MeridianCombine,Unit,Uncommon,auto,text,
+434,Construct Auditor Unit,MeridianCombine,Unit,Uncommon,auto,Acquisition,
+435,Augmented Human Executive Trainee,MeridianCombine,Unit,Uncommon,auto,text,
+436,Construct Analyst Recruit,MeridianCombine,Unit,Uncommon,auto,Acquisition,
+437,Augmented Human Contractor,MeridianCombine,Unit,Uncommon,manual,,This Unit cannot be the target of your opponents' abilities that reduce its Power by more than 1.
+438,Construct Recruiter Unit,MeridianCombine,Unit,Uncommon,auto,text,
+439,Augmented Human Auditor,MeridianCombine,Unit,Uncommon,auto,Acquisition,
+440,Construct Negotiator Unit,MeridianCombine,Unit,Uncommon,manual,,"When this Unit enters play, you may discard a card; if you do, look at target opponent's hand."
+441,Augmented Human Market Trainee,MeridianCombine,Unit,Uncommon,auto,Acquisition,
+442,Construct Security Recruit,MeridianCombine,Unit,Uncommon,auto,text,
+443,Minor Contract,MeridianCombine,Event,Uncommon,manual,,"When this Event resolves, you may draw a card, or discard a card to give target Unit you control +1 Power."
+444,Market Dip,MeridianCombine,Event,Uncommon,auto,text,
+445,Recruitment Drive,MeridianCombine,Event,Uncommon,auto,text,
+446,Asset Reallocation,MeridianCombine,Event,Uncommon,auto,text,
+447,Boardroom Pressure,MeridianCombine,Event,Uncommon,manual,,Put a +1 Power counter on target Unit you control for each card fewer than 5 in your hand (max 3).
+448,Due Diligence Report,MeridianCombine,Event,Uncommon,auto,text,
+449,Cost-Cutting Measure,MeridianCombine,Event,Uncommon,auto,text,
+450,Aggressive Expansion,MeridianCombine,Event,Uncommon,auto,text,
+451,Augmented Human Analyst Trainee,MeridianCombine,Unit,Common,none,,
+452,Construct Drone Basic,MeridianCombine,Unit,Common,none,,
+453,Augmented Human Security Guard,MeridianCombine,Unit,Common,none,,
+454,Construct Market Unit,MeridianCombine,Unit,Common,auto,text,
+455,Augmented Human Negotiator Trainee,MeridianCombine,Unit,Common,none,,
+456,Construct Enforcer Basic,MeridianCombine,Unit,Common,auto,text,
+457,Augmented Human Recruiter Trainee,MeridianCombine,Unit,Common,none,,
+458,Construct Auditor Basic,MeridianCombine,Unit,Common,auto,Acquisition,
+459,Augmented Human Executive Assistant,MeridianCombine,Unit,Common,none,,
+460,Construct Analyst Basic,MeridianCombine,Unit,Common,none,,
+461,Augmented Human Contractor Recruit,MeridianCombine,Unit,Common,auto,text,
+462,Construct Recruiter Basic,MeridianCombine,Unit,Common,none,,
+463,Augmented Human Auditor Trainee,MeridianCombine,Unit,Common,none,,
+464,Construct Negotiator Basic,MeridianCombine,Unit,Common,auto,text,
+465,Augmented Human Market Analyst,MeridianCombine,Unit,Common,none,,
+466,Construct Security Basic,MeridianCombine,Unit,Common,manual,,This Unit gets -1 Power at the start of each of your turns.
+467,Augmented Human Recruit,MeridianCombine,Unit,Common,none,,
+468,Construct Drone Escort,MeridianCombine,Unit,Common,none,,
+469,Augmented Human Analyst Basic,MeridianCombine,Unit,Common,auto,text,
+470,Construct Market Trainee,MeridianCombine,Unit,Common,none,,
+471,Augmented Human Security Trainee,MeridianCombine,Unit,Common,auto,text,
+472,Construct Auditor Trainee,MeridianCombine,Unit,Common,auto,Acquisition,
+473,Augmented Human Contractor Basic,MeridianCombine,Unit,Common,none,,
+474,Construct Recruiter Trainee,MeridianCombine,Unit,Common,none,,
+475,Minor Contract Clause,MeridianCombine,Event,Common,auto,text,
+476,Quick Trade,MeridianCombine,Event,Common,auto,text,
+477,New Hire,MeridianCombine,Event,Common,auto,text,
+478,Minor Correction,MeridianCombine,Event,Common,auto,text,
+479,Standard Procedure,MeridianCombine,Event,Common,auto,text,
+480,Liability Waiver,MeridianCombine,Event,Common,auto,text,
+481,"The First Root, Awakened",VerdantConcord,Unit,Mythic,partial,Root Network,"When this Unit enters play, you may choose one — each of your Locations gets +3 Power; search your deck for a Location card and put it into your hand; or each opponent's Units get -2 Power."
+482,Warden Elenya Thistlecrown,VerdantConcord,Unit,Exquisite,partial,Root Network,"When this Unit enters play, target Location you control gets +2 Power, or you may search your deck for a Location card and put it into your hand."
+483,The Great Communion,VerdantConcord,Event,Exquisite,manual,,"During the next Conflict, each of your Locations gets +2 Power. Or, shuffle a Unit from your Retirement Pile into your deck."
+484,The Sundered Canopy,VerdantConcord,Location,Exquisite,auto,Overgrowth; Root Bond,
+485,Warden-Speaker Brambletongue,VerdantConcord,Unit,Legendary,partial,Root Network,"When this Unit enters play, you may look at the top card of your deck; if it is a Location, put it into your hand."
+486,Fae Shaper of the Deep Grove,VerdantConcord,Unit,Legendary,partial,Root Network,This Unit gets +1 Power for every 2 Power the opposing Unit has.
+487,"Beastfolk Ranger, Old-Growth",VerdantConcord,Unit,Legendary,auto,text,
+488,Growth Surge,VerdantConcord,Event,Legendary,manual,,"Put a +1 Power counter on each Location you control, or draw a card for each Location you control."
+489,Seasonal Rite,VerdantConcord,Event,Legendary,manual,,"Target Location you control gets +3 Power, or shuffle target Unit from your Retirement Pile into your deck."
+490,The Ley-Shrine of Endless Spring,VerdantConcord,Location,Legendary,auto,Overgrowth; Root Bond,
+491,Fae Shaper Adept,VerdantConcord,Unit,Rare,auto,Root Network,
+492,Beastfolk Ranger Scout,VerdantConcord,Unit,Rare,auto,text,
+493,Fae Tender of the Grove,VerdantConcord,Unit,Rare,manual,,Tender's Care
+494,Beastfolk Beastspeaker Adept,VerdantConcord,Unit,Rare,auto,text,
+495,Fae Warden of the Threshold,VerdantConcord,Unit,Rare,auto,Root Network,
+496,"Beastfolk Ranger, Thornback",VerdantConcord,Unit,Rare,auto,text,
+497,"Fae Shaper, Rootbound",VerdantConcord,Unit,Rare,auto,Root Network,
+498,Beastfolk Tender,VerdantConcord,Unit,Rare,manual,,Tender's Care
+499,Communion of Roots,VerdantConcord,Event,Rare,manual,,"Each of your Locations gets +1 Power, or shuffle a Unit from your Retirement Pile into your deck."
+500,Bloom,VerdantConcord,Event,Rare,auto,text,
+501,Wild Growth,VerdantConcord,Event,Rare,manual,,"Draw a card. If you control a Location, draw an additional card."
+502,Thornlash,VerdantConcord,Event,Rare,manual,,"During the next Conflict, each Location you control gets +1 Power for each of your opponents' Units."
+503,The Root-Hall of Elenwood,VerdantConcord,Location,Rare,auto,Overgrowth,
+504,Grove of the Beastspeakers,VerdantConcord,Location,Rare,auto,Root Bond,
+505,The Deep Ley-Shrine,VerdantConcord,Location,Rare,manual,,"At the start of your turn, this Location gets +1 Power if you control 2 or more Locations."
+506,Old-Growth Sanctuary,VerdantConcord,Location,Rare,auto,Overgrowth,
+507,Fae Shaper Recruit,VerdantConcord,Unit,Uncommon,auto,Root Network,
+508,Beastfolk Ranger Recruit,VerdantConcord,Unit,Uncommon,auto,text,
+509,Fae Tender Recruit,VerdantConcord,Unit,Uncommon,auto,text,
+510,Beastfolk Beastspeaker Recruit,VerdantConcord,Unit,Uncommon,auto,Root Network,
+511,Fae Warden Recruit,VerdantConcord,Unit,Uncommon,auto,text,
+512,"Beastfolk Ranger, Sapling-Born",VerdantConcord,Unit,Uncommon,auto,text,
+513,"Fae Shaper, Green Touch",VerdantConcord,Unit,Uncommon,auto,text,
+514,Beastfolk Tender Recruit,VerdantConcord,Unit,Uncommon,auto,Root Network,
+515,"Fae Warden, Thistleguard",VerdantConcord,Unit,Uncommon,auto,text,
+516,Beastfolk Scout,VerdantConcord,Unit,Uncommon,auto,text,
+517,Fae Grove-Tender Novice,VerdantConcord,Unit,Uncommon,auto,text,
+518,Beastfolk Beastspeaker Novice,VerdantConcord,Unit,Uncommon,manual,,"When this Unit enters play, you may return target Unit you control with 2 or less Power to your hand."
+519,Fae Shaper Adept Novice,VerdantConcord,Unit,Uncommon,auto,Root Network,
+520,"Beastfolk Ranger, Thornwatch",VerdantConcord,Unit,Uncommon,auto,text,
+521,Fae Warden of the Sapling Line,VerdantConcord,Unit,Uncommon,auto,Root Network,
+522,"Beastfolk Tender, Green-Handed",VerdantConcord,Unit,Uncommon,auto,text,
+523,Grove's Whisper,VerdantConcord,Event,Uncommon,auto,text,
+524,Rootbind,VerdantConcord,Event,Uncommon,manual,,"During the next Conflict, target Location you control gets +1 Power for each of your opponents' Units."
+525,Sapling's Growth,VerdantConcord,Event,Uncommon,auto,text,
+526,Blessing of the Grove,VerdantConcord,Event,Uncommon,auto,text,
+527,Call of the Wild,VerdantConcord,Event,Uncommon,auto,text,
+528,Renewed Growth,VerdantConcord,Event,Uncommon,auto,text,
+529,Thicket's Defense,VerdantConcord,Event,Uncommon,manual,,Prevent the next 1 Power loss target Location you control would take this turn.
+530,Quiet Season,VerdantConcord,Event,Uncommon,auto,text,
+531,Fae Shaper Sapling,VerdantConcord,Unit,Common,none,,
+532,Beastfolk Ranger Cub,VerdantConcord,Unit,Common,none,,
+533,Fae Tender Sprout,VerdantConcord,Unit,Common,none,,
+534,Beastfolk Beastspeaker Whelp,VerdantConcord,Unit,Common,auto,text,
+535,Fae Warden Sprout,VerdantConcord,Unit,Common,none,,
+536,Beastfolk Ranger Novice,VerdantConcord,Unit,Common,auto,text,
+537,Fae Shaper Novice,VerdantConcord,Unit,Common,none,,
+538,Beastfolk Tender Sprout,VerdantConcord,Unit,Common,auto,text,
+539,Fae Warden Novice,VerdantConcord,Unit,Common,none,,
+540,Beastfolk Scout Cub,VerdantConcord,Unit,Common,none,,
+541,Fae Grove-Tender Sprout,VerdantConcord,Unit,Common,auto,text,
+542,Beastfolk Beastspeaker Cub,VerdantConcord,Unit,Common,none,,
+543,"Fae Shaper, Green Sprout",VerdantConcord,Unit,Common,none,,
+544,"Beastfolk Ranger, Thicket-Born",VerdantConcord,Unit,Common,auto,text,
+545,Fae Warden Sapling,VerdantConcord,Unit,Common,none,,
+546,Beastfolk Tender Novice,VerdantConcord,Unit,Common,manual,,This Unit cannot use abilities the turn it enters play.
+547,Fae Shaper Whelp,VerdantConcord,Unit,Common,none,,
+548,Beastfolk Scout Novice,VerdantConcord,Unit,Common,none,,
+549,"Fae Tender, Root-Handed",VerdantConcord,Unit,Common,auto,text,
+550,Beastfolk Ranger Sprout,VerdantConcord,Unit,Common,none,,
+551,"Fae Warden, Thorn-Touched",VerdantConcord,Unit,Common,auto,text,
+552,Beastfolk Beastspeaker Sprout,VerdantConcord,Unit,Common,none,,
+553,Fae Grove-Tender Novice II,VerdantConcord,Unit,Common,none,,
+554,"Beastfolk Tender, New-Grown",VerdantConcord,Unit,Common,none,,
+555,Small Bloom,VerdantConcord,Event,Common,auto,text,
+556,Quick Growth,VerdantConcord,Event,Common,auto,text,
+557,Undergrowth,VerdantConcord,Event,Common,manual,,Target Unit you control gets +1 Power for each Location you control.
+558,Grove's Gift,VerdantConcord,Event,Common,auto,text,
+559,First Bloom,VerdantConcord,Event,Common,auto,text,
+560,Root Ward,VerdantConcord,Event,Common,manual,,Prevent the next 1 Power loss target Location you control would take this turn.
+561,The Unseen Chancellor,HollowCourt,Unit,Mythic,manual,,"Whisper Network | Blackmail | When the Chancellor enters play, you may look at each opponent's hand and choose 1 card from each to force its owner to discard, or draw a card for each opponent instead."
+562,Spymistress Corvienne,HollowCourt,Unit,Exquisite,manual,,"Whisper Network | Blackmail | When this Unit enters play, you may look at target opponent's hand; if you do, that opponent's Unit adjacent to yours gets -2 Power."
+563,The Long Con,HollowCourt,Event,Exquisite,manual,,Look at target opponent's hand; choose a card and force them to discard it. Then target Unit you control gets +2 Power.
+564,The Latticework,HollowCourt,Location,Exquisite,partial,text,Whisper Network
+565,"Chancellor's Voice, Mireille Ansel",HollowCourt,Unit,Legendary,partial,text,Whisper Network | Blackmail
+566,The Ledger-Keeper,HollowCourt,Unit,Legendary,manual,,Blackmail
+567,The Pale Notary,HollowCourt,Unit,Legendary,manual,,"Whisper Network | At the start of your turn, this Unit's abilities do not trigger if you have 4 or more cards in hand."
+568,Coup d'Ã‰tat,HollowCourt,Event,Legendary,manual,,"Target Unit an opponent controls gets -3 Power, or look at target opponent's hand and choose a card for them to discard."
+569,Sabotage Operation,HollowCourt,Event,Legendary,manual,,"Target Location an opponent controls gets -2 Power, or Erase a card from target opponent's Retirement Pile and draw a card."
+570,The Chancellor's Safehouse,HollowCourt,Location,Legendary,manual,,"Whisper Network | At the start of your turn, if you have 1 or fewer cards in hand, draw a card."
+571,Shadowkin Spy,HollowCourt,Unit,Rare,manual,,Whisper Network
+572,Defected Noble Informant,HollowCourt,Unit,Rare,manual,,"When this Unit enters play, you may look at target opponent's hand."
+573,Shadowkin Saboteur,HollowCourt,Unit,Rare,auto,text,
+574,Defected Diplomat,HollowCourt,Unit,Rare,manual,,Whisper Network
+575,Shadowkin Adjacent-Watcher,HollowCourt,Unit,Rare,manual,,This Unit gets +1 Power for each Adjacent Location you control.
+576,Defected Noble Assassin,HollowCourt,Unit,Rare,manual,,This Unit cannot be played unless an opponent has 3 or more cards in hand.
+577,Shadowkin Blackmailer,HollowCourt,Unit,Rare,manual,,Blackmail
+578,"Defected Diplomat, Court Exile",HollowCourt,Unit,Rare,auto,text,
+579,Blackmail Letter,HollowCourt,Event,Rare,manual,,"Look at target opponent's hand; choose a card for them to discard, or draw a card instead."
+580,Quiet Sabotage,HollowCourt,Event,Rare,auto,text,
+581,Whispered Rumor,HollowCourt,Event,Rare,manual,,Put a -1 Power counter on target Unit an opponent controls. Look at an opponent's hand.
+582,Safehouse Meeting,HollowCourt,Event,Rare,auto,text,
+583,The Shadow Embassy,HollowCourt,Location,Rare,auto,text,
+584,Black Market Row,HollowCourt,Location,Rare,manual,,This Location gets +1 Power for each card in your Retirement Pile.
+585,The Unseen Safehouse,HollowCourt,Location,Rare,manual,,Whisper Network
+586,Chancellor's Quiet Office,HollowCourt,Location,Rare,manual,,This Location cannot be targeted by your opponents' abilities unless you have 3 or more cards in hand.
+587,Shadowkin Spy Recruit,HollowCourt,Unit,Uncommon,manual,,Whisper Network
+588,Defected Noble Recruit,HollowCourt,Unit,Uncommon,manual,,"When this Unit enters play, you may look at target opponent's hand."
+589,Shadowkin Saboteur Recruit,HollowCourt,Unit,Uncommon,auto,text,
+590,Defected Diplomat Recruit,HollowCourt,Unit,Uncommon,manual,,Whisper Network
+591,Shadowkin Informant,HollowCourt,Unit,Uncommon,auto,text,
+592,"Defected Noble, Half-Turned",HollowCourt,Unit,Uncommon,manual,,This Unit cannot use abilities the turn it enters play.
+593,Shadowkin Blackmailer Recruit,HollowCourt,Unit,Uncommon,auto,text,
+594,"Defected Diplomat, Newly Exiled",HollowCourt,Unit,Uncommon,manual,,Whisper Network
+595,Shadowkin Adjacent Scout,HollowCourt,Unit,Uncommon,manual,,This Unit gets +1 Power for each Adjacent Location you control.
+596,Defected Noble Saboteur,HollowCourt,Unit,Uncommon,auto,text,
+597,Shadowkin Spy Novice,HollowCourt,Unit,Uncommon,auto,text,
+598,"Defected Diplomat, Silver-Tongued",HollowCourt,Unit,Uncommon,auto,text,
+599,Shadowkin Informant Recruit,HollowCourt,Unit,Uncommon,manual,,Whisper Network
+600,Defected Noble Informant Recruit,HollowCourt,Unit,Uncommon,manual,,"When this Unit enters play, you may look at target opponent's hand."
+601,Shadowkin Saboteur Novice,HollowCourt,Unit,Uncommon,auto,text,
+602,Defected Diplomat Novice,HollowCourt,Unit,Uncommon,manual,,Whisper Network
+603,Quiet Word,HollowCourt,Event,Uncommon,auto,text,
+604,Minor Blackmail,HollowCourt,Event,Uncommon,manual,,Target Unit an opponent controls can't gain Power until the start of your next turn.
+605,Bribery,HollowCourt,Event,Uncommon,auto,text,
+606,Forged Papers,HollowCourt,Event,Uncommon,auto,text,
+607,Whisper in the Dark,HollowCourt,Event,Uncommon,manual,,Look at target opponent's hand.
+608,Sabotaged Supply Line,HollowCourt,Event,Uncommon,auto,text,
+609,Coerced Silence,HollowCourt,Event,Uncommon,auto,text,
+610,Court Intrigue,HollowCourt,Event,Uncommon,manual,,Look at an opponent's hand. Put a +1 Power counter on target Unit you control for each Unit card there (max 3).
+611,Shadowkin Novice Spy,HollowCourt,Unit,Common,none,,
+612,Defected Noble Attendant,HollowCourt,Unit,Common,none,,
+613,Shadowkin Errand-Runner,HollowCourt,Unit,Common,none,,
+614,Defected Diplomat's Aide,HollowCourt,Unit,Common,auto,text,
+615,Shadowkin Lookout,HollowCourt,Unit,Common,none,,
+616,Defected Noble Scribe,HollowCourt,Unit,Common,manual,,"When this Unit enters play, you may look at the top card of your Retirement Pile."
+617,Shadowkin Apprentice,HollowCourt,Unit,Common,none,,
+618,Defected Diplomat Attendant,HollowCourt,Unit,Common,auto,text,
+619,Shadowkin Courier,HollowCourt,Unit,Common,none,,
+620,Defected Noble Recruit Basic,HollowCourt,Unit,Common,none,,
+621,Shadowkin Informant Novice,HollowCourt,Unit,Common,auto,text,
+622,Defected Diplomat Scribe,HollowCourt,Unit,Common,none,,
+623,Shadowkin Saboteur Apprentice,HollowCourt,Unit,Common,none,,
+624,Defected Noble Courier,HollowCourt,Unit,Common,auto,text,
+625,Shadowkin Spy Trainee,HollowCourt,Unit,Common,none,,
+626,Defected Diplomat Novice Basic,HollowCourt,Unit,Common,manual,,This Unit cannot use abilities the turn it enters play.
+627,Shadowkin Watcher,HollowCourt,Unit,Common,none,,
+628,Defected Noble Aide,HollowCourt,Unit,Common,none,,
+629,Shadowkin Errand Novice,HollowCourt,Unit,Common,auto,text,
+630,Defected Diplomat Courier,HollowCourt,Unit,Common,none,,
+631,Shadowkin Blackmail Apprentice,HollowCourt,Unit,Common,manual,,This Unit gets +1 Power for each Adjacent Location you control.
+632,Defected Noble Informant Basic,HollowCourt,Unit,Common,none,,
+633,Shadowkin Sabotage Apprentice,HollowCourt,Unit,Common,none,,
+634,"Defected Diplomat, Recently Turned",HollowCourt,Unit,Common,none,,
+635,Minor Rumor,HollowCourt,Event,Common,auto,text,
+636,Quiet Favor,HollowCourt,Event,Common,auto,text,
+637,Petty Bribery,HollowCourt,Event,Common,auto,text,
+638,Forged Note,HollowCourt,Event,Common,auto,text,
+639,Minor Sabotage,HollowCourt,Event,Common,auto,text,
+640,Discretion,HollowCourt,Event,Common,auto,text,
+641,The Dealer,WagerBound,Unit,Mythic,partial,High Stakes,"Loaded Odds | When the Dealer enters play, you may reveal the top 3 cards of your deck; put them into your hand in any order, then discard 2 cards."
+642,Lucky Sable-Ren,WagerBound,Unit,Exquisite,partial,High Stakes,"Loaded Odds | When this Unit would lose Power from an ability an opponent controls, you may reveal the top card of your deck; if it is a Unit, prevent that Power loss instead."
+643,All In,WagerBound,Event,Exquisite,manual,,"Reveal the top 3 cards of your deck. Each Unit revealed this way, put it into play in an open Unit slot; each non-Unit, put it into your Retirement Pile."
+644,The Last Chance,WagerBound,Location,Exquisite,partial,High Stakes,This Location cannot lose more than 2 Power from a single ability.
+645,High Roller Vashenko,WagerBound,Unit,Legendary,manual,,"Loaded Odds | When this Unit enters play, you may look at the top 3 cards of your deck; put one in your hand and the rest on the bottom in any order."
+646,The Odds-Keeper,WagerBound,Unit,Legendary,auto,High Stakes,
+647,Fortune's Orphans,WagerBound,Unit,Legendary,partial,text,Loaded Odds
+648,Double or Nothing,WagerBound,Event,Legendary,auto,text,
+649,Deal with Fate,WagerBound,Event,Legendary,manual,,Look at the top 2 cards of your deck; put one in your hand and shuffle the other into your deck.
+650,The Dueling Pit,WagerBound,Location,Legendary,partial,High Stakes,"Whenever a Unit is Retired at this Location's stationed slot, you may have this Location get +1 Power."
+651,Human Duelist,WagerBound,Unit,Rare,auto,High Stakes,
+652,Tabaxi Card Sharp,WagerBound,Unit,Rare,manual,,Loaded Odds
+653,Tiefling Fortune-Teller,WagerBound,Unit,Rare,auto,text,
+654,Contracted Debt Collector,WagerBound,Unit,Rare,manual,,"When this Unit enters play, you may look at target opponent's Retirement Pile."
+655,Human Card Sharp,WagerBound,Unit,Rare,auto,High Stakes,
+656,Tabaxi Duelist,WagerBound,Unit,Rare,manual,,Loaded Odds
+657,Tiefling Debt Collector,WagerBound,Unit,Rare,auto,text,
+658,Contracted Fortune-Teller,WagerBound,Unit,Rare,auto,text,
+659,Loaded Dice,WagerBound,Event,Rare,manual,,"Reveal the top card of your deck. If it is a Unit, target Unit you control gets +2 Power."
+660,Fortune Favors,WagerBound,Event,Rare,auto,text,
+661,Debt Collection,WagerBound,Event,Rare,manual,,Put a -1 Power counter on target Unit an opponent controls for each card in its controller's hand (max 3).
+662,House Edge,WagerBound,Event,Rare,manual,,"Reveal the top card of your deck. If it is a Unit, put two +1 Power counters on target Unit you control; otherwise, put one."
+663,The Parlor,WagerBound,Location,Rare,manual,,Loaded Odds
+664,The Dueling Grounds,WagerBound,Location,Rare,auto,High Stakes,
+665,The House Vault,WagerBound,Location,Rare,manual,,"At the start of your turn, if your Retirement Pile has 3 or more cards, this Location gets +1 Power."
+666,The Backroom Table,WagerBound,Location,Rare,auto,text,
+667,Human Duelist Recruit,WagerBound,Unit,Uncommon,auto,High Stakes,
+668,Tabaxi Card Sharp Recruit,WagerBound,Unit,Uncommon,manual,,Loaded Odds
+669,Tiefling Fortune-Teller Novice,WagerBound,Unit,Uncommon,auto,text,
+670,Contracted Debt Collector Recruit,WagerBound,Unit,Uncommon,manual,,"When this Unit enters play, you may look at target opponent's Retirement Pile."
+671,Human Card Sharp Recruit,WagerBound,Unit,Uncommon,auto,High Stakes,
+672,Tabaxi Duelist Recruit,WagerBound,Unit,Uncommon,manual,,Loaded Odds
+673,Tiefling Debt Collector Novice,WagerBound,Unit,Uncommon,auto,text,
+674,Contracted Fortune-Teller Novice,WagerBound,Unit,Uncommon,auto,text,
+675,Human Fortune-Teller,WagerBound,Unit,Uncommon,auto,text,
+676,Tabaxi Fortune-Teller,WagerBound,Unit,Uncommon,manual,,Loaded Odds
+677,Tiefling Card Sharp,WagerBound,Unit,Uncommon,auto,High Stakes,
+678,Contracted Duelist,WagerBound,Unit,Uncommon,manual,,"This Unit gets +1 Power for each card in your Retirement Pile, to a maximum of +2."
+679,Human Debt Collector,WagerBound,Unit,Uncommon,manual,,"When this Unit enters play, you may look at target opponent's Retirement Pile."
+680,Tabaxi Debt Collector,WagerBound,Unit,Uncommon,manual,,"When this Unit enters play, you may return target Unit you control with 2 or less Power to your hand."
+681,Tiefling Duelist,WagerBound,Unit,Uncommon,auto,High Stakes,
+682,Contracted Card Sharp,WagerBound,Unit,Uncommon,manual,,Loaded Odds
+683,Quick Bet,WagerBound,Event,Uncommon,manual,,"Reveal the top 3 cards of your deck. Put a +1 Power counter on target Unit you control for each Unit revealed, then put those cards on the bottom in any order."
+684,Reveal the Hand,WagerBound,Event,Uncommon,manual,,Look at target opponent's hand.
+685,Coin Toss,WagerBound,Event,Uncommon,auto,text,
+686,Called Bluff,WagerBound,Event,Uncommon,auto,text,
+687,Even Odds,WagerBound,Event,Uncommon,manual,,"Reveal the top card of your deck. If it is a Unit, put it into your hand. If not, put it into your Retirement Pile."
+688,Collect the Debt,WagerBound,Event,Uncommon,manual,,Look at the top card of your Retirement Pile.
+689,Lucky Break,WagerBound,Event,Uncommon,auto,text,
+690,Table Stakes,WagerBound,Event,Uncommon,auto,text,
+691,Human Duelist Trainee,WagerBound,Unit,Common,none,,
+692,Tabaxi Card Sharp Trainee,WagerBound,Unit,Common,none,,
+693,Tiefling Fortune-Teller Trainee,WagerBound,Unit,Common,none,,
+694,Contracted Debt Collector Trainee,WagerBound,Unit,Common,manual,,"When this Unit enters play, you may look at the top card of your Retirement Pile."
+695,Human Card Sharp Novice,WagerBound,Unit,Common,none,,
+696,Tabaxi Duelist Trainee,WagerBound,Unit,Common,manual,,"This Unit gets +1 Power for each card in your Retirement Pile, to a maximum of +1."
+697,Tiefling Debt Collector Trainee,WagerBound,Unit,Common,none,,
+698,Contracted Fortune-Teller Trainee,WagerBound,Unit,Common,auto,text,
+699,Human Fortune-Teller Trainee,WagerBound,Unit,Common,none,,
+700,Tabaxi Fortune-Teller Trainee,WagerBound,Unit,Common,none,,
+701,Tiefling Card Sharp Trainee,WagerBound,Unit,Common,auto,text,
+702,Contracted Duelist Trainee,WagerBound,Unit,Common,none,,
+703,Human Debt Collector Trainee,WagerBound,Unit,Common,none,,
+704,Tabaxi Debt Collector Trainee,WagerBound,Unit,Common,auto,text,
+705,Tiefling Duelist Trainee,WagerBound,Unit,Common,none,,
+706,Contracted Card Sharp Trainee,WagerBound,Unit,Common,none,,
+707,Human Duelist Sprout,WagerBound,Unit,Common,none,,
+708,Tabaxi Card Sharp Sprout,WagerBound,Unit,Common,auto,text,
+709,Tiefling Fortune-Teller Sprout,WagerBound,Unit,Common,none,,
+710,Contracted Debt Collector Sprout,WagerBound,Unit,Common,none,,
+711,Human Card Sharp Sprout,WagerBound,Unit,Common,auto,High Stakes,
+712,Tabaxi Duelist Sprout,WagerBound,Unit,Common,manual,,Loaded Odds
+713,Tiefling Debt Collector Sprout,WagerBound,Unit,Common,none,,
+714,Contracted Fortune-Teller Sprout,WagerBound,Unit,Common,none,,
+715,Small Wager,WagerBound,Event,Common,manual,,"Reveal the top card of your deck. If it is a Unit, put a -1 Power counter on each of your opponents' Units. Otherwise, put a -1 Power counter on each Unit you control."
+716,Peek at the Deck,WagerBound,Event,Common,auto,text,
+717,Minor Debt,WagerBound,Event,Common,auto,text,
+718,Coin Flip,WagerBound,Event,Common,manual,,"Reveal the top card of your deck. If it is a Unit, put it into your hand."
+719,Cheap Trick,WagerBound,Event,Common,auto,text,
+720,Table Talk,WagerBound,Event,Common,manual,,Look at target opponent's hand.
+721,The Commissioner,Kayfabe,Unit,Mythic,partial,Bait; Switch,"When the Commissioner enters play, the opposing Unit must be Retired and replaced by a Unit from its owner's hand, if able. Then you may look at the top 2 cards of your deck."
+722,Champion Vexx Steelgrin,Kayfabe,Unit,Exquisite,auto,Bait; Switch; text,
+723,Championship Match,Kayfabe,Event,Exquisite,manual,,"Compare the Power of target Unit you control and its opposing Unit. The lower loses 4 Power. If tied, each loses 1 Power."
+724,The Marquee,Kayfabe,Location,Exquisite,auto,Bait; text,
+725,Ring Handler Marchetti,Kayfabe,Unit,Legendary,partial,Switch,"When this Unit enters play, you may return target Unit you control with lower Power to your hand."
+726,The Reigning Headliner,Kayfabe,Unit,Legendary,auto,Bait,
+727,"Undercard Fighter, Overlooked",Kayfabe,Unit,Legendary,partial,Switch,This Unit cannot be played unless you control 2 or more Units.
+728,Ratings Sweep,Kayfabe,Event,Legendary,manual,,"Each Unit you control gets +1 Power for each Unit you control, or draw a card for each Unit you control, to a maximum of 3."
+729,Contract Signing,Kayfabe,Event,Legendary,manual,,Search your deck for a Unit card and put it into your hand. Shuffle your deck.
+730,The Broadcast Tower,Kayfabe,Location,Legendary,manual,,"This Location gets +1 Power for each Unit you control. At the start of your turn, if a Unit was Retired last turn, draw a card."
+731,"Contracted Fighter, Rising Star",Kayfabe,Unit,Rare,auto,Bait,
+732,"Contracted Fighter, Veteran",Kayfabe,Unit,Rare,auto,Switch,
+733,Augmented Organiser,Kayfabe,Unit,Rare,auto,text,
+734,Golem Coach,Kayfabe,Unit,Rare,auto,text,
+735,Ring Crew Member,Kayfabe,Unit,Rare,auto,text,
+736,"Contracted Fighter, Face Turn",Kayfabe,Unit,Rare,manual,,This Unit cannot be played unless you control 2 or more Units.
+737,"Contracted Fighter, Heel Turn",Kayfabe,Unit,Rare,auto,Bait,
+738,"Ring Promoter, Veteran",Kayfabe,Unit,Rare,auto,text,
+739,Title Shot,Kayfabe,Event,Rare,manual,,"Put two +1 Power counters on target Unit you control, or draw a card."
+740,Squash Match,Kayfabe,Event,Rare,manual,,"Target Unit you control must be chosen as the target of your opponents' abilities if able, until the start of your next turn."
+741,Contract Dispute,Kayfabe,Event,Rare,manual,,Look at target opponent's hand.
+742,Post-Match Interview,Kayfabe,Event,Rare,auto,text,
+743,The Arena,Kayfabe,Location,Rare,auto,text,
+744,The Locker Room,Kayfabe,Location,Rare,auto,text,
+745,Contract Office,Kayfabe,Location,Rare,auto,text,
+746,Broadcast Booth,Kayfabe,Location,Rare,auto,Bait,
+747,Contracted Fighter Recruit,Kayfabe,Unit,Uncommon,auto,Bait,
+748,Ring Promoter Recruit,Kayfabe,Unit,Uncommon,auto,text,
+749,Fight Handler Recruit,Kayfabe,Unit,Uncommon,auto,text,
+750,Ring Crew Recruit,Kayfabe,Unit,Uncommon,auto,text,
+751,"Contracted Fighter, Jobber",Kayfabe,Unit,Uncommon,auto,Switch,
+752,"Contracted Fighter, Prospect",Kayfabe,Unit,Uncommon,manual,,This Unit cannot use abilities the turn it enters play.
+753,"Ring Promoter, Hype Man",Kayfabe,Unit,Uncommon,auto,text,
+754,"Fight Handler, Cutman",Kayfabe,Unit,Uncommon,manual,,"When this Unit enters play, you may remove all Power-reducing counters from target Unit you control."
+755,"Contracted Fighter, Tag Team",Kayfabe,Unit,Uncommon,auto,text,
+756,"Ring Crew, Stage Manager",Kayfabe,Unit,Uncommon,auto,text,
+757,"Contracted Fighter, Enforcer",Kayfabe,Unit,Uncommon,auto,Bait,
+758,"Ring Promoter, Talent Scout",Kayfabe,Unit,Uncommon,auto,text,
+759,"Fight Handler, Trainer",Kayfabe,Unit,Uncommon,auto,text,
+760,"Ring Crew, Ringside Medic",Kayfabe,Unit,Uncommon,manual,,"When this Unit enters play, you may prevent the next 1 Power loss target Unit you control would take this turn."
+761,"Contracted Fighter, Journeyman",Kayfabe,Unit,Uncommon,auto,Switch,
+762,"Ring Promoter, Ringside Announcer",Kayfabe,Unit,Uncommon,auto,text,
+763,Backstage Deal,Kayfabe,Event,Uncommon,auto,text,
+764,Crowd Pop,Kayfabe,Event,Uncommon,auto,text,
+765,Sneak Attack,Kayfabe,Event,Uncommon,manual,,"Search your deck for a Unit card with 5 or less Power, reveal it, and put it into your hand. Shuffle your deck."
+766,Rewrite the Card,Kayfabe,Event,Uncommon,auto,text,
+767,Contract Clause,Kayfabe,Event,Uncommon,auto,text,
+768,Ratings Boost,Kayfabe,Event,Uncommon,auto,text,
+769,Face Turn,Kayfabe,Event,Uncommon,auto,text,
+770,Pull the Trigger,Kayfabe,Event,Uncommon,manual,,Target Unit you control gets +3 Power until end of turn.
+771,Contracted Fighter Trainee,Kayfabe,Unit,Common,none,,
+772,Ring Promoter Trainee,Kayfabe,Unit,Common,none,,
+773,Fight Handler Trainee,Kayfabe,Unit,Common,none,,
+774,Ring Crew Trainee,Kayfabe,Unit,Common,auto,text,
+775,"Contracted Fighter, Local Talent",Kayfabe,Unit,Common,none,,
+776,"Contracted Fighter, Green Recruit",Kayfabe,Unit,Common,auto,text,
+777,"Ring Promoter, Local Hype",Kayfabe,Unit,Common,none,,
+778,"Fight Handler, Rookie",Kayfabe,Unit,Common,auto,text,
+779,"Ring Crew, Setup Hand",Kayfabe,Unit,Common,none,,
+780,"Contracted Fighter, Try-Out",Kayfabe,Unit,Common,none,,
+781,"Ring Promoter, Ticket Seller",Kayfabe,Unit,Common,auto,text,
+782,"Fight Handler, Water Boy",Kayfabe,Unit,Common,none,,
+783,"Contracted Fighter, Debutant",Kayfabe,Unit,Common,none,,
+784,"Ring Crew, Lighting Tech",Kayfabe,Unit,Common,auto,text,
+785,"Contracted Fighter, Rookie Heel",Kayfabe,Unit,Common,none,,
+786,"Ring Promoter, Local Deal-Maker",Kayfabe,Unit,Common,manual,,This Unit cannot use abilities the turn it enters play.
+787,"Fight Handler, Towel Carrier",Kayfabe,Unit,Common,none,,
+788,"Ring Crew, Ropes Crew",Kayfabe,Unit,Common,none,,
+789,"Contracted Fighter, Try-Hard",Kayfabe,Unit,Common,auto,text,
+790,"Ring Promoter, Backstage Runner",Kayfabe,Unit,Common,none,,
+791,"Fight Handler, Assistant",Kayfabe,Unit,Common,auto,text,
+792,"Contracted Fighter, Debut Heel",Kayfabe,Unit,Common,none,,
+793,"Ring Crew, Prop Master",Kayfabe,Unit,Common,none,,
+794,"Contracted Fighter, Local Face",Kayfabe,Unit,Common,none,,
+795,Small Pop,Kayfabe,Event,Common,auto,text,
+796,Quick Angle,Kayfabe,Event,Common,auto,text,
+797,Local Draw,Kayfabe,Event,Common,auto,text,
+798,Cheap Shot,Kayfabe,Event,Common,manual,,"Target Unit you control must be chosen as the target of your opponents' abilities if able, until the start of your next turn."
+799,Signed to a Deal,Kayfabe,Event,Common,auto,text,
+800,No-Sell,Kayfabe,Event,Common,auto,text,
+801,Undrowned Ledger,Factionless,Unit,Uncommon,manual,,"Whenever a card leaves any Retirement Pile, choose one — this Unit gets two Power counters; or draw a card."
+802,The Understudy,Factionless,Unit,Uncommon,manual,,"Opponents must choose this Unit as a target if able. When this Unit is chosen as a target, that opponent discards two cards, or reveals their hand and you choose two cards from it to discard."
+803,Long Odds Contract,Factionless,Event,Uncommon,manual,,"Reveal the top card of your deck. If it is a Unit, draw two cards. If it is not, put it into your Retirement Pile and give a Unit you control +3 Power instead."
+804,Warden's Sanctuary,Factionless,Unit,Uncommon,manual,,"This Unit gets +2 Power for each Unit in your Retirement Pile. Whenever a Unit you control would be Retired, you may shuffle it into its owner's deck instead."
+805,Siege Breaker,Factionless,Unit,Uncommon,manual,,"When this Unit enters play, each opposing Location loses power counters equal to the number of Units you control."
+806,Twice-Forged,Factionless,Unit,Uncommon,manual,,"While this Unit is in play, whenever you play a Unit, each other Unit you control gets +1 Power. Whenever a Unit you control is Retired, each other Unit you control gets +1 Power."
+807,Eternium Waystone,Factionless,Unit,Uncommon,manual,,This Unit gets +2 Power for each Location you control.
+808,Fortune's Toll,Factionless,Event,Common,manual,,Draw two cards. Then discard a card.
+809,Silent Ledger,Factionless,Unit,Uncommon,manual,,"When this Unit enters play, look at target opponent's hand. You may have them discard a card from it; if they do, draw a card."
+810,Reckless Gambit,Factionless,Unit,Uncommon,manual,,"When this Unit enters play, reveal the top card of your deck. If its Power is 5 or greater, each Unit you control gets +2 Power until end of turn."
+811,Tidal Wager,Factionless,Event,Uncommon,manual,,"Reveal the top card of your deck. If it is a Location, put it into play. If it is not, put it into your Retirement Pile and draw a card."
+812,Salvage Contract,Factionless,Unit,Uncommon,manual,,"Whenever you discard a card, this Unit gets a permanent +1 Power counter."
+813,Whispering Node,Factionless,Unit,Uncommon,manual,,"Whenever an opponent draws a card, you may look at it."
+814,Tidewood Sentinel,Factionless,Unit,Uncommon,manual,,"Whenever a Location you control would be Retired, you may shuffle it into your deck instead. This Unit gets +1 Power for each Location you control."
+815,Wandering Cutpurse,Factionless,Unit,Common,manual,,"When this Unit enters play, look at the top card of target opponent's deck. You may put it on the bottom."
+816,Scrapyard Mercenary,Factionless,Unit,Common,manual,,"This Unit gets +1 Power for each card in your Retirement Pile, to a maximum of +3."
+817,Traveler's Ward,Factionless,Unit,Uncommon,manual,,This Unit cannot be the target of your opponents' abilities.
+818,Quickdraw Peddler,Factionless,Event,Common,manual,,"Draw a card. If you control no Locations, draw an additional card."
+819,Borrowed Time,Factionless,Event,Uncommon,manual,,Target Unit you control cannot be Retired until your next turn.
+820,Common Ground,Factionless,Unit,Uncommon,manual,,"This Unit gets +1 Power for each other Faction represented among Units you control, to a maximum of +4."
