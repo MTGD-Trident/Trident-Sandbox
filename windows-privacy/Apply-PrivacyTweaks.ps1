@@ -397,17 +397,18 @@ if (-not $SkipApps) {
         $names | ForEach-Object { Write-Host "  - $_" }
         $go = $DryRun -or $Yes -or ((Read-Host "`n  Remove these $($names.Count) apps? [y/N]") -match '^y')
         if ($go) {
-            foreach ($pkg in $packages) {
-                Write-Change "Remove app $($pkg.Name)"
-                if ($DryRun) { continue }
-                try { Remove-AppxPackage -Package $pkg.PackageFullName -AllUsers -ErrorAction Stop }
-                catch { Write-Warning "Could not remove $($pkg.Name): $($_.Exception.Message)" }
-            }
+            # Unprovision first: removing for all users also deletes the stored package, which would make this step fail.
             foreach ($prov in $provisioned) {
                 Write-Change "Stop $($prov.DisplayName) installing for new users"
                 if ($DryRun) { continue }
                 try { Remove-AppxProvisionedPackage -Online -PackageName $prov.PackageName -ErrorAction Stop | Out-Null }
                 catch { Write-Warning "Could not unprovision $($prov.DisplayName): $($_.Exception.Message)" }
+            }
+            foreach ($pkg in $packages) {
+                Write-Change "Remove app $($pkg.Name)"
+                if ($DryRun) { continue }
+                try { Remove-AppxPackage -Package $pkg.PackageFullName -AllUsers -ErrorAction Stop }
+                catch { Write-Warning "Could not remove $($pkg.Name): $($_.Exception.Message)" }
             }
             if (-not $DryRun) { $backup.Apps = @(($backup.Apps + $names) | Sort-Object -Unique) }
         } else {
