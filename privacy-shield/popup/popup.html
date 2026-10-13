@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Privacy Shield</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <img src="../icons/icon32.png" alt="" width="24" height="24">
+    <h1>Privacy Shield</h1>
+  </header>
+
+  <section class="site">
+    <div class="site-row">
+      <div>
+        <div id="host" class="host">—</div>
+        <div id="blocked" class="muted"></div>
+      </div>
+      <label class="switch" title="Protection on this site">
+        <input type="checkbox" id="site-toggle">
+        <span></span>
+      </label>
+    </div>
+    <div id="site-note" class="muted"></div>
+    <button id="reload" hidden>Reload page to apply</button>
+  </section>
+
+  <section>
+    <h2>Protections</h2>
+    <ul id="features"></ul>
+  </section>
+  <script src="popup.js"></script>
+</body>
+</html>

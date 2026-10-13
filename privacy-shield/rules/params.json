@@ -1,0 +1,422 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": {
+          "queryTransform": {
+            "removeParams": [
+              "utm_source",
+              "utm_medium",
+              "utm_campaign",
+              "utm_term",
+              "utm_content",
+              "utm_id",
+              "utm_name",
+              "utm_cid",
+              "utm_reader",
+              "utm_referrer",
+              "utm_social",
+              "utm_social-type",
+              "fbclid",
+              "gclid",
+              "gclsrc",
+              "dclid",
+              "gbraid",
+              "wbraid",
+              "msclkid",
+              "twclid",
+              "ttclid",
+              "li_fat_id",
+              "igshid",
+              "mc_cid",
+              "mc_eid",
+              "_hsenc",
+              "_hsmi",
+              "hsCtaTracking",
+              "mkt_tok",
+              "yclid",
+              "_openstat",
+              "oly_anon_id",
+              "oly_enc_id",
+              "vero_id",
+              "rb_clickid",
+              "s_cid",
+              "epik"
+            ]
+          }
+        }
+      }
+    },
+    "condition": {
+      "regexFilter": "[?&](utm_source|utm_medium|utm_campaign|utm_term|utm_content|utm_id)=",
+      "isUrlFilterCaseSensitive": true,
+      "resourceTypes": [
+        "main_frame",
+        "sub_frame"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": {
+          "queryTransform": {
+            "removeParams": [
+              "utm_source",
+              "utm_medium",
+              "utm_campaign",
+              "utm_term",
+              "utm_content",
+              "utm_id",
+              "utm_name",
+              "utm_cid",
+              "utm_reader",
+              "utm_referrer",
+              "utm_social",
+              "utm_social-type",
+              "fbclid",
+              "gclid",
+              "gclsrc",
+              "dclid",
+              "gbraid",
+              "wbraid",
+              "msclkid",
+              "twclid",
+              "ttclid",
+              "li_fat_id",
+              "igshid",
+              "mc_cid",
+              "mc_eid",
+              "_hsenc",
+              "_hsmi",
+              "hsCtaTracking",
+              "mkt_tok",
+              "yclid",
+              "_openstat",
+              "oly_anon_id",
+              "oly_enc_id",
+              "vero_id",
+              "rb_clickid",
+              "s_cid",
+              "epik"
+            ]
+          }
+        }
+      }
+    },
+    "condition": {
+      "regexFilter": "[?&](utm_name|utm_cid|utm_reader|utm_referrer|utm_social|utm_social\\-type)=",
+      "isUrlFilterCaseSensitive": true,
+      "resourceTypes": [
+        "main_frame",
+        "sub_frame"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": {
+          "queryTransform": {
+            "removeParams": [
+              "utm_source",
+              "utm_medium",
+              "utm_campaign",
+              "utm_term",
+              "utm_content",
+              "utm_id",
+              "utm_name",
+              "utm_cid",
+              "utm_reader",
+              "utm_referrer",
+              "utm_social",
+              "utm_social-type",
+              "fbclid",
+              "gclid",
+              "gclsrc",
+              "dclid",
+              "gbraid",
+              "wbraid",
+              "msclkid",
+              "twclid",
+              "ttclid",
+              "li_fat_id",
+              "igshid",
+              "mc_cid",
+              "mc_eid",
+              "_hsenc",
+              "_hsmi",
+              "hsCtaTracking",
+              "mkt_tok",
+              "yclid",
+              "_openstat",
+              "oly_anon_id",
+              "oly_enc_id",
+              "vero_id",
+              "rb_clickid",
+              "s_cid",
+              "epik"
+            ]
+          }
+        }
+      }
+    },
+    "condition": {
+      "regexFilter": "[?&](fbclid|gclid|gclsrc|dclid|gbraid|wbraid)=",
+      "isUrlFilterCaseSensitive": true,
+      "resourceTypes": [
+        "main_frame",
+        "sub_frame"
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": {
+          "queryTransform": {
+            "removeParams": [
+              "utm_source",
+              "utm_medium",
+              "utm_campaign",
+              "utm_term",
+              "utm_content",
+              "utm_id",
+              "utm_name",
+              "utm_cid",
+              "utm_reader",
+              "utm_referrer",
+              "utm_social",
+              "utm_social-type",
+              "fbclid",
+              "gclid",
+              "gclsrc",
+              "dclid",
+              "gbraid",
+              "wbraid",
+              "msclkid",
+              "twclid",
+              "ttclid",
+              "li_fat_id",
+              "igshid",
+              "mc_cid",
+              "mc_eid",
+              "_hsenc",
+              "_hsmi",
+              "hsCtaTracking",
+              "mkt_tok",
+              "yclid",
+              "_openstat",
+              "oly_anon_id",
+              "oly_enc_id",
+              "vero_id",
+              "rb_clickid",
+              "s_cid",
+              "epik"
+            ]
+          }
+        }
+      }
+    },
+    "condition": {
+      "regexFilter": "[?&](msclkid|twclid|ttclid|li_fat_id|igshid|mc_cid)=",
+      "isUrlFilterCaseSensitive": true,
+      "resourceTypes": [
+        "main_frame",
+        "sub_frame"
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": {
+          "queryTransform": {
+            "removeParams": [
+              "utm_source",
+              "utm_medium",
+              "utm_campaign",
+              "utm_term",
+              "utm_content",
+              "utm_id",
+              "utm_name",
+              "utm_cid",
+              "utm_reader",
+              "utm_referrer",
+              "utm_social",
+              "utm_social-type",
+              "fbclid",
+              "gclid",
+              "gclsrc",
+              "dclid",
+              "gbraid",
+              "wbraid",
+              "msclkid",
+              "twclid",
+              "ttclid",
+              "li_fat_id",
+              "igshid",
+              "mc_cid",
+              "mc_eid",
+              "_hsenc",
+              "_hsmi",
+              "hsCtaTracking",
+              "mkt_tok",
+              "yclid",
+              "_openstat",
+              "oly_anon_id",
+              "oly_enc_id",
+              "vero_id",
+              "rb_clickid",
+              "s_cid",
+              "epik"
+            ]
+          }
+        }
+      }
+    },
+    "condition": {
+      "regexFilter": "[?&](mc_eid|_hsenc|_hsmi|hsCtaTracking|mkt_tok|yclid)=",
+      "isUrlFilterCaseSensitive": true,
+      "resourceTypes": [
+        "main_frame",
+        "sub_frame"
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": {
+          "queryTransform": {
+            "removeParams": [
+              "utm_source",
+              "utm_medium",
+              "utm_campaign",
+              "utm_term",
+              "utm_content",
+              "utm_id",
+              "utm_name",
+              "utm_cid",
+              "utm_reader",
+              "utm_referrer",
+              "utm_social",
+              "utm_social-type",
+              "fbclid",
+              "gclid",
+              "gclsrc",
+              "dclid",
+              "gbraid",
+              "wbraid",
+              "msclkid",
+              "twclid",
+              "ttclid",
+              "li_fat_id",
+              "igshid",
+              "mc_cid",
+              "mc_eid",
+              "_hsenc",
+              "_hsmi",
+              "hsCtaTracking",
+              "mkt_tok",
+              "yclid",
+              "_openstat",
+              "oly_anon_id",
+              "oly_enc_id",
+              "vero_id",
+              "rb_clickid",
+              "s_cid",
+              "epik"
+            ]
+          }
+        }
+      }
+    },
+    "condition": {
+      "regexFilter": "[?&](_openstat|oly_anon_id|oly_enc_id|vero_id|rb_clickid|s_cid)=",
+      "isUrlFilterCaseSensitive": true,
+      "resourceTypes": [
+        "main_frame",
+        "sub_frame"
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": {
+          "queryTransform": {
+            "removeParams": [
+              "utm_source",
+              "utm_medium",
+              "utm_campaign",
+              "utm_term",
+              "utm_content",
+              "utm_id",
+              "utm_name",
+              "utm_cid",
+              "utm_reader",
+              "utm_referrer",
+              "utm_social",
+              "utm_social-type",
+              "fbclid",
+              "gclid",
+              "gclsrc",
+              "dclid",
+              "gbraid",
+              "wbraid",
+              "msclkid",
+              "twclid",
+              "ttclid",
+              "li_fat_id",
+              "igshid",
+              "mc_cid",
+              "mc_eid",
+              "_hsenc",
+              "_hsmi",
+              "hsCtaTracking",
+              "mkt_tok",
+              "yclid",
+              "_openstat",
+              "oly_anon_id",
+              "oly_enc_id",
+              "vero_id",
+              "rb_clickid",
+              "s_cid",
+              "epik"
+            ]
+          }
+        }
+      }
+    },
+    "condition": {
+      "regexFilter": "[?&](epik)=",
+      "isUrlFilterCaseSensitive": true,
+      "resourceTypes": [
+        "main_frame",
+        "sub_frame"
+      ]
+    }
+  }
+]
