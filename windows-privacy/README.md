@@ -36,7 +36,6 @@ Two PowerShell scripts for Windows 10 and 11:
 - Game Bar background recording off.
 - Services turned off:
   - Xbox Live sign-in, cloud saves and networking.
-  - SysMain (Superfetch), which preloads apps into RAM.
   - Windows Search indexing: Start still finds apps and settings, but searching for files is slower.
   - Error reporting, offline maps, Media Player sharing, parental controls, the Windows Insider service and Fax.
 - OneDrive uninstalled, **only if it isn't signed in**. If it is signed in, the script warns you and leaves it, so no cloud-only files get stranded. Use `-KeepOneDrive` to keep it either way.
@@ -58,6 +57,7 @@ Two PowerShell scripts for Windows 10 and 11:
 - **Windows Update, Defender, SmartScreen and Safe Browsing.** Turning these off makes a PC much less secure.
 - **Steam, Destiny 2, BattlEye, Slack, Claude.** Desktop programs aren't affected. BattlEye's service only runs while the game does.
 - **Xbox controller support** (the `XboxGipSvc` service) and the Xbox sign-in components some Steam games use. They only start when needed.
+- **SysMain (Superfetch).** It caches large, frequently used programs and files, which helps Unreal and Blender load faster.
 - **Printing, Bluetooth, location (used for automatic time zone), touch keyboard and emoji panel.**
 
 ## How to run it

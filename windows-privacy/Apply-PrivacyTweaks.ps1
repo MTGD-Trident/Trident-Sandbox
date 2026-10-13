@@ -325,7 +325,7 @@ Set-Reg 'HKLM:\SYSTEM\CurrentControlSet\Services\BcastDVRUserService' 'Start' 4 
 Disable-Svc 'XblAuthManager'      # Xbox Live sign-in
 Disable-Svc 'XblGameSave'         # Xbox cloud saves
 Disable-Svc 'XboxNetApiSvc'       # Xbox Live networking
-Disable-Svc 'SysMain'             # Superfetch: preloads apps into RAM, little benefit on an SSD
+# SysMain (Superfetch) stays on: it caches large, frequently used apps and files (editors, projects).
 Disable-Svc 'WSearch'             # file indexing; Start still finds apps and settings, file search is slower
 Disable-Svc 'WerSvc'              # error reporting
 Disable-Svc 'MapsBroker'          # offline maps
