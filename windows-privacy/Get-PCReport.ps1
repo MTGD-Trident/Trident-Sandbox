@@ -49,7 +49,32 @@ Get-Process | Group-Object ProcessName | ForEach-Object {
 } | Sort-Object MB -Descending | Select-Object -First 15 | ForEach-Object { Line ("  {0,6} MB  {1}" -f $_.MB, $_.Name) }
 
 Line "`n== Startup apps =="
-Try-Line 'Registered' { ((Get-CimInstance Win32_StartupCommand).Name | Sort-Object -Unique) -join ', ' }
+# Task Manager doesn't delete a disabled startup entry; it marks it in StartupApproved (odd first byte = disabled).
+$approvedRoot = 'Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved'
+function Test-StartupEnabled($hive, $list, $name) {
+    $flags = (Get-ItemProperty "$hive\$approvedRoot\$list" -ErrorAction SilentlyContinue).$name
+    -not ($flags -and ($flags[0] % 2))
+}
+$startup = @()
+foreach ($src in @(
+        @{ Hive = 'HKCU:'; Key = 'Software\Microsoft\Windows\CurrentVersion\Run'; List = 'Run' }
+        @{ Hive = 'HKLM:'; Key = 'SOFTWARE\Microsoft\Windows\CurrentVersion\Run'; List = 'Run' }
+        @{ Hive = 'HKLM:'; Key = 'SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Run'; List = 'Run32' })) {
+    $key = Get-Item "$($src.Hive)\$($src.Key)" -ErrorAction SilentlyContinue
+    if (-not $key) { continue }
+    foreach ($name in $key.GetValueNames() | Where-Object { $_ }) {
+        $startup += [pscustomobject]@{ Name = $name; Enabled = (Test-StartupEnabled $src.Hive $src.List $name) }
+    }
+}
+foreach ($folder in @(
+        @{ Hive = 'HKCU:'; Path = [Environment]::GetFolderPath('Startup') }
+        @{ Hive = 'HKLM:'; Path = [Environment]::GetFolderPath('CommonStartup') })) {
+    Get-ChildItem $folder.Path -Filter *.lnk -ErrorAction SilentlyContinue | ForEach-Object {
+        $startup += [pscustomobject]@{ Name = $_.BaseName; Enabled = (Test-StartupEnabled $folder.Hive 'StartupFolder' $_.Name) }
+    }
+}
+Line "Enabled: $((($startup | Where-Object Enabled).Name | Sort-Object -Unique) -join ', ')"
+Line "Disabled: $((($startup | Where-Object { -not $_.Enabled }).Name | Sort-Object -Unique) -join ', ')"
 
 $report = $r -join "`n"
 $report
