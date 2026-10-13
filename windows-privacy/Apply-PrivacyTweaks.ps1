@@ -13,13 +13,15 @@
     Don't change DNS settings.
 .PARAMETER Yes
     Don't ask for confirmation before removing apps.
+.PARAMETER KeepOneDrive
+    Don't uninstall OneDrive. (It is never removed while signed in, regardless.)
 
 .EXAMPLE
     .\Apply-PrivacyTweaks.ps1 -DryRun
     .\Apply-PrivacyTweaks.ps1
 #>
 [CmdletBinding()]
-param([switch]$DryRun, [switch]$SkipApps, [switch]$SkipDns, [switch]$Yes)
+param([switch]$DryRun, [switch]$SkipApps, [switch]$SkipDns, [switch]$Yes, [switch]$KeepOneDrive)
 
 $ErrorActionPreference = 'Stop'
 
@@ -32,8 +34,9 @@ if ($PSVersionTable.PSEdition -ne 'Desktop') {
 # ---------------------------------------------------------------------------
 
 # Preinstalled apps to remove. Wildcards allowed. Anything not installed is skipped.
-# Kept on purpose: Store, Photos, Calculator, Notepad, Paint, Terminal, Snipping Tool,
-# Camera, Edge, App Installer (winget), Xbox apps, Outlook, Teams (work), To Do.
+# Kept on purpose: Store, Photos, Media Player, Calculator, Notepad, Paint, Terminal,
+# Snipping Tool, Camera, Clock, Edge, App Installer (winget), and the Xbox sign-in
+# components (Xbox Identity Provider, Xbox TCUI), which only run when a game asks for them.
 $BloatApps = @(
     'Microsoft.BingNews'
     'Microsoft.BingWeather'
@@ -61,6 +64,18 @@ $BloatApps = @(
     'AmazonVideo.PrimeVideo'
     '*.Twitter'
     'Facebook.*'
+    'Microsoft.Todos'
+    'Microsoft.YourPhone'                        # Phone Link (runs in the background)
+    'Microsoft.WindowsCommunicationsApps'        # Mail and Calendar
+    'Microsoft.OutlookForWindows'                # new Outlook
+    'MSTeams'                                    # Teams
+    'MicrosoftWindows.Client.WebExperience'      # Widgets
+    'Microsoft.Edge.GameAssist'
+    'Microsoft.GamingApp'                        # Xbox app
+    'Microsoft.XboxApp'                          # Xbox Console Companion
+    'Microsoft.XboxGamingOverlay'                # Game Bar
+    'Microsoft.XboxGameOverlay'
+    'Microsoft.XboxSpeechToTextOverlay'
 )
 
 # Ad- and tracker-blocking DNS (AdGuard DNS, free, no account needed).
@@ -281,6 +296,72 @@ Set-Reg $edge 'StartupBoostEnabled' 0                   # stops Edge running in 
 # Delivery Optimization: stop uploading Windows updates to strangers' PCs over the internet
 Set-Reg 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\DeliveryOptimization' 'DODownloadMode' 0
 Save-Backup
+
+# --- Chrome -----------------------------------------------------------------
+Write-Section 'Chrome'
+$chrome = 'HKLM:\SOFTWARE\Policies\Google\Chrome'
+Set-Reg $chrome 'MetricsReportingEnabled' 0                 # usage statistics and crash reports
+Set-Reg $chrome 'UrlKeyedAnonymizedDataCollectionEnabled' 0 # sending visited URLs to Google
+Set-Reg $chrome 'ChromeVariations' 1                        # Google's feature experiments: critical fixes only
+Set-Reg $chrome 'FeedbackSurveysEnabled' 0
+Set-Reg $chrome 'UserFeedbackAllowed' 0
+Set-Reg $chrome 'SpellCheckServiceEnabled' 0                # local spell check still works
+Set-Reg $chrome 'BackgroundModeEnabled' 0                   # Chrome fully exits when you close it
+Set-Reg $chrome 'DnsOverHttpsMode' 'automatic' 'String'     # use Windows' DNS (AdGuard) instead of a custom provider
+Save-Backup
+
+# --- Hidden resource use --------------------------------------------------------
+Write-Section 'Background apps and services'
+# Store apps may not run in the background (desktop programs like Steam and Chrome are unaffected).
+Set-Reg 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\AppPrivacy' 'LetAppsRunInBackground' 2
+Set-Reg $edge 'BackgroundModeEnabled' 0
+
+# Game Bar background recording
+Set-Reg 'HKCU:\System\GameConfigStore' 'GameDVR_Enabled' 0
+Set-Reg 'HKCU:\Software\Microsoft\Windows\CurrentVersion\GameDVR' 'AppCaptureEnabled' 0
+Set-Reg 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\GameDVR' 'AllowGameDVR' 0
+Set-Reg 'HKLM:\SYSTEM\CurrentControlSet\Services\BcastDVRUserService' 'Start' 4   # Game DVR per-user service
+
+Disable-Svc 'XblAuthManager'      # Xbox Live sign-in
+Disable-Svc 'XblGameSave'         # Xbox cloud saves
+Disable-Svc 'XboxNetApiSvc'       # Xbox Live networking
+Disable-Svc 'SysMain'             # Superfetch: preloads apps into RAM, little benefit on an SSD
+Disable-Svc 'WSearch'             # file indexing; Start still finds apps and settings, file search is slower
+Disable-Svc 'WerSvc'              # error reporting
+Disable-Svc 'MapsBroker'          # offline maps
+Disable-Svc 'WMPNetworkSvc'       # Media Player network sharing
+Disable-Svc 'WpcMonSvc'           # parental controls
+Disable-Svc 'wisvc'               # Windows Insider
+Disable-Svc 'Fax'
+Save-Backup
+
+# --- OneDrive -------------------------------------------------------------------
+if (-not $KeepOneDrive) {
+    Write-Section 'OneDrive'
+    $signedIn = Get-ChildItem 'HKCU:\Software\Microsoft\OneDrive\Accounts' -ErrorAction SilentlyContinue |
+        Where-Object { (Get-ItemProperty $_.PSPath).UserEmail }
+    $setup = @("$env:SystemRoot\System32\OneDriveSetup.exe", "$env:SystemRoot\SysWOW64\OneDriveSetup.exe") |
+        Where-Object { Test-Path $_ } | Select-Object -First 1
+    $installed = (Test-Path "$env:LOCALAPPDATA\Microsoft\OneDrive\OneDrive.exe") -or
+                 (Test-Path "$env:ProgramFiles\Microsoft OneDrive\OneDrive.exe")
+
+    if (-not $installed) {
+        Write-Host '  Not installed.'
+    } elseif ($signedIn) {
+        # Uninstalling while signed in could leave files that only exist in the cloud out of reach.
+        Write-Warning 'OneDrive is signed in, so it was left alone. If you do not use it: make sure your files are downloaded and moved out of the OneDrive folder, sign out of OneDrive, then run this script again.'
+    } elseif (-not $setup) {
+        Write-Warning 'OneDrive uninstaller not found. Remove it from Settings -> Apps -> Installed apps.'
+    } else {
+        Write-Change 'Uninstall OneDrive'
+        if (-not $DryRun) {
+            Stop-Process -Name OneDrive -Force -ErrorAction SilentlyContinue
+            Start-Process $setup '/uninstall' -Wait
+            $backup.Apps = @((@($backup.Apps) + 'OneDrive') | Sort-Object -Unique)
+            Save-Backup
+        }
+    }
+}
 
 # --- 3. Preinstalled apps -----------------------------------------------------
 if (-not $SkipApps) {

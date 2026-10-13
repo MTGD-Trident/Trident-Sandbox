@@ -24,8 +24,29 @@ Two PowerShell scripts for Windows 10 and 11:
 - Edge: no shopping pop-ups, recommendations, telemetry or background preloading.
 - Windows Update no longer uploads updates to other people's PCs over the internet.
 
+**Chrome**
+- Usage statistics, crash reports, URL collection, feedback surveys and the online spell-check service turned off.
+- Google's feature experiments limited to critical fixes.
+- Chrome fully exits when you close it, instead of staying in the background.
+- Chrome uses Windows' DNS (AdGuard) rather than its own secure DNS provider.
+
+**Background resource use**
+- Store apps can't run in the background.
+- Edge no longer stays running after you close it.
+- Game Bar background recording off.
+- Services turned off:
+  - Xbox Live sign-in, cloud saves and networking.
+  - SysMain (Superfetch), which preloads apps into RAM.
+  - Windows Search indexing: Start still finds apps and settings, but searching for files is slower.
+  - Error reporting, offline maps, Media Player sharing, parental controls, the Windows Insider service and Fax.
+- OneDrive uninstalled, **only if it isn't signed in**. If it is signed in, the script warns you and leaves it, so no cloud-only files get stranded. Use `-KeepOneDrive` to keep it either way.
+
 **Apps** (asks before removing anything)
-- Removes: Bing News, Bing Weather, Bing Search, Tips, Get Help, Solitaire, Office launcher, People, Feedback Hub, Maps, Movies & TV, Mixed Reality Portal, Skype, Cortana, Copilot, Dev Home, Power Automate, consumer Teams chat, Family, Clipchamp, Candy Crush, TikTok, Disney+, Prime Video, X/Twitter and Facebook.
+- Removes:
+  - Xbox app, Game Bar and their overlays.
+  - Phone Link, Mail & Calendar, Outlook, Teams, To Do and Widgets.
+  - Bing News, Weather and Search, Tips, Get Help, Solitaire, the Office launcher, People, Feedback Hub, Maps, Movies & TV, Mixed Reality Portal, Skype, Cortana, Copilot, Dev Home, Power Automate, Family and Clipchamp.
+  - Promoted third-party apps: Candy Crush, TikTok, Disney+, Prime Video, X/Twitter and Facebook.
 - Edit the `$BloatApps` list at the top of the script to change this.
 
 **Network**
@@ -35,8 +56,9 @@ Two PowerShell scripts for Windows 10 and 11:
 ## Deliberately left alone
 
 - **Windows Update, Defender, SmartScreen and Safe Browsing.** Turning these off makes a PC much less secure.
-- **Xbox apps and Game Bar.** Needed for Game Pass and screen capture.
-- **OneDrive, background apps, search indexing, location.** These are useful to many people. Turn them off yourself in Settings if you don't use them.
+- **Steam, Destiny 2, BattlEye, Slack, Claude.** Desktop programs aren't affected. BattlEye's service only runs while the game does.
+- **Xbox controller support** (the `XboxGipSvc` service) and the Xbox sign-in components some Steam games use. They only start when needed.
+- **Printing, Bluetooth, location (used for automatic time zone), touch keyboard and emoji panel.**
 
 ## How to run it
 
@@ -68,6 +90,9 @@ To reverse everything, run `.\Undo-PrivacyTweaks.ps1` the same way, then restart
 - **Chrome's "Use secure DNS" setting can bypass AdGuard.** If you turned it on with a custom provider, change it to *With your current service provider* (Settings → Privacy and security → Security). Chrome will then use AdGuard too.
 - **Hotel and café Wi-Fi login pages** sometimes fail to appear with custom DNS. Run `.\Undo-PrivacyTweaks.ps1` or set the Wi-Fi adapter's DNS back to automatic while you sign in.
 - **A site or app that won't load** may be one AdGuard blocks. That is rare, but it happens with some shopping-link and tracking redirect domains.
+- **A Slack or Claude notification stops arriving while the app is closed.** That can happen if you installed it from the Microsoft Store rather than its website, because Store apps can't run in the background any more. Reinstall it from the website, or undo that one setting: delete `LetAppsRunInBackground` under `HKLM\SOFTWARE\Policies\Microsoft\Windows\AppPrivacy`.
+- **Searching for files from Start is slower** because indexing is off. File Explorer's search still works.
+- **Check startup apps.** Open Task Manager → Startup apps and disable anything you don't need running from sign-in. Steam, Slack and Claude usually add themselves; Steam can just open when you launch a game.
 - **Run the script while signed in as yourself.** Some settings apply to the account that runs it. If you sign in as a standard user and type an admin password to elevate, those settings land on the admin account instead.
 - **Major Windows updates can re-add some apps or reset some settings.** Re-run the script after one. It only changes what's needed and keeps your original backup.
 
