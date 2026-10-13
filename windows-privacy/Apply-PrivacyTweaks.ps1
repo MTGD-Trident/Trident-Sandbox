@@ -112,25 +112,37 @@ function Write-Section($Title) { Write-Host "`n== $Title ==" -ForegroundColor Cy
 
 function Set-Reg($Path, $Name, $Value, $Type = 'DWord') {
     $existed = $false; $current = $null; $kind = $null
-    if (Test-Path -LiteralPath $Path) {
-        $key = Get-Item -LiteralPath $Path
-        if ($key.GetValueNames() -contains $Name) {
-            $existed = $true
-            $current = $key.GetValue($Name)
-            $kind = $key.GetValueKind($Name).ToString()
+    try {
+        if (Test-Path -LiteralPath $Path) {
+            $key = Get-Item -LiteralPath $Path
+            if ($key.GetValueNames() -contains $Name) {
+                $existed = $true
+                $current = $key.GetValue($Name)
+                $kind = $key.GetValueKind($Name).ToString()
+            }
         }
+    } catch {
+        Write-Warning "Windows blocks reading this setting; skipped: $Path\$Name"
+        return
     }
     if ($existed -and "$current" -eq "$Value") { return }
 
     Write-Change "$Path\$Name = $Value"
     if ($DryRun) { return }
 
+    try {
+        if (-not (Test-Path -LiteralPath $Path)) { New-Item -Path $Path -Force | Out-Null }
+        New-ItemProperty -LiteralPath $Path -Name $Name -Value $Value -PropertyType $Type -Force | Out-Null
+    } catch {
+        # Some keys are locked by Windows itself, even for administrators.
+        Write-Warning "Windows blocks changing this setting; skipped: $Path\$Name"
+        return
+    }
     $id = "$Path|$Name"
     if (-not ($backup.Registry | Where-Object { $_.Id -eq $id })) {
         $backup.Registry += [pscustomobject]@{ Id = $id; Path = $Path; Name = $Name; Existed = $existed; Value = $current; Type = $kind }
+        Save-Backup
     }
-    if (-not (Test-Path -LiteralPath $Path)) { New-Item -Path $Path -Force | Out-Null }
-    New-ItemProperty -LiteralPath $Path -Name $Name -Value $Value -PropertyType $Type -Force | Out-Null
 }
 
 function Disable-Svc($Name) {
@@ -140,11 +152,17 @@ function Disable-Svc($Name) {
     Write-Change "Service '$($svc.DisplayName)' -> Disabled"
     if ($DryRun) { return }
 
-    if (-not ($backup.Services | Where-Object { $_.Name -eq $Name })) {
-        $backup.Services += [pscustomobject]@{ Name = $Name; StartType = $svc.StartType.ToString() }
+    try {
+        Set-Service -Name $Name -StartupType Disabled
+    } catch {
+        Write-Warning "Windows would not let this service be changed; skipping: $Name"
+        return
     }
     Stop-Service -Name $Name -Force -ErrorAction SilentlyContinue
-    Set-Service -Name $Name -StartupType Disabled
+    if (-not ($backup.Services | Where-Object { $_.Name -eq $Name })) {
+        $backup.Services += [pscustomobject]@{ Name = $Name; StartType = $svc.StartType.ToString() }
+        Save-Backup
+    }
 }
 
 function Disable-Task($FullName) {
@@ -157,7 +175,7 @@ function Disable-Task($FullName) {
 
     try {
         Disable-ScheduledTask -InputObject $task | Out-Null
-        if ($backup.Tasks -notcontains $FullName) { $backup.Tasks += $FullName }
+        if ($backup.Tasks -notcontains $FullName) { $backup.Tasks += $FullName; Save-Backup }
     } catch {
         Write-Warning "Windows would not let this task be disabled; skipping: $FullName"
     }
@@ -419,7 +437,9 @@ if (-not $SkipDns) {
             $static = @("$v4,$v6" -split '[ ,]' | Where-Object { $_ })
             $backup.Dns += [pscustomobject]@{ Guid = $a.InterfaceGuid; Name = $a.Name; StaticServers = $static }
         }
-        Set-DnsClientServerAddress -InterfaceIndex $a.ifIndex -ServerAddresses $DnsServers
+        try { Set-DnsClientServerAddress -InterfaceIndex $a.ifIndex -ServerAddresses $DnsServers }
+        catch { Write-Warning "Could not change DNS on '$($a.Name)': $($_.Exception.Message)" }
+        Save-Backup
     }
 
     # Encrypt DNS lookups (DNS over HTTPS) on Windows 11.
@@ -429,8 +449,13 @@ if (-not $SkipDns) {
             Write-Change "Encrypted DNS for $ip"
             if ($DryRun) { continue }
             # Fallback to unencrypted DNS stays on so a network that blocks DoH doesn't cut you off.
-            Add-DnsClientDohServerAddress -ServerAddress $ip -DohTemplate $DohTemplate -AllowFallbackToUdp $true -AutoUpgrade $true | Out-Null
-            $backup.Doh += $ip
+            try {
+                Add-DnsClientDohServerAddress -ServerAddress $ip -DohTemplate $DohTemplate -AllowFallbackToUdp $true -AutoUpgrade $true | Out-Null
+                $backup.Doh += $ip
+                Save-Backup
+            } catch {
+                Write-Warning "Could not turn on encrypted DNS for ${ip}: $($_.Exception.Message)"
+            }
         }
         Set-Reg 'HKLM:\SOFTWARE\Policies\Microsoft\Windows NT\DNSClient' 'DoHPolicy' 2   # allow DoH
     } else {
