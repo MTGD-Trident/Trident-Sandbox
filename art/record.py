@@ -10,6 +10,8 @@ import csv, json, os, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 COMPLETED = os.path.join(HERE, "art_completed.csv")
 MANIFEST = os.path.join(HERE, "art_manifest.csv")
+# Cards whose jobs never leave "queued" on Higgsfield; retry by hand later.
+STUCK = {"162"}
 
 
 def done_ids():
@@ -37,7 +39,7 @@ def record(pairs):
 
 def next_batch(n):
     done = done_ids()
-    queue = [c for c in json.load(open(os.path.join(HERE, "prompt_queue.json"), encoding="utf-8")) if c["id"] not in done]
+    queue = [c for c in json.load(open(os.path.join(HERE, "prompt_queue.json"), encoding="utf-8")) if c["id"] not in done and c["id"] not in STUCK]
     print(json.dumps([{"index": int(c["id"]), "params": {"model": "z_image", "prompt": c["prompt"], "aspect_ratio": "4:3", "count": 1}}
                       for c in queue[:n]]))
     print("remaining:", len(queue), file=sys.stderr)
