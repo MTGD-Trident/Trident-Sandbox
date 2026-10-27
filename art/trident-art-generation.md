@@ -42,8 +42,30 @@ Built by `art/build_prompts.py` from `CARDS` in `www/index.html` (subtype + flav
 `art/cards_needing_art.csv` is the full list (771 cards). `art/art_completed.csv` is the
 running done list (the first 123 rows are from the earlier local session).
 
-## Progress
+## Status (updated 2026-10-27, cloud session)
 
-See the status section at the bottom (updated each session).
+- **592 / 771 cards have art.** 123 from the earlier local session + 469 generated this session
+  (all in `art/art_manifest.csv` with Higgsfield job ids). ~73 credits spent; 177.9 left.
+- Done factions: DisciplesOfTheCelestia (the 33 on the list), AshenLegion, UndertowCourt
+  (except 162), DriftConcordat, NullChoir, MeridianCombine, VerdantConcord, Kayfabe.
 
-## Status
+### What's next
+
+1. **Card 162, Harbormaster Vashti** (UndertowCourt): every job sits in `queued` for minutes and
+   then fails - happened in the earlier session and twice here. Listed in `STUCK` in
+   `art/record.py`. Try rewording the flavor clause (maybe "swallowed" trips a filter) or
+   another model, then remove it from `STUCK`.
+2. **Write setting lines for HollowCourt, WagerBound and Factionless** (178 cards: 79 + 79 + 20)
+   and add them to `SETTINGS` in `art/build_prompts.py`, then rerun `build_prompts.py` and continue
+   the loop. These need the user's lore input - no setting was ever established for them.
+3. **Get the images into the game.** Images only exist on Higgsfield. Download them on a machine
+   that can reach the CDN (look each job id up with Higgsfield `show_generation_by_ids` or the web
+   gallery), resize to the card art box (~500x373 JPEG like the 4 already embedded), and add them
+   to the `ART` map in `www/index.html` keyed by card name.
+4. Cards 001, 003, 005, 074 were not on the needing-art list (001/005 already have art in
+   `ART`); check whether 003 and 074 need art.
+
+### Prompt quirks kept for consistency
+Subjects come straight from the subtype, so some read oddly ("A Augmented Human Analyst",
+"A Human Engineers", "A docks"). The earlier session did the same ("a Ancient Fae"), so this was
+left alone; fix it in `subject()` if it matters.
