@@ -1,0 +1,772 @@
+CardNumberValue,CardNameText,Faction,Type,SubTypeText,Rarity
+002,Cinderkeeper Voss,DisciplesOfTheCelestia,Unit,Human Templar,Exquisite
+004,Temple Eternal,DisciplesOfTheCelestia,Location,Bastion,Exquisite
+006,Diplomat Roselight,DisciplesOfTheCelestia,Unit,Djinn Diplomat,Legendary
+007,Justicar Phosene,DisciplesOfTheCelestia,Unit,Golem Justicar,Legendary
+051,Ember Postulant,DisciplesOfTheCelestia,Unit,Human Monk,Common
+052,Doorstone,DisciplesOfTheCelestia,Unit,Golem Sentinel,Common
+053,Windling Scout,DisciplesOfTheCelestia,Unit,Djinn Ranger,Common
+054,Dawnrecruit,DisciplesOfTheCelestia,Unit,Human Paladin,Common
+055,Path-Warden,DisciplesOfTheCelestia,Unit,Golem Ranger,Common
+056,Emberling,DisciplesOfTheCelestia,Unit,Djinn Cleric,Common
+057,Trail Postulant,DisciplesOfTheCelestia,Unit,Human Ranger,Common
+058,Quiet Stone,DisciplesOfTheCelestia,Unit,Golem Monk,Common
+059,Gale Postulant,DisciplesOfTheCelestia,Unit,Djinn Sentinel,Common
+060,Zealot-in-Training,DisciplesOfTheCelestia,Unit,Human Templar,Common
+061,Threshold Stone,DisciplesOfTheCelestia,Unit,Golem Warden,Common
+062,Hearthkeeper Novice,DisciplesOfTheCelestia,Unit,Human Cleric,Common
+063,Windvow Recruit,DisciplesOfTheCelestia,Unit,Djinn Paladin,Common
+064,Mendstone Novice,DisciplesOfTheCelestia,Unit,Golem Cleric,Common
+065,Ember-Sighted Novice,DisciplesOfTheCelestia,Unit,Human Seer,Common
+066,Wind-Herald,DisciplesOfTheCelestia,Unit,Djinn Ranger,Common
+067,Silent Vow,DisciplesOfTheCelestia,Unit,Human Anchorite,Common
+068,Frontstone Recruit,DisciplesOfTheCelestia,Unit,Golem Templar,Common
+069,Cinderwind Novice,DisciplesOfTheCelestia,Unit,Djinn Cleric,Common
+070,Vigil Scout,DisciplesOfTheCelestia,Unit,Human Ranger,Common
+071,Ember-Marked Stone,DisciplesOfTheCelestia,Unit,Golem Sentinel,Common
+072,Ember Postulant (Paladin),DisciplesOfTheCelestia,Unit,Human Paladin,Common
+073,Windsight Novice,DisciplesOfTheCelestia,Unit,Djinn Seer,Common
+075,Ember Spark,DisciplesOfTheCelestia,Event,Rite,Common
+076,Pilgrim's First Step,DisciplesOfTheCelestia,Event,Rite,Common
+077,Quiet Vigil,DisciplesOfTheCelestia,Event,Vigil,Common
+078,Stonebound Oath,DisciplesOfTheCelestia,Event,Vow,Common
+079,Last Ember,DisciplesOfTheCelestia,Event,Rite,Common
+080,Novice's Resolve,DisciplesOfTheCelestia,Event,Blessing,Common
+081,Kessantine Vral,AshenLegion,Unit,Kharund Warlord,Mythic
+082,Grudge-Bearer Kharn,AshenLegion,Unit,Kharund Berserker,Exquisite
+083,The Long Raid,AshenLegion,Event,Raid,Exquisite
+084,The Cinderforge Bastion,AshenLegion,Location,War Camp,Exquisite
+085,Ilvess Two-Blades,AshenLegion,Unit,Kharund Warlord,Legendary
+086,Ironclad Brute,AshenLegion,Unit,Kharund Brute,Legendary
+087,Kharund Bloodrager,AshenLegion,Unit,Kharund Berserker,Legendary
+088,War Drums of the Ashen Line,AshenLegion,Event,War Cry,Legendary
+089,Trophies of the Fallen,AshenLegion,Event,Raid,Legendary
+090,The Skullforge,AshenLegion,Location,Forge,Legendary
+091,Kharund Raider Vanguard,AshenLegion,Unit,Kharund Raider,Rare
+092,Kharund Trophy-Taker,AshenLegion,Unit,Kharund Brute,Rare
+093,Kharund Skirmisher,AshenLegion,Unit,Kharund Skirmisher,Rare
+094,Ironjaw Brute,AshenLegion,Unit,Kharund Brute,Rare
+095,Kharund Warcaller,AshenLegion,Unit,Kharund Warcaller,Rare
+096,Kharund Bloodletter,AshenLegion,Unit,Kharund Berserker,Rare
+097,Kharund Siegebreaker,AshenLegion,Unit,Kharund Raider,Rare
+098,Kharund Forgeborn Brute,AshenLegion,Unit,Kharund Brute,Rare
+099,Blood and Iron,AshenLegion,Event,Raid,Rare
+100,Warcamp Muster,AshenLegion,Event,Muster,Rare
+101,Scorched Retreat,AshenLegion,Event,Raid,Rare
+102,Ashen Warcry,AshenLegion,Event,War Cry,Rare
+103,War Camp of the Ashen Line,AshenLegion,Location,War Camp,Rare
+104,The Bonepile Forge,AshenLegion,Location,Forge,Rare
+105,Siegeworks of the Ashen Line,AshenLegion,Location,Siegeworks,Rare
+106,The Skullbanner Muster,AshenLegion,Location,War Camp,Rare
+107,Kharund Raider Recruit,AshenLegion,Unit,Kharund Raider,Uncommon
+108,Kharund Bruteling,AshenLegion,Unit,Kharund Brute,Uncommon
+109,Kharund Warhorn,AshenLegion,Unit,Kharund Skirmisher,Uncommon
+110,Kharund Skullsplitter,AshenLegion,Unit,Kharund Brute,Uncommon
+111,Ashborn Brute,AshenLegion,Unit,Kharund Brute,Uncommon
+112,Kharund Ashguard,AshenLegion,Unit,Kharund Skirmisher,Uncommon
+113,Kharund Warcaller Recruit,AshenLegion,Unit,Kharund Warcaller,Uncommon
+114,Kharund Trophy-Hauler,AshenLegion,Unit,Kharund Brute,Uncommon
+115,Kharund Vanguard Recruit,AshenLegion,Unit,Kharund Skirmisher,Uncommon
+116,Kharund Ironhide Brute,AshenLegion,Unit,Kharund Brute,Uncommon
+117,Grannoch the Quartermaster,AshenLegion,Unit,Kharund Quartermaster,Uncommon
+118,Kharund Bloodhorn,AshenLegion,Unit,Kharund Berserker,Uncommon
+119,Kharund Ashbrand Raider,AshenLegion,Unit,Kharund Raider,Uncommon
+120,Kharund Wallbreaker,AshenLegion,Unit,Kharund Brute,Uncommon
+121,Kharund Skirmish Recruit,AshenLegion,Unit,Kharund Skirmisher,Uncommon
+122,Kharund Bloodmark Brute,AshenLegion,Unit,Kharund Brute,Uncommon
+123,Raiding Party,AshenLegion,Event,Raid,Uncommon
+124,Forge-Fire,AshenLegion,Event,Muster,Uncommon
+125,Bonebreaker's Toll,AshenLegion,Event,Raid,Uncommon
+126,War Chant,AshenLegion,Event,War Cry,Uncommon
+127,Ashfall Skirmish,AshenLegion,Event,Raid,Uncommon
+128,Muster the Line,AshenLegion,Event,Muster,Uncommon
+129,Trial by Iron,AshenLegion,Event,Muster,Uncommon
+130,Ashen Vow,AshenLegion,Event,War Cry,Uncommon
+131,Kharund Raider,AshenLegion,Unit,Kharund Raider,Common
+132,Kharund Brute,AshenLegion,Unit,Kharund Brute,Common
+133,Kharund Charger,AshenLegion,Unit,Kharund Skirmisher,Common
+134,Warhound Handler,AshenLegion,Unit,Kharund Raider,Common
+135,Ashclad Brute,AshenLegion,Unit,Kharund Brute,Common
+136,Bloodyoung Kharund,AshenLegion,Unit,Kharund Berserker,Common
+137,Kharund Scrapper,AshenLegion,Unit,Kharund Brute,Common
+138,Bonecarrier,AshenLegion,Unit,Kharund Brute,Common
+139,Kharund Hornblower,AshenLegion,Unit,Kharund Skirmisher,Common
+140,Ashmarked Recruit,AshenLegion,Unit,Kharund Raider,Common
+141,Kharund Cinderfist,AshenLegion,Unit,Kharund Brute,Common
+142,Trailtrampler,AshenLegion,Unit,Kharund Skirmisher,Common
+143,Bloodyoung Raider,AshenLegion,Unit,Kharund Raider,Common
+144,Warcamp Guard,AshenLegion,Unit,Kharund Brute,Common
+145,Ashenhorn,AshenLegion,Unit,Kharund Berserker,Common
+146,Ironback Brute,AshenLegion,Unit,Kharund Brute,Common
+147,Trophy Recruit,AshenLegion,Unit,Kharund Brute,Common
+148,Warband Scout,AshenLegion,Unit,Kharund Skirmisher,Common
+149,Forge-Tender,AshenLegion,Unit,Kharund Raider,Common
+150,Ashenclub,AshenLegion,Unit,Kharund Brute,Common
+151,Bloodmark Recruit,AshenLegion,Unit,Kharund Berserker,Common
+152,Warcry Novice,AshenLegion,Unit,Kharund Raider,Common
+153,Siege Recruit,AshenLegion,Unit,Kharund Brute,Common
+154,Ashguard Recruit,AshenLegion,Unit,Kharund Skirmisher,Common
+155,Raider's Instinct,AshenLegion,Event,Raid,Common
+156,Forge Spark,AshenLegion,Event,Muster,Common
+157,Quick Muster,AshenLegion,Event,Muster,Common
+158,Ashfall Jeer,AshenLegion,Event,Raid,Common
+159,Bonebreaker's Warmup,AshenLegion,Event,Raid,Common
+160,First Blood,AshenLegion,Event,War Cry,Common
+161,The Drowned Duchess,UndertowCourt,Unit,Human Tideguard,Mythic
+162,Harbormaster Vashti,UndertowCourt,Unit,Naga Harbor Warden,Exquisite
+163,The Reckoning Tide,UndertowCourt,Event,Tide,Exquisite
+164,The Whirlpool,UndertowCourt,Location,Reef Court,Exquisite
+165,Duchess-Marshal Corvane,UndertowCourt,Unit,Human Tideguard,Legendary
+166,Krakenkin Depthwalker,UndertowCourt,Unit,Krakenkin Depthwalker,Legendary
+167,Naga Netcaster,UndertowCourt,Unit,Naga Netcaster,Legendary
+168,Storm Surge,UndertowCourt,Event,Tide,Legendary
+169,Salvage the Wreck,UndertowCourt,Event,Salvage,Legendary
+170,The Coral Bastion,UndertowCourt,Location,Reef,Legendary
+171,Tideguard Officer,UndertowCourt,Unit,Human Tideguard,Rare
+172,Naga Wavecaller,UndertowCourt,Unit,Naga Wavecaller,Rare
+173,Krakenkin Anchorhand,UndertowCourt,Unit,Krakenkin Anchorhand,Rare
+174,Human Salvage Diver,UndertowCourt,Unit,Human Diver,Rare
+175,Naga Tidebound Sentinel,UndertowCourt,Unit,Naga Tideguard,Rare
+176,Krakenkin Netcaster,UndertowCourt,Unit,Krakenkin Netcaster,Rare
+177,Human Harbor Warden,UndertowCourt,Unit,Human Harbor Warden,Rare
+178,Naga Wreckdiver,UndertowCourt,Unit,Naga Diver,Rare
+179,Riptide,UndertowCourt,Event,Tide,Rare
+180,Wreckage Reclaimed,UndertowCourt,Event,Salvage,Rare
+181,Tidebreak,UndertowCourt,Event,Tide,Rare
+182,The Undertow Calls,UndertowCourt,Event,Tide,Rare
+183,The Drowned Pier,UndertowCourt,Location,Pier,Rare
+184,Coral Watch,UndertowCourt,Location,Reef,Rare
+185,The Salvage Docks,UndertowCourt,Location,Docks,Rare
+186,Harborkeep of the Drowned Court,UndertowCourt,Location,Docks,Rare
+187,Tideguard Recruit,UndertowCourt,Unit,Human Tideguard,Uncommon
+188,Naga Netcaster Novice,UndertowCourt,Unit,Naga Netcaster,Uncommon
+189,Krakenkin Deckhand,UndertowCourt,Unit,Krakenkin Deckhand,Uncommon
+190,Human Wreck Diver,UndertowCourt,Unit,Human Diver,Uncommon
+191,Naga Tideguard,UndertowCourt,Unit,Naga Tideguard,Uncommon
+192,Krakenkin Harborhand,UndertowCourt,Unit,Krakenkin Harbor Warden,Uncommon
+193,Human Salvager,UndertowCourt,Unit,Human Diver,Uncommon
+194,Naga Wavecaller Recruit,UndertowCourt,Unit,Naga Wavecaller,Uncommon
+195,Krakenkin Netcaster Recruit,UndertowCourt,Unit,Krakenkin Netcaster,Uncommon
+196,Human Depth Scout,UndertowCourt,Unit,Human Diver,Uncommon
+197,Naga Anchorhand,UndertowCourt,Unit,Naga Anchorhand,Uncommon
+198,Krakenkin Tidebound,UndertowCourt,Unit,Krakenkin Tideguard,Uncommon
+199,Human Harbor Recruit,UndertowCourt,Unit,Human Harbor Warden,Uncommon
+200,Naga Wreckwalker,UndertowCourt,Unit,Naga Diver,Uncommon
+201,Krakenkin Diver,UndertowCourt,Unit,Krakenkin Diver,Uncommon
+202,Human Coastward Sentinel,UndertowCourt,Unit,Human Tideguard,Uncommon
+203,Ebbing Tide,UndertowCourt,Event,Tide,Uncommon
+204,Wreck Diving,UndertowCourt,Event,Salvage,Uncommon
+205,Salvage Run,UndertowCourt,Event,Salvage,Uncommon
+206,Riptide Pull,UndertowCourt,Event,Tide,Uncommon
+207,Tidewatch,UndertowCourt,Event,Tide,Uncommon
+208,Storm Warning,UndertowCourt,Event,Tide,Uncommon
+209,Undertow's Grasp,UndertowCourt,Event,Tide,Uncommon
+210,Calm Before,UndertowCourt,Event,Tide,Uncommon
+211,Human Deckhand,UndertowCourt,Unit,Human Deckhand,Common
+212,Naga Coastling,UndertowCourt,Unit,Naga Coastling,Common
+213,Krakenkin Hatchling,UndertowCourt,Unit,Krakenkin Hatchling,Common
+214,Human Tidewatcher,UndertowCourt,Unit,Human Tideguard,Common
+215,Naga Deckling,UndertowCourt,Unit,Naga Deckhand,Common
+216,Krakenkin Netling,UndertowCourt,Unit,Krakenkin Netcaster,Common
+217,Human Salvage Novice,UndertowCourt,Unit,Human Diver,Common
+218,Naga Waveling,UndertowCourt,Unit,Naga Wavecaller,Common
+219,Krakenkin Ropehand,UndertowCourt,Unit,Krakenkin Deckhand,Common
+220,Human Coastguard Recruit,UndertowCourt,Unit,Human Tideguard,Common
+221,Naga Netcaster Recruit,UndertowCourt,Unit,Naga Netcaster,Common
+222,Krakenkin Tideling,UndertowCourt,Unit,Krakenkin Coastling,Common
+223,Human Wreckwatcher,UndertowCourt,Unit,Human Diver,Common
+224,Naga Harbor Recruit,UndertowCourt,Unit,Naga Harbor Warden,Common
+225,Krakenkin Wreckling,UndertowCourt,Unit,Krakenkin Diver,Common
+226,Human Tideguard Novice,UndertowCourt,Unit,Human Tideguard,Common
+227,Naga Coastal Scout,UndertowCourt,Unit,Naga Coastling,Common
+228,Krakenkin Netcaster Novice,UndertowCourt,Unit,Krakenkin Netcaster,Common
+229,Human Depth Novice,UndertowCourt,Unit,Human Diver,Common
+230,Naga Wavewatcher,UndertowCourt,Unit,Naga Wavecaller,Common
+231,Krakenkin Tidebound Novice,UndertowCourt,Unit,Krakenkin Tideguard,Common
+232,Human Wavecaller Novice,UndertowCourt,Unit,Human Wavecaller,Common
+233,Naga Salvage Novice,UndertowCourt,Unit,Naga Diver,Common
+234,Krakenkin Coastling,UndertowCourt,Unit,Krakenkin Coastling,Common
+235,Low Tide,UndertowCourt,Event,Tide,Common
+236,First Dive,UndertowCourt,Event,Salvage,Common
+237,Quiet Current,UndertowCourt,Event,Tide,Common
+238,Undertow's Whisper,UndertowCourt,Event,Tide,Common
+239,Salvager's Luck,UndertowCourt,Event,Salvage,Common
+240,Brace the Hull,UndertowCourt,Event,Tide,Common
+241,Captain-Marshal Reyes Okonkwo-Vane,DriftConcordat,Unit,Human Archivist,Mythic
+242,Chief Engineer Halvorsen,DriftConcordat,Unit,Human Engineer,Exquisite
+243,Full Salvage Operation,DriftConcordat,Event,Salvage,Exquisite
+244,The Drift Fleet,DriftConcordat,Location,Registry Vault,Exquisite
+245,The Quartermaster-Sisters,DriftConcordat,Unit,Human Engineers,Legendary
+246,Salvage-Drone Unit 7,DriftConcordat,Unit,Salvage-Drone,Legendary
+247,Wraith-crews,DriftConcordat,Unit,Cyborg Refugees,Legendary
+248,Full Reclamation,DriftConcordat,Event,Salvage,Legendary
+249,Registry Audit,DriftConcordat,Event,Registry,Legendary
+250,The Scrapyard Registry,DriftConcordat,Location,Scrap-Yard,Legendary
+251,Human Engineer Vantage,DriftConcordat,Unit,Human Engineer,Rare
+252,Android Scavenger Prime,DriftConcordat,Unit,Android Scavenger,Rare
+253,"Refugee Soldier, Twice-Displaced",DriftConcordat,Unit,Refugee Soldier,Rare
+254,Salvage-Drone Recon,DriftConcordat,Unit,Salvage-Drone,Rare
+255,Mutant Scavenger Kess,DriftConcordat,Unit,Mutant Scavenger,Rare
+256,Cyborg Refugee Denn,DriftConcordat,Unit,Cyborg Refugee,Rare
+257,Human Archivist Recruit,DriftConcordat,Unit,Human Archivist,Rare
+258,Android Reclaimer,DriftConcordat,Unit,Android Reclaimer,Rare
+259,Registry Recall,DriftConcordat,Event,Registry,Rare
+260,Scrap Drive,DriftConcordat,Event,Salvage,Rare
+261,Black-Market Exchange,DriftConcordat,Event,Trade,Rare
+262,Refugee Intake,DriftConcordat,Event,Intake,Rare
+263,The Scrap-Yards of Drift Station Nine,DriftConcordat,Location,Scrap-Yard,Rare
+264,Salvage Docks Perpetual,DriftConcordat,Location,Docks,Rare
+265,"The Registry Vault, Lower Tier",DriftConcordat,Location,Registry Vault,Rare
+266,Drift Concordat War Room,DriftConcordat,Location,War Room,Rare
+267,Human Engineer Recruit,DriftConcordat,Unit,Human Engineer,Uncommon
+268,Android Scavenger Recruit,DriftConcordat,Unit,Android Scavenger,Uncommon
+269,Refugee Soldier Recruit,DriftConcordat,Unit,Refugee Soldier,Uncommon
+270,Salvage-Drone Mark II,DriftConcordat,Unit,Salvage-Drone,Uncommon
+271,Mutant Scavenger Recruit,DriftConcordat,Unit,Mutant Scavenger,Uncommon
+272,Cyborg Refugee Recruit,DriftConcordat,Unit,Cyborg Refugee,Uncommon
+273,Human Archivist Novice,DriftConcordat,Unit,Human Archivist,Uncommon
+274,Android Reclaimer Recruit,DriftConcordat,Unit,Android Reclaimer,Uncommon
+275,Refugee Engineer,DriftConcordat,Unit,Refugee Soldier,Uncommon
+276,Salvage-Drone Escort,DriftConcordat,Unit,Salvage-Drone,Uncommon
+277,Mutant Scavenger Kessling,DriftConcordat,Unit,Mutant Scavenger,Uncommon
+278,Cyborg Refugee Tinker,DriftConcordat,Unit,Cyborg Refugee,Uncommon
+279,Human Registrar Clerk,DriftConcordat,Unit,Human Archivist,Uncommon
+280,Android Recon Unit,DriftConcordat,Unit,Android Scavenger,Uncommon
+281,Refugee Scavenger,DriftConcordat,Unit,Refugee Soldier,Uncommon
+282,Salvage-Drone Hauler,DriftConcordat,Unit,Salvage-Drone,Uncommon
+283,Scrap Exchange,DriftConcordat,Event,Salvage,Uncommon
+284,Salvage Sweep,DriftConcordat,Event,Salvage,Uncommon
+285,Registry Correction,DriftConcordat,Event,Registry,Uncommon
+286,Black-Market Tip,DriftConcordat,Event,Trade,Uncommon
+287,Intake Processing,DriftConcordat,Event,Intake,Uncommon
+288,Scavenger's Instinct,DriftConcordat,Event,Salvage,Uncommon
+289,Emergency Reclamation,DriftConcordat,Event,Salvage,Uncommon
+290,Registry Lockdown,DriftConcordat,Event,Registry,Uncommon
+291,Human Engineer,DriftConcordat,Unit,Human Engineer,Common
+292,Android Scavenger,DriftConcordat,Unit,Android Scavenger,Common
+293,Refugee Soldier,DriftConcordat,Unit,Refugee Soldier,Common
+294,Salvage-Drone Basic Unit,DriftConcordat,Unit,Salvage-Drone,Common
+295,Mutant Scavenger,DriftConcordat,Unit,Mutant Scavenger,Common
+296,Cyborg Refugee,DriftConcordat,Unit,Cyborg Refugee,Common
+297,Human Archivist Trainee,DriftConcordat,Unit,Human Archivist,Common
+298,Android Reclaimer Basic,DriftConcordat,Unit,Android Reclaimer,Common
+299,Refugee Engineer Trainee,DriftConcordat,Unit,Refugee Soldier,Common
+300,Salvage-Drone Sentry,DriftConcordat,Unit,Salvage-Drone,Common
+301,Mutant Scavenger Whelp,DriftConcordat,Unit,Mutant Scavenger,Common
+302,Cyborg Refugee Trainee,DriftConcordat,Unit,Cyborg Refugee,Common
+303,Human Registrar Assistant,DriftConcordat,Unit,Human Archivist,Common
+304,Android Recon Basic,DriftConcordat,Unit,Android Scavenger,Common
+305,Refugee Scavenger Novice,DriftConcordat,Unit,Refugee Soldier,Common
+306,Salvage-Drone Loader,DriftConcordat,Unit,Salvage-Drone,Common
+307,Human Engineer Apprentice,DriftConcordat,Unit,Human Engineer,Common
+308,Android Scavenger Basic,DriftConcordat,Unit,Android Scavenger,Common
+309,Refugee Soldier Trainee,DriftConcordat,Unit,Refugee Soldier,Common
+310,Mutant Scavenger Basic,DriftConcordat,Unit,Mutant Scavenger,Common
+311,Cyborg Refugee Basic,DriftConcordat,Unit,Cyborg Refugee,Common
+312,Human Archivist Basic,DriftConcordat,Unit,Human Archivist,Common
+313,Android Reclaimer Trainee,DriftConcordat,Unit,Android Reclaimer,Common
+314,Salvage-Drone Basic Hauler,DriftConcordat,Unit,Salvage-Drone,Common
+315,Scrap Pickup,DriftConcordat,Event,Salvage,Common
+316,Quick Salvage,DriftConcordat,Event,Salvage,Common
+317,Intake Line,DriftConcordat,Event,Intake,Common
+318,Registry Note,DriftConcordat,Event,Registry,Common
+319,Black-Market Deal,DriftConcordat,Event,Trade,Common
+320,Reinforced Plating,DriftConcordat,Event,Salvage,Common
+321,Prime Node Osiris,NullChoir,Unit,Node Construct,Mythic
+322,Choir-Voice Meridian,NullChoir,Unit,Assimilated Human,Exquisite
+323,Mass Reintegration,NullChoir,Event,Assimilation,Exquisite
+324,The Lattice Well,NullChoir,Location,Lattice Node,Exquisite
+325,Node-Marshal Ferrus,NullChoir,Unit,Node Construct,Legendary
+326,Assimilated Vanguard,NullChoir,Unit,Assimilated Human,Legendary
+327,Lattice Drone Prime,NullChoir,Unit,Lattice Drone,Legendary
+328,Consensus Vote,NullChoir,Event,Consensus,Legendary
+329,Signal Reintegration,NullChoir,Event,Assimilation,Legendary
+330,The Processing Well,NullChoir,Location,Processing Well,Legendary
+331,Node Sentinel,NullChoir,Unit,Node Construct,Rare
+332,Assimilated Engineer,NullChoir,Unit,Assimilated Human,Rare
+333,Lattice Relay Drone,NullChoir,Unit,Lattice Drone,Rare
+334,Node Vanguard,NullChoir,Unit,Node Construct,Rare
+335,Assimilated Diplomat,NullChoir,Unit,Assimilated Human,Rare
+336,Choir Fragment,NullChoir,Unit,Choir Vessel,Rare
+337,Node Constructor,NullChoir,Unit,Node Construct,Rare
+338,Assimilated Vanguard Elite,NullChoir,Unit,Assimilated Human,Rare
+339,Signal Loop,NullChoir,Event,Assimilation,Rare
+340,Processing Cycle,NullChoir,Event,Consensus,Rare
+341,Choir Resonance,NullChoir,Event,Consensus,Rare
+342,Forced Assimilation,NullChoir,Event,Assimilation,Rare
+343,Relay Spire Alpha,NullChoir,Location,Relay Spire,Rare
+344,The Peripheral Lattice,NullChoir,Location,Lattice Node,Rare
+345,Processing Node Theta,NullChoir,Location,Processing Well,Rare
+346,The Assimilation Wellspring,NullChoir,Location,Processing Well,Rare
+347,Node Recruit,NullChoir,Unit,Node Construct,Uncommon
+348,Assimilated Scout,NullChoir,Unit,Assimilated Human,Uncommon
+349,Lattice Fragment,NullChoir,Unit,Lattice Drone,Uncommon
+350,Node Vessel,NullChoir,Unit,Node Construct,Uncommon
+351,Assimilated Soldier,NullChoir,Unit,Assimilated Human,Uncommon
+352,Choir Node Recruit,NullChoir,Unit,Node Construct,Uncommon
+353,Assimilated Scholar,NullChoir,Unit,Assimilated Human,Uncommon
+354,Lattice Drone Recruit,NullChoir,Unit,Lattice Drone,Uncommon
+355,Node Processor,NullChoir,Unit,Node Construct,Uncommon
+356,Assimilated Vanguard Recruit,NullChoir,Unit,Assimilated Human,Uncommon
+357,Choir Relay Novice,NullChoir,Unit,Choir Vessel,Uncommon
+358,Node Construct Recruit,NullChoir,Unit,Node Construct,Uncommon
+359,Assimilated Technician,NullChoir,Unit,Assimilated Human,Uncommon
+360,Lattice Sentinel Novice,NullChoir,Unit,Lattice Drone,Uncommon
+361,Node Whisper,NullChoir,Unit,Node Construct,Uncommon
+362,Assimilated Vessel Recruit,NullChoir,Unit,Assimilated Human,Uncommon
+363,Signal Echo,NullChoir,Event,Consensus,Uncommon
+364,Reintegration Pulse,NullChoir,Event,Assimilation,Uncommon
+365,Consensus Reached,NullChoir,Event,Consensus,Uncommon
+366,Forced Integration,NullChoir,Event,Assimilation,Uncommon
+367,Processing Loop,NullChoir,Event,Consensus,Uncommon
+368,Fragment Recall,NullChoir,Event,Assimilation,Uncommon
+369,Signal Boost,NullChoir,Event,Consensus,Uncommon
+370,Redundant Systems,NullChoir,Event,Consensus,Uncommon
+371,Node Hatchling,NullChoir,Unit,Node Construct,Common
+372,Assimilated Villager,NullChoir,Unit,Assimilated Human,Common
+373,Lattice Seedling,NullChoir,Unit,Lattice Drone,Common
+374,Node Whisperling,NullChoir,Unit,Node Construct,Common
+375,Assimilated Farmer,NullChoir,Unit,Assimilated Human,Common
+376,Choir Novice,NullChoir,Unit,Choir Vessel,Common
+377,Node Splice,NullChoir,Unit,Node Construct,Common
+378,Assimilated Clerk,NullChoir,Unit,Assimilated Human,Common
+379,Lattice Thread,NullChoir,Unit,Lattice Drone,Common
+380,Node Recruit Basic,NullChoir,Unit,Node Construct,Common
+381,Assimilated Recruit,NullChoir,Unit,Assimilated Human,Common
+382,Choir Echo,NullChoir,Unit,Choir Vessel,Common
+383,Node Vessel Basic,NullChoir,Unit,Node Construct,Common
+384,Assimilated Sentry,NullChoir,Unit,Assimilated Human,Common
+385,Lattice Node Basic,NullChoir,Unit,Lattice Drone,Common
+386,Node Fragment,NullChoir,Unit,Node Construct,Common
+387,Assimilated Laborer,NullChoir,Unit,Assimilated Human,Common
+388,Choir Vessel Basic,NullChoir,Unit,Choir Vessel,Common
+389,Node Signal Basic,NullChoir,Unit,Node Construct,Common
+390,Assimilated Guard,NullChoir,Unit,Assimilated Human,Common
+391,Lattice Drone Basic,NullChoir,Unit,Lattice Drone,Common
+392,Node Recruit Elite,NullChoir,Unit,Node Construct,Common
+393,Assimilated Veteran,NullChoir,Unit,Assimilated Human,Common
+394,Choir Fragment Basic,NullChoir,Unit,Choir Vessel,Common
+395,Weak Signal,NullChoir,Event,Consensus,Common
+396,Quick Process,NullChoir,Event,Consensus,Common
+397,Minor Assimilation,NullChoir,Event,Assimilation,Common
+398,First Contact,NullChoir,Event,Assimilation,Common
+399,Node Echo,NullChoir,Event,Consensus,Common
+400,Basic Redundancy,NullChoir,Event,Consensus,Common
+401,The Standing Chair,MeridianCombine,Unit,Construct Executive,Mythic
+402,Chief Negotiator Vex,MeridianCombine,Unit,Augmented Human Negotiator,Exquisite
+403,Hostile Takeover,MeridianCombine,Event,Takeover,Exquisite
+404,The Meridian Spire,MeridianCombine,Location,Corporate Tower,Exquisite
+405,The Director of Acquisitions,MeridianCombine,Unit,Augmented Human Director,Legendary
+406,The Compliance Division,MeridianCombine,Unit,Constructs,Legendary
+407,"Augmented Analyst, Overworked",MeridianCombine,Unit,Augmented Human Analyst,Legendary
+408,Contract Renegotiation,MeridianCombine,Event,Contract,Legendary
+409,Market Correction,MeridianCombine,Event,Market,Legendary
+410,The Acquisition Office,MeridianCombine,Location,Acquisition Office,Legendary
+411,Augmented Human Analyst,MeridianCombine,Unit,Augmented Human Analyst,Rare
+412,Construct Market Executive,MeridianCombine,Unit,Construct,Rare
+413,Augmented Human Security Contractor,MeridianCombine,Unit,Augmented Human Security,Rare
+414,Construct Analyst Unit,MeridianCombine,Unit,Construct,Rare
+415,Augmented Human Negotiator,MeridianCombine,Unit,Augmented Human Negotiator,Rare
+416,Construct Enforcer,MeridianCombine,Unit,Construct,Rare
+417,Augmented Human Recruiter,MeridianCombine,Unit,Augmented Human Recruiter,Rare
+418,Construct Auditor,MeridianCombine,Unit,Construct,Rare
+419,Standard Contract,MeridianCombine,Event,Contract,Rare
+420,Hostile Bid,MeridianCombine,Event,Takeover,Rare
+421,Emergency Restructuring,MeridianCombine,Event,Contract,Rare
+422,Shareholder Vote,MeridianCombine,Event,Market,Rare
+423,The Data-Vaults,MeridianCombine,Location,Data-Vault,Rare
+424,Trading Floor Prime,MeridianCombine,Location,Trading Floor,Rare
+425,Acquisition Office Annex,MeridianCombine,Location,Acquisition Office,Rare
+426,The Boardroom,MeridianCombine,Location,Corporate Tower,Rare
+427,Augmented Human Analyst Recruit,MeridianCombine,Unit,Augmented Human Analyst,Uncommon
+428,Construct Drone,MeridianCombine,Unit,Construct,Uncommon
+429,Augmented Human Security Recruit,MeridianCombine,Unit,Augmented Human Security,Uncommon
+430,Construct Market Drone,MeridianCombine,Unit,Construct,Uncommon
+431,Augmented Human Negotiator Recruit,MeridianCombine,Unit,Augmented Human Negotiator,Uncommon
+432,Construct Enforcer Unit,MeridianCombine,Unit,Construct,Uncommon
+433,Augmented Human Recruiter Novice,MeridianCombine,Unit,Augmented Human Recruiter,Uncommon
+434,Construct Auditor Unit,MeridianCombine,Unit,Construct,Uncommon
+435,Augmented Human Executive Trainee,MeridianCombine,Unit,Augmented Human Executive,Uncommon
+436,Construct Analyst Recruit,MeridianCombine,Unit,Construct,Uncommon
+437,Augmented Human Contractor,MeridianCombine,Unit,Augmented Human Security,Uncommon
+438,Construct Recruiter Unit,MeridianCombine,Unit,Construct,Uncommon
+439,Augmented Human Auditor,MeridianCombine,Unit,Augmented Human Analyst,Uncommon
+440,Construct Negotiator Unit,MeridianCombine,Unit,Construct,Uncommon
+441,Augmented Human Market Trainee,MeridianCombine,Unit,Augmented Human Analyst,Uncommon
+442,Construct Security Recruit,MeridianCombine,Unit,Construct,Uncommon
+443,Minor Contract,MeridianCombine,Event,Contract,Uncommon
+444,Market Dip,MeridianCombine,Event,Market,Uncommon
+445,Recruitment Drive,MeridianCombine,Event,Contract,Uncommon
+446,Asset Reallocation,MeridianCombine,Event,Market,Uncommon
+447,Boardroom Pressure,MeridianCombine,Event,Contract,Uncommon
+448,Due Diligence Report,MeridianCombine,Event,Contract,Uncommon
+449,Cost-Cutting Measure,MeridianCombine,Event,Market,Uncommon
+450,Aggressive Expansion,MeridianCombine,Event,Takeover,Uncommon
+451,Augmented Human Analyst Trainee,MeridianCombine,Unit,Augmented Human Analyst,Common
+452,Construct Drone Basic,MeridianCombine,Unit,Construct,Common
+453,Augmented Human Security Guard,MeridianCombine,Unit,Augmented Human Security,Common
+454,Construct Market Unit,MeridianCombine,Unit,Construct,Common
+455,Augmented Human Negotiator Trainee,MeridianCombine,Unit,Augmented Human Negotiator,Common
+456,Construct Enforcer Basic,MeridianCombine,Unit,Construct,Common
+457,Augmented Human Recruiter Trainee,MeridianCombine,Unit,Augmented Human Recruiter,Common
+458,Construct Auditor Basic,MeridianCombine,Unit,Construct,Common
+459,Augmented Human Executive Assistant,MeridianCombine,Unit,Augmented Human Executive,Common
+460,Construct Analyst Basic,MeridianCombine,Unit,Construct,Common
+461,Augmented Human Contractor Recruit,MeridianCombine,Unit,Augmented Human Security,Common
+462,Construct Recruiter Basic,MeridianCombine,Unit,Construct,Common
+463,Augmented Human Auditor Trainee,MeridianCombine,Unit,Augmented Human Analyst,Common
+464,Construct Negotiator Basic,MeridianCombine,Unit,Construct,Common
+465,Augmented Human Market Analyst,MeridianCombine,Unit,Augmented Human Analyst,Common
+466,Construct Security Basic,MeridianCombine,Unit,Construct,Common
+467,Augmented Human Recruit,MeridianCombine,Unit,Augmented Human Analyst,Common
+468,Construct Drone Escort,MeridianCombine,Unit,Construct,Common
+469,Augmented Human Analyst Basic,MeridianCombine,Unit,Augmented Human Analyst,Common
+470,Construct Market Trainee,MeridianCombine,Unit,Construct,Common
+471,Augmented Human Security Trainee,MeridianCombine,Unit,Augmented Human Security,Common
+472,Construct Auditor Trainee,MeridianCombine,Unit,Construct,Common
+473,Augmented Human Contractor Basic,MeridianCombine,Unit,Augmented Human Security,Common
+474,Construct Recruiter Trainee,MeridianCombine,Unit,Construct,Common
+475,Minor Contract Clause,MeridianCombine,Event,Contract,Common
+476,Quick Trade,MeridianCombine,Event,Market,Common
+477,New Hire,MeridianCombine,Event,Contract,Common
+478,Minor Correction,MeridianCombine,Event,Market,Common
+479,Standard Procedure,MeridianCombine,Event,Contract,Common
+480,Liability Waiver,MeridianCombine,Event,Contract,Common
+481,"The First Root, Awakened",VerdantConcord,Unit,Ancient Fae,Mythic
+482,Warden Elenya Thistlecrown,VerdantConcord,Unit,Fae Warden,Exquisite
+483,The Great Communion,VerdantConcord,Event,Communion,Exquisite
+484,The Sundered Canopy,VerdantConcord,Location,Root-Hall,Exquisite
+485,Warden-Speaker Brambletongue,VerdantConcord,Unit,Beastfolk Beastspeaker,Legendary
+486,Fae Shaper of the Deep Grove,VerdantConcord,Unit,Fae Shaper,Legendary
+487,"Beastfolk Ranger, Old-Growth",VerdantConcord,Unit,Beastfolk Ranger,Legendary
+488,Growth Surge,VerdantConcord,Event,Growth Surge,Legendary
+489,Seasonal Rite,VerdantConcord,Event,Seasonal Rite,Legendary
+490,The Ley-Shrine of Endless Spring,VerdantConcord,Location,Ley-Shrine,Legendary
+491,Fae Shaper Adept,VerdantConcord,Unit,Fae Shaper,Rare
+492,Beastfolk Ranger Scout,VerdantConcord,Unit,Beastfolk Ranger,Rare
+493,Fae Tender of the Grove,VerdantConcord,Unit,Fae Tender,Rare
+494,Beastfolk Beastspeaker Adept,VerdantConcord,Unit,Beastfolk Beastspeaker,Rare
+495,Fae Warden of the Threshold,VerdantConcord,Unit,Fae Warden,Rare
+496,"Beastfolk Ranger, Thornback",VerdantConcord,Unit,Beastfolk Ranger,Rare
+497,"Fae Shaper, Rootbound",VerdantConcord,Unit,Fae Shaper,Rare
+498,Beastfolk Tender,VerdantConcord,Unit,Fae Tender,Rare
+499,Communion of Roots,VerdantConcord,Event,Communion,Rare
+500,Bloom,VerdantConcord,Event,Growth Surge,Rare
+501,Wild Growth,VerdantConcord,Event,Growth Surge,Rare
+502,Thornlash,VerdantConcord,Event,Seasonal Rite,Rare
+503,The Root-Hall of Elenwood,VerdantConcord,Location,Root-Hall,Rare
+504,Grove of the Beastspeakers,VerdantConcord,Location,Grove,Rare
+505,The Deep Ley-Shrine,VerdantConcord,Location,Ley-Shrine,Rare
+506,Old-Growth Sanctuary,VerdantConcord,Location,Grove,Rare
+507,Fae Shaper Recruit,VerdantConcord,Unit,Fae Shaper,Uncommon
+508,Beastfolk Ranger Recruit,VerdantConcord,Unit,Beastfolk Ranger,Uncommon
+509,Fae Tender Recruit,VerdantConcord,Unit,Fae Tender,Uncommon
+510,Beastfolk Beastspeaker Recruit,VerdantConcord,Unit,Beastfolk Beastspeaker,Uncommon
+511,Fae Warden Recruit,VerdantConcord,Unit,Fae Warden,Uncommon
+512,"Beastfolk Ranger, Sapling-Born",VerdantConcord,Unit,Beastfolk Ranger,Uncommon
+513,"Fae Shaper, Green Touch",VerdantConcord,Unit,Fae Shaper,Uncommon
+514,Beastfolk Tender Recruit,VerdantConcord,Unit,Fae Tender,Uncommon
+515,"Fae Warden, Thistleguard",VerdantConcord,Unit,Fae Warden,Uncommon
+516,Beastfolk Scout,VerdantConcord,Unit,Beastfolk Ranger,Uncommon
+517,Fae Grove-Tender Novice,VerdantConcord,Unit,Fae Tender,Uncommon
+518,Beastfolk Beastspeaker Novice,VerdantConcord,Unit,Beastfolk Beastspeaker,Uncommon
+519,Fae Shaper Adept Novice,VerdantConcord,Unit,Fae Shaper,Uncommon
+520,"Beastfolk Ranger, Thornwatch",VerdantConcord,Unit,Beastfolk Ranger,Uncommon
+521,Fae Warden of the Sapling Line,VerdantConcord,Unit,Fae Warden,Uncommon
+522,"Beastfolk Tender, Green-Handed",VerdantConcord,Unit,Fae Tender,Uncommon
+523,Grove's Whisper,VerdantConcord,Event,Communion,Uncommon
+524,Rootbind,VerdantConcord,Event,Seasonal Rite,Uncommon
+525,Sapling's Growth,VerdantConcord,Event,Growth Surge,Uncommon
+526,Blessing of the Grove,VerdantConcord,Event,Communion,Uncommon
+527,Call of the Wild,VerdantConcord,Event,Communion,Uncommon
+528,Renewed Growth,VerdantConcord,Event,Growth Surge,Uncommon
+529,Thicket's Defense,VerdantConcord,Event,Seasonal Rite,Uncommon
+530,Quiet Season,VerdantConcord,Event,Seasonal Rite,Uncommon
+531,Fae Shaper Sapling,VerdantConcord,Unit,Fae Shaper,Common
+532,Beastfolk Ranger Cub,VerdantConcord,Unit,Beastfolk Ranger,Common
+533,Fae Tender Sprout,VerdantConcord,Unit,Fae Tender,Common
+534,Beastfolk Beastspeaker Whelp,VerdantConcord,Unit,Beastfolk Beastspeaker,Common
+535,Fae Warden Sprout,VerdantConcord,Unit,Fae Warden,Common
+536,Beastfolk Ranger Novice,VerdantConcord,Unit,Beastfolk Ranger,Common
+537,Fae Shaper Novice,VerdantConcord,Unit,Fae Shaper,Common
+538,Beastfolk Tender Sprout,VerdantConcord,Unit,Fae Tender,Common
+539,Fae Warden Novice,VerdantConcord,Unit,Fae Warden,Common
+540,Beastfolk Scout Cub,VerdantConcord,Unit,Beastfolk Ranger,Common
+541,Fae Grove-Tender Sprout,VerdantConcord,Unit,Fae Tender,Common
+542,Beastfolk Beastspeaker Cub,VerdantConcord,Unit,Beastfolk Beastspeaker,Common
+543,"Fae Shaper, Green Sprout",VerdantConcord,Unit,Fae Shaper,Common
+544,"Beastfolk Ranger, Thicket-Born",VerdantConcord,Unit,Beastfolk Ranger,Common
+545,Fae Warden Sapling,VerdantConcord,Unit,Fae Warden,Common
+546,Beastfolk Tender Novice,VerdantConcord,Unit,Fae Tender,Common
+547,Fae Shaper Whelp,VerdantConcord,Unit,Fae Shaper,Common
+548,Beastfolk Scout Novice,VerdantConcord,Unit,Beastfolk Ranger,Common
+549,"Fae Tender, Root-Handed",VerdantConcord,Unit,Fae Tender,Common
+550,Beastfolk Ranger Sprout,VerdantConcord,Unit,Beastfolk Ranger,Common
+551,"Fae Warden, Thorn-Touched",VerdantConcord,Unit,Fae Warden,Common
+552,Beastfolk Beastspeaker Sprout,VerdantConcord,Unit,Beastfolk Beastspeaker,Common
+553,Fae Grove-Tender Novice II,VerdantConcord,Unit,Fae Tender,Common
+554,"Beastfolk Tender, New-Grown",VerdantConcord,Unit,Fae Tender,Common
+555,Small Bloom,VerdantConcord,Event,Growth Surge,Common
+556,Quick Growth,VerdantConcord,Event,Growth Surge,Common
+557,Undergrowth,VerdantConcord,Event,Seasonal Rite,Common
+558,Grove's Gift,VerdantConcord,Event,Communion,Common
+559,First Bloom,VerdantConcord,Event,Growth Surge,Common
+560,Root Ward,VerdantConcord,Event,Seasonal Rite,Common
+562,Spymistress Corvienne,HollowCourt,Unit,Defected Noble,Exquisite
+563,The Long Con,HollowCourt,Event,Coup,Exquisite
+564,The Latticework,HollowCourt,Location,Embassy,Exquisite
+565,"Chancellor's Voice, Mireille Ansel",HollowCourt,Unit,Shadowkin Saboteur,Legendary
+566,The Ledger-Keeper,HollowCourt,Unit,Shadowkin Ledger-Keeper,Legendary
+567,The Pale Notary,HollowCourt,Unit,Defected Notary,Legendary
+568,Coup d'Ã‰tat,HollowCourt,Event,Coup,Legendary
+569,Sabotage Operation,HollowCourt,Event,Sabotage,Legendary
+570,The Chancellor's Safehouse,HollowCourt,Location,Safehouse,Legendary
+571,Shadowkin Spy,HollowCourt,Unit,Shadowkin Spy,Rare
+572,Defected Noble Informant,HollowCourt,Unit,Defected Noble,Rare
+573,Shadowkin Saboteur,HollowCourt,Unit,Shadowkin Saboteur,Rare
+574,Defected Diplomat,HollowCourt,Unit,Defected Diplomat,Rare
+575,Shadowkin Adjacent-Watcher,HollowCourt,Unit,Shadowkin Spy,Rare
+576,Defected Noble Assassin,HollowCourt,Unit,Defected Noble,Rare
+577,Shadowkin Blackmailer,HollowCourt,Unit,Shadowkin Spy,Rare
+578,"Defected Diplomat, Court Exile",HollowCourt,Unit,Defected Diplomat,Rare
+579,Blackmail Letter,HollowCourt,Event,Coup,Rare
+580,Quiet Sabotage,HollowCourt,Event,Sabotage,Rare
+581,Whispered Rumor,HollowCourt,Event,Coup,Rare
+582,Safehouse Meeting,HollowCourt,Event,Coup,Rare
+583,The Shadow Embassy,HollowCourt,Location,Embassy,Rare
+584,Black Market Row,HollowCourt,Location,Black Market,Rare
+585,The Unseen Safehouse,HollowCourt,Location,Safehouse,Rare
+586,Chancellor's Quiet Office,HollowCourt,Location,Embassy,Rare
+587,Shadowkin Spy Recruit,HollowCourt,Unit,Shadowkin Spy,Uncommon
+588,Defected Noble Recruit,HollowCourt,Unit,Defected Noble,Uncommon
+589,Shadowkin Saboteur Recruit,HollowCourt,Unit,Shadowkin Saboteur,Uncommon
+590,Defected Diplomat Recruit,HollowCourt,Unit,Defected Diplomat,Uncommon
+591,Shadowkin Informant,HollowCourt,Unit,Shadowkin Spy,Uncommon
+592,"Defected Noble, Half-Turned",HollowCourt,Unit,Defected Noble,Uncommon
+593,Shadowkin Blackmailer Recruit,HollowCourt,Unit,Shadowkin Spy,Uncommon
+594,"Defected Diplomat, Newly Exiled",HollowCourt,Unit,Defected Diplomat,Uncommon
+595,Shadowkin Adjacent Scout,HollowCourt,Unit,Shadowkin Spy,Uncommon
+596,Defected Noble Saboteur,HollowCourt,Unit,Defected Noble,Uncommon
+597,Shadowkin Spy Novice,HollowCourt,Unit,Shadowkin Spy,Uncommon
+598,"Defected Diplomat, Silver-Tongued",HollowCourt,Unit,Defected Diplomat,Uncommon
+599,Shadowkin Informant Recruit,HollowCourt,Unit,Shadowkin Spy,Uncommon
+600,Defected Noble Informant Recruit,HollowCourt,Unit,Defected Noble,Uncommon
+601,Shadowkin Saboteur Novice,HollowCourt,Unit,Shadowkin Saboteur,Uncommon
+602,Defected Diplomat Novice,HollowCourt,Unit,Defected Diplomat,Uncommon
+603,Quiet Word,HollowCourt,Event,Coup,Uncommon
+604,Minor Blackmail,HollowCourt,Event,Coup,Uncommon
+605,Bribery,HollowCourt,Event,Coup,Uncommon
+606,Forged Papers,HollowCourt,Event,Sabotage,Uncommon
+607,Whisper in the Dark,HollowCourt,Event,Coup,Uncommon
+608,Sabotaged Supply Line,HollowCourt,Event,Sabotage,Uncommon
+609,Coerced Silence,HollowCourt,Event,Coup,Uncommon
+610,Court Intrigue,HollowCourt,Event,Coup,Uncommon
+611,Shadowkin Novice Spy,HollowCourt,Unit,Shadowkin Spy,Common
+612,Defected Noble Attendant,HollowCourt,Unit,Defected Noble,Common
+613,Shadowkin Errand-Runner,HollowCourt,Unit,Shadowkin Spy,Common
+614,Defected Diplomat's Aide,HollowCourt,Unit,Defected Diplomat,Common
+615,Shadowkin Lookout,HollowCourt,Unit,Shadowkin Spy,Common
+616,Defected Noble Scribe,HollowCourt,Unit,Defected Noble,Common
+617,Shadowkin Apprentice,HollowCourt,Unit,Shadowkin Saboteur,Common
+618,Defected Diplomat Attendant,HollowCourt,Unit,Defected Diplomat,Common
+619,Shadowkin Courier,HollowCourt,Unit,Shadowkin Spy,Common
+620,Defected Noble Recruit Basic,HollowCourt,Unit,Defected Noble,Common
+621,Shadowkin Informant Novice,HollowCourt,Unit,Shadowkin Spy,Common
+622,Defected Diplomat Scribe,HollowCourt,Unit,Defected Diplomat,Common
+623,Shadowkin Saboteur Apprentice,HollowCourt,Unit,Shadowkin Saboteur,Common
+624,Defected Noble Courier,HollowCourt,Unit,Defected Noble,Common
+625,Shadowkin Spy Trainee,HollowCourt,Unit,Shadowkin Spy,Common
+626,Defected Diplomat Novice Basic,HollowCourt,Unit,Defected Diplomat,Common
+627,Shadowkin Watcher,HollowCourt,Unit,Shadowkin Spy,Common
+628,Defected Noble Aide,HollowCourt,Unit,Defected Noble,Common
+629,Shadowkin Errand Novice,HollowCourt,Unit,Shadowkin Spy,Common
+630,Defected Diplomat Courier,HollowCourt,Unit,Defected Diplomat,Common
+631,Shadowkin Blackmail Apprentice,HollowCourt,Unit,Shadowkin Saboteur,Common
+632,Defected Noble Informant Basic,HollowCourt,Unit,Defected Noble,Common
+633,Shadowkin Sabotage Apprentice,HollowCourt,Unit,Shadowkin Saboteur,Common
+634,"Defected Diplomat, Recently Turned",HollowCourt,Unit,Defected Diplomat,Common
+635,Minor Rumor,HollowCourt,Event,Coup,Common
+636,Quiet Favor,HollowCourt,Event,Coup,Common
+637,Petty Bribery,HollowCourt,Event,Coup,Common
+638,Forged Note,HollowCourt,Event,Sabotage,Common
+639,Minor Sabotage,HollowCourt,Event,Sabotage,Common
+640,Discretion,HollowCourt,Event,Coup,Common
+642,Lucky Sable-Ren,WagerBound,Unit,Human Duelist,Exquisite
+643,All In,WagerBound,Event,Wager,Exquisite
+644,The Last Chance,WagerBound,Location,Vault,Exquisite
+645,High Roller Vashenko,WagerBound,Unit,Tiefling Fortune-Teller,Legendary
+646,The Odds-Keeper,WagerBound,Unit,Tabaxi Odds-Keeper,Legendary
+647,Fortune's Orphans,WagerBound,Unit,Contracted Duelists,Legendary
+648,Double or Nothing,WagerBound,Event,Wager,Legendary
+649,Deal with Fate,WagerBound,Event,Deal,Legendary
+650,The Dueling Pit,WagerBound,Location,Dueling Pit,Legendary
+651,Human Duelist,WagerBound,Unit,Human Duelist,Rare
+652,Tabaxi Card Sharp,WagerBound,Unit,Tabaxi Card Sharp,Rare
+653,Tiefling Fortune-Teller,WagerBound,Unit,Tiefling Fortune-Teller,Rare
+654,Contracted Debt Collector,WagerBound,Unit,Contracted Duelist,Rare
+655,Human Card Sharp,WagerBound,Unit,Human Duelist,Rare
+656,Tabaxi Duelist,WagerBound,Unit,Tabaxi Card Sharp,Rare
+657,Tiefling Debt Collector,WagerBound,Unit,Tiefling Fortune-Teller,Rare
+658,Contracted Fortune-Teller,WagerBound,Unit,Contracted Duelist,Rare
+659,Loaded Dice,WagerBound,Event,Wager,Rare
+660,Fortune Favors,WagerBound,Event,Deal,Rare
+661,Debt Collection,WagerBound,Event,Deal,Rare
+662,House Edge,WagerBound,Event,Wager,Rare
+663,The Parlor,WagerBound,Location,Parlor,Rare
+664,The Dueling Grounds,WagerBound,Location,Dueling Pit,Rare
+665,The House Vault,WagerBound,Location,Vault,Rare
+666,The Backroom Table,WagerBound,Location,Parlor,Rare
+667,Human Duelist Recruit,WagerBound,Unit,Human Duelist,Uncommon
+668,Tabaxi Card Sharp Recruit,WagerBound,Unit,Tabaxi Card Sharp,Uncommon
+669,Tiefling Fortune-Teller Novice,WagerBound,Unit,Tiefling Fortune-Teller,Uncommon
+670,Contracted Debt Collector Recruit,WagerBound,Unit,Contracted Duelist,Uncommon
+671,Human Card Sharp Recruit,WagerBound,Unit,Human Duelist,Uncommon
+672,Tabaxi Duelist Recruit,WagerBound,Unit,Tabaxi Card Sharp,Uncommon
+673,Tiefling Debt Collector Novice,WagerBound,Unit,Tiefling Fortune-Teller,Uncommon
+674,Contracted Fortune-Teller Novice,WagerBound,Unit,Contracted Duelist,Uncommon
+675,Human Fortune-Teller,WagerBound,Unit,Human Duelist,Uncommon
+676,Tabaxi Fortune-Teller,WagerBound,Unit,Tabaxi Card Sharp,Uncommon
+677,Tiefling Card Sharp,WagerBound,Unit,Tiefling Fortune-Teller,Uncommon
+678,Contracted Duelist,WagerBound,Unit,Contracted Duelist,Uncommon
+679,Human Debt Collector,WagerBound,Unit,Human Duelist,Uncommon
+680,Tabaxi Debt Collector,WagerBound,Unit,Tabaxi Card Sharp,Uncommon
+681,Tiefling Duelist,WagerBound,Unit,Tiefling Fortune-Teller,Uncommon
+682,Contracted Card Sharp,WagerBound,Unit,Contracted Duelist,Uncommon
+683,Quick Bet,WagerBound,Event,Wager,Uncommon
+684,Reveal the Hand,WagerBound,Event,Deal,Uncommon
+685,Coin Toss,WagerBound,Event,Wager,Uncommon
+686,Called Bluff,WagerBound,Event,Deal,Uncommon
+687,Even Odds,WagerBound,Event,Wager,Uncommon
+688,Collect the Debt,WagerBound,Event,Deal,Uncommon
+689,Lucky Break,WagerBound,Event,Wager,Uncommon
+690,Table Stakes,WagerBound,Event,Wager,Uncommon
+691,Human Duelist Trainee,WagerBound,Unit,Human Duelist,Common
+692,Tabaxi Card Sharp Trainee,WagerBound,Unit,Tabaxi Card Sharp,Common
+693,Tiefling Fortune-Teller Trainee,WagerBound,Unit,Tiefling Fortune-Teller,Common
+694,Contracted Debt Collector Trainee,WagerBound,Unit,Contracted Duelist,Common
+695,Human Card Sharp Novice,WagerBound,Unit,Human Duelist,Common
+696,Tabaxi Duelist Trainee,WagerBound,Unit,Tabaxi Card Sharp,Common
+697,Tiefling Debt Collector Trainee,WagerBound,Unit,Tiefling Fortune-Teller,Common
+698,Contracted Fortune-Teller Trainee,WagerBound,Unit,Contracted Duelist,Common
+699,Human Fortune-Teller Trainee,WagerBound,Unit,Human Duelist,Common
+700,Tabaxi Fortune-Teller Trainee,WagerBound,Unit,Tabaxi Card Sharp,Common
+701,Tiefling Card Sharp Trainee,WagerBound,Unit,Tiefling Fortune-Teller,Common
+702,Contracted Duelist Trainee,WagerBound,Unit,Contracted Duelist,Common
+703,Human Debt Collector Trainee,WagerBound,Unit,Human Duelist,Common
+704,Tabaxi Debt Collector Trainee,WagerBound,Unit,Tabaxi Card Sharp,Common
+705,Tiefling Duelist Trainee,WagerBound,Unit,Tiefling Fortune-Teller,Common
+706,Contracted Card Sharp Trainee,WagerBound,Unit,Contracted Duelist,Common
+707,Human Duelist Sprout,WagerBound,Unit,Human Duelist,Common
+708,Tabaxi Card Sharp Sprout,WagerBound,Unit,Tabaxi Card Sharp,Common
+709,Tiefling Fortune-Teller Sprout,WagerBound,Unit,Tiefling Fortune-Teller,Common
+710,Contracted Debt Collector Sprout,WagerBound,Unit,Contracted Duelist,Common
+711,Human Card Sharp Sprout,WagerBound,Unit,Human Duelist,Common
+712,Tabaxi Duelist Sprout,WagerBound,Unit,Tabaxi Card Sharp,Common
+713,Tiefling Debt Collector Sprout,WagerBound,Unit,Tiefling Fortune-Teller,Common
+714,Contracted Fortune-Teller Sprout,WagerBound,Unit,Contracted Duelist,Common
+715,Small Wager,WagerBound,Event,Wager,Common
+716,Peek at the Deck,WagerBound,Event,Deal,Common
+717,Minor Debt,WagerBound,Event,Deal,Common
+718,Coin Flip,WagerBound,Event,Wager,Common
+719,Cheap Trick,WagerBound,Event,Deal,Common
+720,Table Talk,WagerBound,Event,Wager,Common
+721,The Commissioner,Kayfabe,Unit,Human Organiser,Mythic
+722,Champion Vexx Steelgrin,Kayfabe,Unit,Kharund Wrestler,Exquisite
+723,Championship Match,Kayfabe,Event,Title Match,Exquisite
+724,The Marquee,Kayfabe,Location,Stadium-Complex,Exquisite
+725,Ring Handler Marchetti,Kayfabe,Unit,Human Trainer,Legendary
+726,The Reigning Headliner,Kayfabe,Unit,Tiefling Headliner,Legendary
+727,"Undercard Fighter, Overlooked",Kayfabe,Unit,Beastfolk Fighter,Legendary
+728,Ratings Sweep,Kayfabe,Event,Ratings Sweep,Legendary
+729,Contract Signing,Kayfabe,Event,Contract Signing,Legendary
+730,The Broadcast Tower,Kayfabe,Location,Broadcast Tower,Legendary
+731,"Contracted Fighter, Rising Star",Kayfabe,Unit,Human Boxer,Rare
+732,"Contracted Fighter, Veteran",Kayfabe,Unit,Kharund Warrior,Rare
+733,Augmented Organiser,Kayfabe,Unit,Augmented Organiser,Rare
+734,Golem Coach,Kayfabe,Unit,Golem Coach,Rare
+735,Ring Crew Member,Kayfabe,Unit,Tabaxi Stagehand,Rare
+736,"Contracted Fighter, Face Turn",Kayfabe,Unit,Djinn Gladiator,Rare
+737,"Contracted Fighter, Heel Turn",Kayfabe,Unit,Tiefling Brawler,Rare
+738,"Ring Promoter, Veteran",Kayfabe,Unit,Human Booker,Rare
+739,Title Shot,Kayfabe,Event,Title Match,Rare
+740,Squash Match,Kayfabe,Event,Title Match,Rare
+741,Contract Dispute,Kayfabe,Event,Contract Signing,Rare
+742,Post-Match Interview,Kayfabe,Event,Ratings Sweep,Rare
+743,The Arena,Kayfabe,Location,Arena,Rare
+744,The Locker Room,Kayfabe,Location,Locker Room,Rare
+745,Contract Office,Kayfabe,Location,Contract Office,Rare
+746,Broadcast Booth,Kayfabe,Location,Broadcast Tower,Rare
+747,Contracted Fighter Recruit,Kayfabe,Unit,Human Fighter,Uncommon
+748,Ring Promoter Recruit,Kayfabe,Unit,Augmented Promoter,Uncommon
+749,Fight Handler Recruit,Kayfabe,Unit,Golem Trainer,Uncommon
+750,Ring Crew Recruit,Kayfabe,Unit,Tabaxi Stagehand,Uncommon
+751,"Contracted Fighter, Jobber",Kayfabe,Unit,Naga Grappler,Uncommon
+752,"Contracted Fighter, Prospect",Kayfabe,Unit,Kharund Boxer,Uncommon
+753,"Ring Promoter, Hype Man",Kayfabe,Unit,Human Cheerleader,Uncommon
+754,"Fight Handler, Cutman",Kayfabe,Unit,Human Cutman,Uncommon
+755,"Contracted Fighter, Tag Team",Kayfabe,Unit,Beastfolk Wrestler,Uncommon
+756,"Ring Crew, Stage Manager",Kayfabe,Unit,Shadowkin Stagehand,Uncommon
+757,"Contracted Fighter, Enforcer",Kayfabe,Unit,Kharund Enforcer,Uncommon
+758,"Ring Promoter, Talent Scout",Kayfabe,Unit,Human Scout,Uncommon
+759,"Fight Handler, Trainer",Kayfabe,Unit,Golem Trainer,Uncommon
+760,"Ring Crew, Ringside Medic",Kayfabe,Unit,Fae Medic,Uncommon
+761,"Contracted Fighter, Journeyman",Kayfabe,Unit,Cyborg Fighter,Uncommon
+762,"Ring Promoter, Ringside Announcer",Kayfabe,Unit,Augmented Announcer,Uncommon
+763,Backstage Deal,Kayfabe,Event,Contract Signing,Uncommon
+764,Crowd Pop,Kayfabe,Event,Ratings Sweep,Uncommon
+765,Sneak Attack,Kayfabe,Event,Title Match,Uncommon
+766,Rewrite the Card,Kayfabe,Event,Contract Signing,Uncommon
+767,Contract Clause,Kayfabe,Event,Contract Signing,Uncommon
+768,Ratings Boost,Kayfabe,Event,Ratings Sweep,Uncommon
+769,Face Turn,Kayfabe,Event,Title Match,Uncommon
+770,Pull the Trigger,Kayfabe,Event,Ratings Sweep,Uncommon
+771,Contracted Fighter Trainee,Kayfabe,Unit,Human Boxer,Common
+772,Ring Promoter Trainee,Kayfabe,Unit,Human Organiser,Common
+773,Fight Handler Trainee,Kayfabe,Unit,Golem Coach,Common
+774,Ring Crew Trainee,Kayfabe,Unit,Tabaxi Stagehand,Common
+775,"Contracted Fighter, Local Talent",Kayfabe,Unit,Naga Fighter,Common
+776,"Contracted Fighter, Green Recruit",Kayfabe,Unit,Beastfolk Brawler,Common
+777,"Ring Promoter, Local Hype",Kayfabe,Unit,Human Cheerleader,Common
+778,"Fight Handler, Rookie",Kayfabe,Unit,Human Coach,Common
+779,"Ring Crew, Setup Hand",Kayfabe,Unit,Krakenkin Stagehand,Common
+780,"Contracted Fighter, Try-Out",Kayfabe,Unit,Kharund Gladiator,Common
+781,"Ring Promoter, Ticket Seller",Kayfabe,Unit,Human Organiser,Common
+782,"Fight Handler, Water Boy",Kayfabe,Unit,Human Stagehand,Common
+783,"Contracted Fighter, Debutant",Kayfabe,Unit,Tiefling Wrestler,Common
+784,"Ring Crew, Lighting Tech",Kayfabe,Unit,Djinn Stagehand,Common
+785,"Contracted Fighter, Rookie Heel",Kayfabe,Unit,Tiefling Brawler,Common
+786,"Ring Promoter, Local Deal-Maker",Kayfabe,Unit,Augmented Booker,Common
+787,"Fight Handler, Towel Carrier",Kayfabe,Unit,Human Stagehand,Common
+788,"Ring Crew, Ropes Crew",Kayfabe,Unit,Naga Stagehand,Common
+789,"Contracted Fighter, Try-Hard",Kayfabe,Unit,Human Fighter,Common
+790,"Ring Promoter, Backstage Runner",Kayfabe,Unit,Tabaxi Stagehand,Common
+791,"Fight Handler, Assistant",Kayfabe,Unit,Human Coach,Common
+792,"Contracted Fighter, Debut Heel",Kayfabe,Unit,Tiefling Wrestler,Common
+793,"Ring Crew, Prop Master",Kayfabe,Unit,Shadowkin Stagehand,Common
+794,"Contracted Fighter, Local Face",Kayfabe,Unit,Human Warrior,Common
+795,Small Pop,Kayfabe,Event,Ratings Sweep,Common
+796,Quick Angle,Kayfabe,Event,Title Match,Common
+797,Local Draw,Kayfabe,Event,Ratings Sweep,Common
+798,Cheap Shot,Kayfabe,Event,Title Match,Common
+799,Signed to a Deal,Kayfabe,Event,Contract Signing,Common
+800,No-Sell,Kayfabe,Event,Title Match,Common
+801,Undrowned Ledger,Factionless,Unit,Wandering Salvager,Uncommon
+802,The Understudy,Factionless,Unit,Shadow Performer,Uncommon
+803,Long Odds Contract,Factionless,Event,Wager,Uncommon
+804,Warden's Sanctuary,Factionless,Unit,Grove Warden,Uncommon
+805,Siege Breaker,Factionless,Unit,Siege Engineer,Uncommon
+806,Twice-Forged,Factionless,Unit,Reforged Soldier,Uncommon
+807,Eternium Waystone,Factionless,Unit,Waystone Sentinel,Uncommon
+808,Fortune's Toll,Factionless,Event,Toll,Common
+809,Silent Ledger,Factionless,Unit,Quiet Broker,Uncommon
+810,Reckless Gambit,Factionless,Unit,Ashen Gambler,Uncommon
+811,Tidal Wager,Factionless,Event,Wager,Uncommon
+812,Salvage Contract,Factionless,Unit,Scrap Broker,Uncommon
+813,Whispering Node,Factionless,Unit,Listening Node,Uncommon
+814,Tidewood Sentinel,Factionless,Unit,Root Warden,Uncommon
+815,Wandering Cutpurse,Factionless,Unit,Vagrant Thief,Common
+816,Scrapyard Mercenary,Factionless,Unit,Freelance Scavenger,Common
+817,Traveler's Ward,Factionless,Unit,Warded Wanderer,Uncommon
+818,Quickdraw Peddler,Factionless,Event,Toll,Common
+819,Borrowed Time,Factionless,Event,Reprieve,Uncommon
+820,Common Ground,Factionless,Unit,Coalition Mercenary,Uncommon

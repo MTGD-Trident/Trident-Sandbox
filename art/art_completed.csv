@@ -1,0 +1,142 @@
+CardNumberValue,CardNameText,Faction
+002,Cinderkeeper Voss,DisciplesOfTheCelestia
+004,Temple Eternal,DisciplesOfTheCelestia
+006,Diplomat Roselight,DisciplesOfTheCelestia
+007,Justicar Phosene,DisciplesOfTheCelestia
+051,Ember Postulant,DisciplesOfTheCelestia
+052,Doorstone,DisciplesOfTheCelestia
+053,Windling Scout,DisciplesOfTheCelestia
+054,Dawnrecruit,DisciplesOfTheCelestia
+055,Path-Warden,DisciplesOfTheCelestia
+056,Emberling,DisciplesOfTheCelestia
+057,Trail Postulant,DisciplesOfTheCelestia
+058,Quiet Stone,DisciplesOfTheCelestia
+059,Gale Postulant,DisciplesOfTheCelestia
+060,Zealot-in-Training,DisciplesOfTheCelestia
+061,Threshold Stone,DisciplesOfTheCelestia
+062,Hearthkeeper Novice,DisciplesOfTheCelestia
+063,Windvow Recruit,DisciplesOfTheCelestia
+064,Mendstone Novice,DisciplesOfTheCelestia
+065,Ember-Sighted Novice,DisciplesOfTheCelestia
+066,Wind-Herald,DisciplesOfTheCelestia
+067,Silent Vow,DisciplesOfTheCelestia
+068,Frontstone Recruit,DisciplesOfTheCelestia
+069,Cinderwind Novice,DisciplesOfTheCelestia
+070,Vigil Scout,DisciplesOfTheCelestia
+071,Ember-Marked Stone,DisciplesOfTheCelestia
+072,Ember Postulant (Paladin),DisciplesOfTheCelestia
+073,Windsight Novice,DisciplesOfTheCelestia
+075,Ember Spark,DisciplesOfTheCelestia
+076,Pilgrim's First Step,DisciplesOfTheCelestia
+077,Quiet Vigil,DisciplesOfTheCelestia
+078,Stonebound Oath,DisciplesOfTheCelestia
+079,Last Ember,DisciplesOfTheCelestia
+080,Novice's Resolve,DisciplesOfTheCelestia
+081,Kessantine Vral,AshenLegion
+082,Grudge-Bearer Kharn,AshenLegion
+083,The Long Raid,AshenLegion
+084,The Cinderforge Bastion,AshenLegion
+085,Ilvess Two-Blades,AshenLegion
+086,Ironclad Brute,AshenLegion
+087,Kharund Bloodrager,AshenLegion
+088,War Drums of the Ashen Line,AshenLegion
+089,Trophies of the Fallen,AshenLegion
+090,The Skullforge,AshenLegion
+091,Kharund Raider Vanguard,AshenLegion
+092,Kharund Trophy-Taker,AshenLegion
+093,Kharund Skirmisher,AshenLegion
+094,Ironjaw Brute,AshenLegion
+095,Kharund Warcaller,AshenLegion
+096,Kharund Bloodletter,AshenLegion
+097,Kharund Siegebreaker,AshenLegion
+098,Kharund Forgeborn Brute,AshenLegion
+099,Blood and Iron,AshenLegion
+100,Warcamp Muster,AshenLegion
+101,Scorched Retreat,AshenLegion
+102,Ashen Warcry,AshenLegion
+103,War Camp of the Ashen Line,AshenLegion
+104,The Bonepile Forge,AshenLegion
+105,Siegeworks of the Ashen Line,AshenLegion
+106,The Skullbanner Muster,AshenLegion
+107,Kharund Raider Recruit,AshenLegion
+108,Kharund Bruteling,AshenLegion
+109,Kharund Warhorn,AshenLegion
+110,Kharund Skullsplitter,AshenLegion
+111,Ashborn Brute,AshenLegion
+112,Kharund Ashguard,AshenLegion
+113,Kharund Warcaller Recruit,AshenLegion
+114,Kharund Trophy-Hauler,AshenLegion
+115,Kharund Vanguard Recruit,AshenLegion
+116,Kharund Ironhide Brute,AshenLegion
+117,Grannoch the Quartermaster,AshenLegion
+118,Kharund Bloodhorn,AshenLegion
+119,Kharund Ashbrand Raider,AshenLegion
+120,Kharund Wallbreaker,AshenLegion
+121,Kharund Skirmish Recruit,AshenLegion
+122,Kharund Bloodmark Brute,AshenLegion
+123,Raiding Party,AshenLegion
+124,Forge-Fire,AshenLegion
+125,Bonebreaker's Toll,AshenLegion
+126,War Chant,AshenLegion
+127,Ashfall Skirmish,AshenLegion
+128,Muster the Line,AshenLegion
+129,Trial by Iron,AshenLegion
+130,Ashen Vow,AshenLegion
+131,Kharund Raider,AshenLegion
+132,Kharund Brute,AshenLegion
+133,Kharund Charger,AshenLegion
+134,Warhound Handler,AshenLegion
+135,Ashclad Brute,AshenLegion
+136,Bloodyoung Kharund,AshenLegion
+137,Kharund Scrapper,AshenLegion
+138,Bonecarrier,AshenLegion
+139,Kharund Hornblower,AshenLegion
+140,Ashmarked Recruit,AshenLegion
+141,Kharund Cinderfist,AshenLegion
+142,Trailtrampler,AshenLegion
+143,Bloodyoung Raider,AshenLegion
+144,Warcamp Guard,AshenLegion
+145,Ashenhorn,AshenLegion
+146,Ironback Brute,AshenLegion
+147,Trophy Recruit,AshenLegion
+148,Warband Scout,AshenLegion
+149,Forge-Tender,AshenLegion
+150,Ashenclub,AshenLegion
+151,Bloodmark Recruit,AshenLegion
+152,Warcry Novice,AshenLegion
+153,Siege Recruit,AshenLegion
+154,Ashguard Recruit,AshenLegion
+155,Raider's Instinct,AshenLegion
+156,Forge Spark,AshenLegion
+157,Quick Muster,AshenLegion
+158,Ashfall Jeer,AshenLegion
+159,Bonebreaker's Warmup,AshenLegion
+160,First Blood,AshenLegion
+161,The Drowned Duchess,UndertowCourt
+163,The Reckoning Tide,UndertowCourt
+164,The Whirlpool,UndertowCourt
+165,Duchess-Marshal Corvane,UndertowCourt
+166,Krakenkin Depthwalker,UndertowCourt
+241,Captain-Marshal Reyes Okonkwo-Vane,DriftConcordat
+321,Prime Node Osiris,NullChoir
+401,The Standing Chair,MeridianCombine
+481,"The First Root, Awakened",VerdantConcord
+721,The Commissioner,Kayfabe
+168,Storm Surge,UndertowCourt
+172,Naga Wavecaller,UndertowCourt
+175,Naga Tidebound Sentinel,UndertowCourt
+176,Krakenkin Netcaster,UndertowCourt
+177,Human Harbor Warden,UndertowCourt
+169,Salvage the Wreck,UndertowCourt
+170,The Coral Bastion,UndertowCourt
+171,Tideguard Officer,UndertowCourt
+174,Human Salvage Diver,UndertowCourt
+167,Naga Netcaster,UndertowCourt
+173,Krakenkin Anchorhand,UndertowCourt
+178,Naga Wreckdiver,UndertowCourt
+179,Riptide,UndertowCourt
+180,Wreckage Reclaimed,UndertowCourt
+181,Tidebreak,UndertowCourt
+183,The Drowned Pier,UndertowCourt
+184,Coral Watch,UndertowCourt
+185,The Salvage Docks,UndertowCourt
